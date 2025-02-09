@@ -1,0 +1,108 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f0f0f; /* Dark background */
+    padding: 15px 40px;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo + Title */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    color: #a855f7; /* Purple color */
+  }
+  
+  .site-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #a855f7; /* Purple color on hover */
+  }
+  
+  /* Auth Buttons */
+  .auth-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .signin-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .signin-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .get-started-btn {
+    background: linear-gradient(90deg, #a855f7, #ff3eab);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+  }
+  
+  .get-started-btn:hover {
+    opacity: 0.8;
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .auth-buttons {
+      margin-top: 10px;
+    }
+  }
+  
