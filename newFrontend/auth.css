@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Auth Form Container */
+.auth-container {
+    width: 380px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Floating Effect */
+.auth-container:hover {
+    transform: translateY(-5px);
+}
+
+/* Form Title */
+.auth-container h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* Input Focus Effect */
+input:focus {
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+}
+
+/* Form Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect on Button */
+.btn:hover {
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    box-shadow: 0px 5px 15px rgba(0, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+/* Sign-up/Login Link */
+p {
+    color: white;
+    margin-top: 15px;
+}
+
+p a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+p a:hover {
+    color: #ffc107;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .auth-container {
+        width: 90%;
+        padding: 20px;
+    }
+}

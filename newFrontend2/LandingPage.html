@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma Pulse</title>
+    <link rel="stylesheet" href="Navbar.css"> <!-- Navbar styles -->
+    <link rel="stylesheet" href="styles.css">  <!-- General styles -->
+</head>
+<body>
+    <!-- Navbar is loaded dynamically -->
+    <div id="navbar"></div>
+
+    <div class="content">
+        <h1>Welcome to Pharma Pulse</h1>
+        <p>Your trusted partner in healthcare.</p>
+    </div>
+
+    <script>
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("navbar").innerHTML = data;
+            });
+    </script>
+</body>
+</html>

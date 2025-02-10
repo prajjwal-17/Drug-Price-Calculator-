@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Pharma Pulse</title>
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="auth.css"> <!-- Styles for login form -->
+</head>
+<body>
+    <!-- Navbar is loaded dynamically -->
+    <div id="navbar"></div>
+
+    <div class="auth-container">
+        <h2>Login</h2>
+        <form>
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+            
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password" required>
+            
+            <button type="submit" class="btn">Login</button>
+        </form>
+        <p>Don't have an account? <a href="Signup.html">Sign up</a></p>
+    </div>
+
+    <script>
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("navbar").innerHTML = data;
+            });
+    </script>
+</body>
+</html>
