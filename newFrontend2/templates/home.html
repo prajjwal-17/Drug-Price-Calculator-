@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma Pulse</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Navbar.css') }}"> <!-- Navbar styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <!-- Include Navbar directly -->
+    {% include 'navbar.html' %}
+
+    <!-- Main Content -->
+    <div class="content">
+        <div id="home-page">
+            <h2>Welcome to Pharma Pulse</h2>
+            <p>Your trusted partner in healthcare.</p>
+            
+            <!-- News and Reports Sections -->
+            <div class="news-reports-container">
+                <!-- News Section -->
+                <div class="news-section">
+                    <h3>Pharma News</h3>
+                    <ul id="news-list">
+                        {% for article in news %}
+                            <li>
+                                <a href="{{ article.Link }}" target="_blank">{{ article.Title }}</a>
+                                <p>{{ article.Description }}</p>
+                                <small>Published on: {{ article["Publish Date"] }}</small>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <!-- Reports Section -->
+                <div class="reports-section">
+                    <h3>Trending Reports</h3>
+                    <ul id="reports-list">
+                        {% for report in reports %}
+                            <li>
+                                <a href="{{ report.URL }}" target="_blank">{{ report.Title }}</a>
+                                <small>Published on: {{ report.Timestamp }}</small>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
