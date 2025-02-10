@@ -1,108 +1,125 @@
 /* Navbar Styling */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0f0f0f; /* Dark background */
-    padding: 15px 40px;
-    color: white;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(180deg, #0f0f0f, #2c2c2c); /* Smooth color fade */
+  padding: 20px 50px; /* Increased padding */
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo + Title */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Increased gap */
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.logo {
+  width: 40px; /* Slightly bigger for visibility */
+  height: 40px;
+  color: #a855f7; /* Purple accent */
+}
+
+.site-title {
+  font-size: 28px; /* Increased font size */
+  font-weight: bold;
+  color: white;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 25px; /* Increased gap */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600; /* Slightly heavier font weight */
+  transition: color 0.3s, transform 0.3s; /* Longer transition */
+  font-size: 18px; /* Increased font size */
+}
+
+.nav-links a:hover {
+  color: #a855f7; /* Purple hover */
+  transform: translateY(-4px); /* More pronounced hover effect */
+}
+
+/* Auth Buttons */
+.auth-buttons {
+  display: flex;
+  gap: 20px; /* Increased gap */
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 25px; /* Increased padding */
+  border-radius: 25px; /* Rounded buttons */
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  font-size: 16px; /* Increased font size */
+}
+
+/* Sign-In Button */
+.signin-btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  width: auto;
+}
+
+.signin-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.3);
+}
+
+/* Get Started Button */
+.get-started-btn {
+  background: linear-gradient(90deg, #a855f7, #ff3eab);
+  color: white;
+  border: none;
+  padding: 12px 25px; /* Same size as Sign In button */
+  box-shadow: 0px 4px 8px rgba(168, 85, 247, 0.3);
+}
+
+.get-started-btn:hover {
+  opacity: 0.85;
+  transform: scale(1.05); /* Zoom effect */
+  box-shadow: 0px 6px 12px rgba(255, 62, 171, 0.4);
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 30px;
   }
-  
-  /* Logo + Title */
-  .logo-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .logo-link {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
-  
-  .logo {
-    width: 30px;
-    height: 30px;
-    color: #a855f7; /* Purple color */
-  }
-  
-  .site-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-  }
-  
-  /* Navigation Links */
+
   .nav-links {
-    display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 15px; /* Increased gap */
+    margin-top: 10px;
   }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    transition: color 0.3s;
-  }
-  
-  .nav-links a:hover {
-    color: #a855f7; /* Purple color on hover */
-  }
-  
-  /* Auth Buttons */
+
   .auth-buttons {
-    display: flex;
-    gap: 15px;
+    flex-direction: column;
+    margin-top: 20px;
   }
-  
+
   .btn {
-    text-decoration: none;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-weight: bold;
-    transition: 0.3s;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
   }
-  
-  .signin-btn {
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-  }
-  
-  .signin-btn:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-  
-  .get-started-btn {
-    background: linear-gradient(90deg, #a855f7, #ff3eab);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-  }
-  
-  .get-started-btn:hover {
-    opacity: 0.8;
-  }
-  
-  /* Responsive Navbar */
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .nav-links {
-      flex-direction: column;
-      gap: 10px;
-      margin-top: 10px;
-    }
-  
-    .auth-buttons {
-      margin-top: 10px;
-    }
-  }
-  
+}
