@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { Ruler } from "lucide-react";
 import "./App.css";
-import "./Navbar.css";
+import "./Navbar.css"
+import SignInPage from "./assets/Pages.jsx/SignInPage";
 
 function App() {
   return (
@@ -65,9 +66,7 @@ function PricingPage() {
 function ChangelogPage() {
   return <div>Changelog</div>;
 }
-function SignInPage() {
-  return <div>Sign In Page</div>;
-}
+
 function GetStartedPage() {
   return <div>Get Started Page</div>;
 }
