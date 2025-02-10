@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Pharma Pulse</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"> <!-- General styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("{{ url_for('static', filename='images/medicine-background.avif') }}") no-repeat center center/cover;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background: rgba(52, 152, 219, 0.6); /* More transparency */
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .team {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .member {
+            background: #ddd;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 20px;
+            width: 200px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+        }
+        .member h3 {
+            margin: 0;
+            color: #555;
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .member .image-container {
+            width: 150px;
+            height: 150px;
+            margin-top: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .member img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .social-links {
+            margin-top: 10px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 5px;
+            text-decoration: none;
+            color: #0077b5;
+            font-weight: bold;
+        }
+        .social-links a.instagram {
+            color: #E4405F;
+        }
+        .project-info {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(46, 204, 113, 0.6); /* More transparency */
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .project-info h2 {
+            color: #333;
+        }
+        .project-info p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    {% include 'navbar.html' %}  <!-- Include Navbar Properly -->
+
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Welcome to our team! We are passionate about technology and innovation.</p>
+        <div class="team">
+            <div class="member">
+                <h3>Dvadastman</h3>
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='images/Dvadastman.jpg') }}" alt="Dvadastman Mehta">
+                </div>
+                <div class="social-links">
+                    <a href="#" class="linkedin">LinkedIn</a>
+                    <a href="#" class="instagram">Instagram</a>
+                </div>
+            </div>
+            <div class="member">
+                <h3>Shashvat</h3>
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='images/Shashvat.jpg') }}" alt="Shashvat">
+                </div>
+                <div class="social-links">
+                    <a href="#" class="linkedin">LinkedIn</a>
+                    <a href="#" class="instagram">Instagram</a>
+                </div>
+            </div>
+            <div class="member">
+                <h3>Prajjwal</h3>
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='images/Prajjwal.jpg') }}" alt="Prajjwal">
+                </div>
+                <div class="social-links">
+                    <a href="#" class="linkedin">LinkedIn</a>
+                    <a href="#" class="instagram">Instagram</a>
+                </div>
+            </div>
+            <div class="member">
+                <h3>Mushir</h3>
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='images/Mushir.jpg') }}" alt="Mushir">
+                </div>
+                <div class="social-links">
+                    <a href="#" class="linkedin">LinkedIn</a>
+                    <a href="#" class="instagram">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container project-info">
+        <h2>Our Project & Aims</h2>
+        <p>Our platform provides intelligent forecasting for pharmaceutical demand, helping businesses optimize inventory and pricing decisions. Key features include:
+            <br>✅ Formula Tool – Generate predictive insights using advanced models.
+            <br>✅ Interactive Dashboard – Analyze buyer demographics (age, purchase history, etc.).
+            <br>✅ Daily & Historical News – Stay updated on pharmaceutical trends and market shifts.
+            <br>✅ Top-Selling Drugs Insights – Discover the most sold and in-demand medicines of 2022.</p>
+    </div>
+
+</body>
+</html>
