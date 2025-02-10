@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        iframe {
+            width: 100%;
+            height: 800px;
+            border: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Drug Pricing & Report Dashboard</h1>
+    
+    <!-- Embedding the Streamlit App -->
+    <iframe src="http://localhost:8501/" frameborder="0"></iframe>
+</body>
+</html>

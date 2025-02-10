@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pharma Pulse</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/Navbar.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+  
+</head>
+<body>
+  {% include 'navbar.html' %}
+
+  <!-- Main Content -->
+  <div class="content">
+    <div id="home-page">
+      <h2 style = "margin-left:41%">Welcome to Pharma Pulse</h2>
+      <div class="news-reports-container">
+        <div class="news-section">
+          <h3>Pharma News</h3>
+          <div class="carousel-container">
+            <div class="carousel">
+              {% for article in news %}
+              <div class="carousel-item">
+                <a href="{{ article['Link'] }}" target="_blank">{{ article['Title'] }}</a>
+                <p>{{ article['Description'] }}</p>
+                <small>Published on: {{ article['Publish Date'] }}</small>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        <div class="reports-section">
+          <h3>Trending Reports</h3>
+          <div class="carousel-container">
+            <div class="carousel">
+              {% for report in reports %}
+              <div class="carousel-item">
+                <a href="{{ report['URL'] }}" target="_blank">{{ report['Title'] }}</a>
+                <small>Published on: {{ report['Timestamp'] }}</small>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>© 2025 Pharma Pulse. All rights reserved.</p>
+  </footer>
+</body>
+</html>
