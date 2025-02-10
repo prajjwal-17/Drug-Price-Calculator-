@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { Ruler } from "lucide-react";
 import "./App.css";
 import "./Navbar.css"
-import SignInPage from "./assets/Pages.jsx/SignInPage";
+import SignInPage from "./Pages.jsx/SignInPage";
 
 function App() {
   return (
