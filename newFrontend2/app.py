@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request, redirect, session, jsonify, url_for
+from flask import Flask, render_template, request, redirect, session, jsonify, url_for, flash
 import mysql.connector
 from flask_bcrypt import Bcrypt
-from flask_login import LoginManager, login_user, logout_user, login_required, UserMixin
+from flask_login import LoginManager, login_user, logout_user, login_required, UserMixin, current_user
 import csv
 
 # Initialize Flask app
@@ -18,21 +18,21 @@ def load_csv_data(filepath):
                 data.append(row)
     except FileNotFoundError:
         print(f"File {filepath} not found. Ensure the script has been run to generate the data.")
-    return data  # Fixed indentation issue
+    return data
 
 # Initialize Bcrypt for password hashing
 bcrypt = Bcrypt(app)
 
 # Initialize Flask-Login
 login_manager = LoginManager(app)
-login_manager.login_view = 'login'  # Redirect if not logged in
+login_manager.login_view = 'login'
 
 # Connect to MySQL
 db = mysql.connector.connect(
     host="localhost",
-    user="root",   # Change this
-    password="pawnstar1234",  # Change this
-    database="test"  # Your database name
+    user="root",              # Change this
+    password="pawnstar1234",    # Change this
+    database="test"           # Your database name
 )
 cursor = db.cursor(dictionary=True)
 
@@ -53,10 +53,9 @@ def load_user(user_id):
 
 @app.route('/')
 def home():
-    # Load data from the CSVs
-    news = load_csv_data('data/pharmaceutical_news.csv')  # News articles
-    reports = load_csv_data('data/medicine_demand.csv')  # Trending reports
-    return render_template('home.html', news=news, reports=reports)
+    news = load_csv_data('data/pharmaceutical_news.csv')
+    reports = load_csv_data('data/medicine_demand.csv')
+    return render_template('home.html', news=news, reports=reports, user=current_user)
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
@@ -67,7 +66,8 @@ def signup():
         confirm_password = request.form['confirm-password']
         
         if password != confirm_password:
-            return "Passwords do not match!"
+            flash("Passwords do not match!", "error")
+            return redirect(url_for('signup'))
         
         hashed_pw = bcrypt.generate_password_hash(password).decode('utf-8')
 
@@ -75,11 +75,13 @@ def signup():
             cursor.execute("INSERT INTO users (name, email, password) VALUES (%s, %s, %s)", 
                            (name, email, hashed_pw))
             db.commit()
+            flash("Account created! Please log in.", "success")
             return redirect(url_for('login'))
         except mysql.connector.Error as err:
-            return f"Error: {err}"
+            flash(f"Error: {err}", "error")
+            return redirect(url_for('signup'))
 
-    return render_template('signup.html')
+    return render_template('signup.html', user=current_user)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -95,35 +97,34 @@ def login():
             login_user(user_obj)
             session['user_id'] = user['id']
             session['user_name'] = user['name']
-            return redirect(url_for('dashboard'))
+            flash("Logged in successfully!", "success")
+            return redirect(url_for('home'))
         else:
-            return "Invalid Credentials"
+            flash("Invalid Credentials", "error")
+            return redirect(url_for('login'))
 
-    return render_template('login.html')
+    return render_template('login.html', user=current_user)
 
-@app.route('/dashboard')
-@login_required
-def dashboard():
-    return f"Welcome, {session['user_name']}! <br><a href='/logout'>Logout</a>"
-
-@app.route('/logout')
+@app.route('/logout', methods=['GET', 'POST'])
 @login_required
 def logout():
     logout_user()
     session.clear()
-    return redirect(url_for('login'))
+    flash("Logged out successfully!", "success")
+    return redirect(url_for('home'))
+
 
 @app.route('/calculator')
 def calculator():
-    return render_template('calculator.html')
+    return render_template('calculator.html', user=current_user)
 
 @app.route('/customers')
 def customers():
-    return render_template('customers.html')
+    return render_template('customers.html', user=current_user)
 
 @app.route('/sales')
 def sales():
-    return render_template('sales.html')
+    return render_template('sales.html', user=current_user)
 
 @app.route('/pricing', methods=['GET', 'POST'])
 def pricing():
@@ -152,13 +153,13 @@ def pricing():
     try:
         cursor.execute("SELECT * FROM medicalfiltered")
         dataset = cursor.fetchall()
-        return render_template('pricing.html', dataset=dataset)
+        return render_template('pricing.html', dataset=dataset, user=current_user)
     except Exception as e:
-        return render_template('error.html', error=str(e))
+        return render_template('error.html', error=str(e), user=current_user)
 
 @app.route('/AboutUs')
 def about_us():
-    return render_template('about_us.html')
+    return render_template('about_us.html', user=current_user)
 
 if __name__ == "__main__":
     app.run(debug=True)

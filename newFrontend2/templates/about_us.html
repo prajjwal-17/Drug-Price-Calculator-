@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/Navbar.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon/favicon.ico') }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='favicon/apple-touch-icon.png') }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon/favicon-32x32.png') }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon/favicon-16x16.png') }}">
-<link rel="manifest" href="{{ url_for('static', filename='favicon/site.webmanifest') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='favicon/site.webmanifest') }}">
 
     <style>
         body {
@@ -34,23 +34,20 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 30px; /* Space between profiles */
-            
+            gap: 30px;
         }
         .team > div {
             text-align: center;
             width: 200px;
         }       
-        
         .image-container {
             width: 150px;
-            height: 200px; /* Adjust height as needed */
-            border-radius: 10px; /* Small rounded corners */
+            height: 200px;
+            border-radius: 10px;
             overflow: hidden;
             margin: 10px auto;
             transition: transform 0.5s, filter 0.5s;
         }
-        
         .image-container img {
             width: 100%;
             height: 100%;
@@ -58,33 +55,27 @@
             transition: transform 0.5s, filter 0.5s;
         }
         
-        /* First two images - rotate clockwise */
-        .team div:nth-child(1) .image-container,
-        .team div:nth-child(2) .image-container {
-            transform-origin: center;
+        /* First image - rotate */
+        .team div:nth-child(1) .image-container:hover {
+            filter: brightness(1.2);
+            transform: perspective(500px) translateZ(50px) rotateY(10deg);
         }
-        
-        .team div:nth-child(1) .image-container:hover,
+
+        /* Second image (Shashvat) - only zoom */
         .team div:nth-child(2) .image-container:hover {
             filter: brightness(1.2);
-            transform: perspective(500px) translateZ(50px) rotateY(10deg); /* Rotate right */
+            transform: scale(1.1);
         }
-        
-        /* Last two images - rotate anticlockwise */
-        .team div:nth-child(3) .image-container,
-        .team div:nth-child(4) .image-container {
-            transform-origin: center;
-        }
-        
-        .team div:nth-child(3) .image-container:hover,
-        .team div:nth-child(4) .image-container:hover {
+
+        /* Third image - rotate */
+        .team div:nth-child(3) .image-container:hover {
             filter: brightness(1.2);
-            transform: perspective(500px) translateZ(50px) rotateY(-10deg); /* Rotate left */
+            transform: perspective(500px) translateZ(50px) rotateY(-10deg);
         }
         
         h3 {
             margin: 10px 0 5px 0;
-            color: black; /* Changed to black */
+            color: black;
             font-size: 1.2em;
             font-weight: bold;
         }
@@ -141,7 +132,7 @@
                 </div>
             </div>
 
-            <!-- Shashvat -->
+            <!-- Shashvat (No tilt, only zoom) -->
             <div>
                 <div class="image-container">
                     <img src="{{ url_for('static', filename='images/Shashvat.jpg') }}" alt="Shashvat">
@@ -164,19 +155,6 @@
                     <a href="https://www.linkedin.com/in/prajjwal-rawat-48084534b/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/prajjwal_17_/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://github.com/prajjwal-17" class="github"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-
-            <!-- Dvadastman -->
-            <div>
-                <div class="image-container">
-                    <img src="{{ url_for('static', filename='images/Dvadastman.jpg') }}" alt="Dvadastman">
-                </div>
-                <h3>Dvadastman</h3>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/dvadastman-mehta-194863297/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/dvadastman_mehta/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://github.com/DVADASTMAN" class="github"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
         </div>

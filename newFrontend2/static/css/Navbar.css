@@ -73,13 +73,23 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Sign In Button */
-.signin-btn {
+/* Sign In & Logout Button (Same Style) */
+.signin-btn,
+#logout-form .signin-btn {
     background: linear-gradient(90deg, #2196F3, #1976D2);
     color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.signin-btn:hover {
+.signin-btn:hover,
+#logout-form .signin-btn:hover {
     background: linear-gradient(90deg, #1976D2, #1565C0);
     transform: scale(1.15);
     box-shadow: 0px 10px 25px rgba(25, 118, 210, 0.5);
