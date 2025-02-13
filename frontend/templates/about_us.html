@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Navbar.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon/favicon.ico') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='favicon/site.webmanifest') }}">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url("{{ url_for('static', filename='images/bgimage.avif') }}") no-repeat center center/cover;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background: rgba(52, 152, 219, 0.6);
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .team {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .team > div {
+            text-align: center;
+            width: 200px;
+        }       
+        .image-container {
+            width: 150px;
+            height: 200px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px auto;
+            transition: transform 0.5s, filter 0.5s;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s, filter 0.5s;
+        }
+        
+        /* First image - rotate */
+        .team div:nth-child(1) .image-container:hover {
+            filter: brightness(1.2);
+            transform: perspective(500px) translateZ(50px) rotateY(10deg);
+        }
+
+        /* Second image (Shashvat) - only zoom */
+        .team div:nth-child(2) .image-container:hover {
+            filter: brightness(1.2);
+            transform: scale(1.1);
+        }
+
+        /* Third image - rotate */
+        .team div:nth-child(3) .image-container:hover {
+            filter: brightness(1.2);
+            transform: perspective(500px) translateZ(50px) rotateY(-10deg);
+        }
+        
+        h3 {
+            margin: 10px 0 5px 0;
+            color: black;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .social-links a {
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+            transition: transform 0.3s ease-in-out;
+        }
+        .social-links a:hover {
+            transform: scale(1.2);
+        }
+        .linkedin { color: #0077b5 !important; }
+        .instagram { color: #E4405F !important; }
+        .github { color: #ffffff !important; }
+        
+        .project-info {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(46, 204, 113, 0.6);
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .project-info h2 {
+            color: #333;
+        }
+        .project-info p {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Welcome to our team! We are passionate about technology and innovation.</p>
+        <div class="team">
+            <!-- Mushir -->
+            <div>
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='images/Mushir.jpg') }}" alt="Mushir">
+                </div>
+                <h3>Mushir</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/md-mushir-alam-32a765295/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/alammushir7100/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/mushir2004" class="github"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Shashvat (No tilt, only zoom) -->
+            <div>
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='images/Shashvat.jpg') }}" alt="Shashvat">
+                </div>
+                <h3>Shashvat</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/shashvat-rajora-315903288/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/shashvat_90/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/ShashvatRajora" class="github"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Prajjwal -->
+            <div>
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='images/Prajjwal.jpg') }}" alt="Prajjwal">
+                </div>
+                <h3>Prajjwal</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/prajjwal-rawat-886151278/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/prajjwal_17_/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/prajjwal-17" class="github"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container project-info">
+        <h2>Our Project & Aims</h2>
+        <p>Our platform provides intelligent forecasting for pharmaceutical demand, helping businesses optimize inventory and pricing decisions. Key features include:
+            <br>✅ Formula Tool – Generate predictive insights using advanced models.
+            <br>✅ Interactive Dashboard – Analyze buyer demographics (age, purchase history, etc.).
+            <br>✅ Daily & Historical News – Stay updated on pharmaceutical trends and market shifts.
+            <br>✅ Top-Selling Drugs Insights – Discover the most sold and in-demand medicines of 2022.</p>
+    </div>
+    <!-- mushir comment -->
+</body>
+</html>

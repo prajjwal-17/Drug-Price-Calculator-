@@ -1,0 +1,22 @@
+<nav class="navbar">
+  <div class="logo-container">
+    <a href="/" class="logo-link">
+      <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Pharma Pulse Logo" class="logo-img">
+      <h1 class="site-title">Pharma Pulse</h1>
+    </a>
+  </div>
+  <div class="nav-links">
+    <a href="/calculator">Calculator</a>
+    <a href="/sales">Sales</a>
+    <a href="/pricing">Pricing</a>
+    <a href="/AboutUs">About Us</a>
+  </div>
+  <div class="auth-buttons">
+      {% if current_user.is_authenticated %}
+          <a href="{{ url_for('logout') }}" class="btn signin-btn">Logout</a>
+      {% else %}
+          <a href="{{ url_for('login') }}" class="btn signin-btn">Sign In</a>
+          <a href="{{ url_for('signup') }}" class="btn get-started-btn">Get Started</a>
+      {% endif %}
+  </div>
+</nav>

@@ -1,0 +1,1901 @@
+﻿Transaction ID,Date,Medicine Name,Category,Quantity Sold,Government Ceiling Price ($),Industry Selling Price ($),Price per Unit ($),Discount (%),Taxes (%),Demand Level,Supply Chain Issues
+1000,2024-11-01,Paracetamol,Painkiller,31,0.55,0.53,0.53,7,15,High,Shipping Delay
+1001,2024-11-01,Ibuprofen,Painkiller,99,0.75,0.73,0.73,2,9,Medium,Shipping Delay
+1002,2024-11-01,Aspirin,Painkiller,58,0.6,0.58,0.58,13,8,Medium,Shipping Delay
+1003,2024-11-01,Naproxen,Painkiller,31,0.85,0.8,0.8,7,5,High,None
+1004,2024-11-01,Diclofenac,Painkiller,57,0.9,0.78,0.78,1,13,Medium,Raw Material Shortage
+1005,2024-11-01,Amoxicillin,Antibiotic,72,1.3,1.19,1.19,9,15,High,Shipping Delay
+1006,2024-11-01,Azithromycin,Antibiotic,22,1.5,1.28,1.28,5,9,High,None
+1007,2024-11-01,Ciprofloxacin,Antibiotic,93,1.4,1.36,1.36,12,11,Low,None
+1008,2024-11-01,Doxycycline,Antibiotic,53,1.2,1.02,1.02,12,6,Low,None
+1009,2024-11-01,Cetrizine,Antihistamine,86,0.4,0.38,0.38,1,9,High,None
+1010,2024-11-01,Loratadine,Antihistamine,97,0.45,0.44,0.44,15,9,High,Raw Material Shortage
+1011,2024-11-01,Fexofenadine,Antihistamine,93,0.5,0.47,0.47,6,14,Low,Raw Material Shortage
+1012,2024-11-01,Metformin,Diabetes,38,0.9,0.82,0.82,13,15,Low,None
+1013,2024-11-01,Glimepiride,Diabetes,63,1.1,0.95,0.95,12,5,High,Shipping Delay
+1014,2024-11-01,Sitagliptin,Diabetes,42,1.6,1.41,1.41,7,9,Low,Shipping Delay
+1015,2024-11-01,Pioglitazone,Diabetes,61,1.2,1.08,1.08,0,12,High,None
+1016,2024-11-01,Omeprazole,Acid Reflux,30,0.7,0.6,0.6,8,7,Low,Raw Material Shortage
+1017,2024-11-01,Losartan,Blood Pressure,93,1,0.92,0.92,9,5,Medium,Shipping Delay
+1018,2024-11-01,Levothyroxine,Thyroid,78,0.8,0.79,0.79,15,14,High,Raw Material Shortage
+1019,2024-11-02,Paracetamol,Painkiller,27,0.55,0.5,0.5,4,7,Medium,None
+1020,2024-11-02,Ibuprofen,Painkiller,42,0.75,0.69,0.69,8,6,Medium,None
+1021,2024-11-02,Aspirin,Painkiller,12,0.6,0.55,0.55,15,15,Medium,Raw Material Shortage
+1022,2024-11-02,Naproxen,Painkiller,18,0.85,0.8,0.8,8,12,Low,Shipping Delay
+1023,2024-11-02,Diclofenac,Painkiller,100,0.9,0.85,0.85,15,12,Medium,Shipping Delay
+1024,2024-11-02,Amoxicillin,Antibiotic,23,1.3,1.3,1.3,8,5,Low,None
+1025,2024-11-02,Azithromycin,Antibiotic,12,1.5,1.46,1.46,9,14,Medium,None
+1026,2024-11-02,Ciprofloxacin,Antibiotic,93,1.4,1.34,1.34,13,10,Medium,Shipping Delay
+1027,2024-11-02,Doxycycline,Antibiotic,35,1.2,1.13,1.13,3,5,High,Shipping Delay
+1028,2024-11-02,Cetrizine,Antihistamine,64,0.4,0.4,0.4,15,14,Low,None
+1029,2024-11-02,Loratadine,Antihistamine,64,0.45,0.42,0.42,7,14,High,Raw Material Shortage
+1030,2024-11-02,Fexofenadine,Antihistamine,73,0.5,0.44,0.44,2,12,Low,Raw Material Shortage
+1031,2024-11-02,Metformin,Diabetes,78,0.9,0.89,0.89,5,6,Low,None
+1032,2024-11-02,Glimepiride,Diabetes,39,1.1,1.03,1.03,3,11,High,Raw Material Shortage
+1033,2024-11-02,Sitagliptin,Diabetes,66,1.6,1.49,1.49,2,9,Low,Shipping Delay
+1034,2024-11-02,Pioglitazone,Diabetes,62,1.2,1.08,1.08,14,13,Medium,Shipping Delay
+1035,2024-11-02,Omeprazole,Acid Reflux,52,0.7,0.6,0.6,8,5,Low,None
+1036,2024-11-02,Losartan,Blood Pressure,71,1,0.86,0.86,13,14,Low,Shipping Delay
+1037,2024-11-02,Levothyroxine,Thyroid,53,0.8,0.74,0.74,7,5,Low,Shipping Delay
+1038,2024-11-03,Paracetamol,Painkiller,24,0.55,0.51,0.51,14,12,Low,Shipping Delay
+1039,2024-11-03,Ibuprofen,Painkiller,27,0.75,0.68,0.68,0,12,Low,Raw Material Shortage
+1040,2024-11-03,Aspirin,Painkiller,27,0.6,0.59,0.59,6,15,High,Shipping Delay
+1041,2024-11-03,Naproxen,Painkiller,69,0.85,0.78,0.78,8,10,High,Raw Material Shortage
+1042,2024-11-03,Diclofenac,Painkiller,34,0.9,0.81,0.81,15,12,Low,Raw Material Shortage
+1043,2024-11-03,Amoxicillin,Antibiotic,96,1.3,1.17,1.17,11,14,Low,None
+1044,2024-11-03,Azithromycin,Antibiotic,64,1.5,1.4,1.4,6,12,High,Raw Material Shortage
+1045,2024-11-03,Ciprofloxacin,Antibiotic,28,1.4,1.3,1.3,13,15,Medium,Raw Material Shortage
+1046,2024-11-03,Doxycycline,Antibiotic,71,1.2,1.14,1.14,13,10,High,None
+1047,2024-11-03,Cetrizine,Antihistamine,72,0.4,0.36,0.36,3,12,Medium,None
+1048,2024-11-03,Loratadine,Antihistamine,39,0.45,0.4,0.4,9,11,Medium,None
+1049,2024-11-03,Fexofenadine,Antihistamine,28,0.5,0.5,0.5,6,5,Medium,None
+1050,2024-11-03,Metformin,Diabetes,31,0.9,0.84,0.84,15,9,Medium,Shipping Delay
+1051,2024-11-03,Glimepiride,Diabetes,69,1.1,0.97,0.97,4,12,Low,None
+1052,2024-11-03,Sitagliptin,Diabetes,47,1.6,1.49,1.49,2,7,Low,None
+1053,2024-11-03,Pioglitazone,Diabetes,17,1.2,1.09,1.09,0,12,Low,None
+1054,2024-11-03,Omeprazole,Acid Reflux,81,0.7,0.67,0.67,0,9,High,Raw Material Shortage
+1055,2024-11-03,Losartan,Blood Pressure,19,1,0.97,0.97,8,8,Low,None
+1056,2024-11-03,Levothyroxine,Thyroid,84,0.8,0.73,0.73,15,5,High,Shipping Delay
+1057,2024-11-04,Paracetamol,Painkiller,65,0.55,0.51,0.51,8,11,Medium,Raw Material Shortage
+1058,2024-11-04,Ibuprofen,Painkiller,27,0.75,0.71,0.71,9,6,Low,Raw Material Shortage
+1059,2024-11-04,Aspirin,Painkiller,58,0.6,0.52,0.52,8,15,Low,None
+1060,2024-11-04,Naproxen,Painkiller,40,0.85,0.76,0.76,0,15,Medium,Raw Material Shortage
+1061,2024-11-04,Diclofenac,Painkiller,23,0.9,0.87,0.87,13,6,High,Shipping Delay
+1062,2024-11-04,Amoxicillin,Antibiotic,11,1.3,1.25,1.25,8,12,Low,Shipping Delay
+1063,2024-11-04,Azithromycin,Antibiotic,21,1.5,1.4,1.4,4,14,Low,Raw Material Shortage
+1064,2024-11-04,Ciprofloxacin,Antibiotic,15,1.4,1.3,1.3,6,8,High,Raw Material Shortage
+1065,2024-11-04,Doxycycline,Antibiotic,41,1.2,1.17,1.17,5,15,Medium,Shipping Delay
+1066,2024-11-04,Cetrizine,Antihistamine,83,0.4,0.39,0.39,9,10,High,None
+1067,2024-11-04,Loratadine,Antihistamine,70,0.45,0.39,0.39,5,6,Low,Shipping Delay
+1068,2024-11-04,Fexofenadine,Antihistamine,28,0.5,0.49,0.49,15,9,Low,Raw Material Shortage
+1069,2024-11-04,Metformin,Diabetes,12,0.9,0.9,0.9,9,12,Medium,Shipping Delay
+1070,2024-11-04,Glimepiride,Diabetes,88,1.1,0.96,0.96,7,12,Medium,Shipping Delay
+1071,2024-11-04,Sitagliptin,Diabetes,69,1.6,1.53,1.53,1,10,Low,Shipping Delay
+1072,2024-11-04,Pioglitazone,Diabetes,34,1.2,1.04,1.04,3,11,Medium,Raw Material Shortage
+1073,2024-11-04,Omeprazole,Acid Reflux,71,0.7,0.65,0.65,10,5,High,None
+1074,2024-11-04,Losartan,Blood Pressure,47,1,0.99,0.99,2,5,Low,Shipping Delay
+1075,2024-11-04,Levothyroxine,Thyroid,72,0.8,0.71,0.71,12,10,Medium,Shipping Delay
+1076,2024-11-05,Paracetamol,Painkiller,73,0.55,0.51,0.51,3,15,Medium,Raw Material Shortage
+1077,2024-11-05,Ibuprofen,Painkiller,17,0.75,0.75,0.75,13,10,High,Raw Material Shortage
+1078,2024-11-05,Aspirin,Painkiller,83,0.6,0.54,0.54,9,13,Medium,None
+1079,2024-11-05,Naproxen,Painkiller,37,0.85,0.78,0.78,5,8,Medium,Shipping Delay
+1080,2024-11-05,Diclofenac,Painkiller,68,0.9,0.82,0.82,12,6,Low,None
+1081,2024-11-05,Amoxicillin,Antibiotic,78,1.3,1.29,1.29,5,7,Low,None
+1082,2024-11-05,Azithromycin,Antibiotic,21,1.5,1.4,1.4,3,10,High,Shipping Delay
+1083,2024-11-05,Ciprofloxacin,Antibiotic,60,1.4,1.19,1.19,14,11,Medium,Raw Material Shortage
+1084,2024-11-05,Doxycycline,Antibiotic,84,1.2,1.08,1.08,10,15,Medium,Raw Material Shortage
+1085,2024-11-05,Cetrizine,Antihistamine,70,0.4,0.34,0.34,5,15,High,Raw Material Shortage
+1086,2024-11-05,Loratadine,Antihistamine,76,0.45,0.39,0.39,3,13,Medium,None
+1087,2024-11-05,Fexofenadine,Antihistamine,65,0.5,0.48,0.48,12,5,Medium,Raw Material Shortage
+1088,2024-11-05,Metformin,Diabetes,60,0.9,0.79,0.79,1,8,Medium,None
+1089,2024-11-05,Glimepiride,Diabetes,45,1.1,1.07,1.07,15,7,Medium,Shipping Delay
+1090,2024-11-05,Sitagliptin,Diabetes,82,1.6,1.39,1.39,6,6,Low,None
+1091,2024-11-05,Pioglitazone,Diabetes,80,1.2,1.09,1.09,14,14,Medium,Raw Material Shortage
+1092,2024-11-05,Omeprazole,Acid Reflux,96,0.7,0.67,0.67,0,7,Medium,None
+1093,2024-11-05,Losartan,Blood Pressure,91,1,0.91,0.91,15,8,Low,Raw Material Shortage
+1094,2024-11-05,Levothyroxine,Thyroid,91,0.8,0.72,0.72,0,7,High,Raw Material Shortage
+1095,2024-11-06,Paracetamol,Painkiller,78,0.55,0.52,0.52,12,10,High,Shipping Delay
+1096,2024-11-06,Ibuprofen,Painkiller,14,0.75,0.71,0.71,9,11,Low,None
+1097,2024-11-06,Aspirin,Painkiller,89,0.6,0.56,0.56,12,9,High,Shipping Delay
+1098,2024-11-06,Naproxen,Painkiller,57,0.85,0.8,0.8,2,6,Low,Shipping Delay
+1099,2024-11-06,Diclofenac,Painkiller,38,0.9,0.8,0.8,8,15,High,None
+1100,2024-11-06,Amoxicillin,Antibiotic,23,1.3,1.12,1.12,7,13,Low,Raw Material Shortage
+1101,2024-11-06,Azithromycin,Antibiotic,67,1.5,1.42,1.42,12,12,Low,Shipping Delay
+1102,2024-11-06,Ciprofloxacin,Antibiotic,43,1.4,1.32,1.32,11,8,Medium,Raw Material Shortage
+1103,2024-11-06,Doxycycline,Antibiotic,95,1.2,1.1,1.1,12,15,High,Raw Material Shortage
+1104,2024-11-06,Cetrizine,Antihistamine,95,0.4,0.36,0.36,8,5,Low,Shipping Delay
+1105,2024-11-06,Loratadine,Antihistamine,31,0.45,0.39,0.39,12,13,Medium,None
+1106,2024-11-06,Fexofenadine,Antihistamine,32,0.5,0.45,0.45,2,5,Low,None
+1107,2024-11-06,Metformin,Diabetes,50,0.9,0.77,0.77,15,5,Medium,Shipping Delay
+1108,2024-11-06,Glimepiride,Diabetes,35,1.1,1.01,1.01,8,9,Low,Raw Material Shortage
+1109,2024-11-06,Sitagliptin,Diabetes,61,1.6,1.36,1.36,5,15,High,Shipping Delay
+1110,2024-11-06,Pioglitazone,Diabetes,89,1.2,1.1,1.1,8,15,Medium,None
+1111,2024-11-06,Omeprazole,Acid Reflux,56,0.7,0.68,0.68,6,12,Medium,Shipping Delay
+1112,2024-11-06,Losartan,Blood Pressure,41,1,0.9,0.9,2,5,Low,Raw Material Shortage
+1113,2024-11-06,Levothyroxine,Thyroid,34,0.8,0.71,0.71,4,9,High,Shipping Delay
+1114,2024-11-07,Paracetamol,Painkiller,41,0.55,0.53,0.53,9,12,Low,Raw Material Shortage
+1115,2024-11-07,Ibuprofen,Painkiller,52,0.75,0.68,0.68,5,13,Medium,None
+1116,2024-11-07,Aspirin,Painkiller,25,0.6,0.59,0.59,8,8,Low,Raw Material Shortage
+1117,2024-11-07,Naproxen,Painkiller,23,0.85,0.76,0.76,5,15,Low,Shipping Delay
+1118,2024-11-07,Diclofenac,Painkiller,76,0.9,0.79,0.79,5,12,High,Raw Material Shortage
+1119,2024-11-07,Amoxicillin,Antibiotic,95,1.3,1.29,1.29,13,5,High,Shipping Delay
+1120,2024-11-07,Azithromycin,Antibiotic,63,1.5,1.36,1.36,3,5,High,None
+1121,2024-11-07,Ciprofloxacin,Antibiotic,52,1.4,1.35,1.35,3,8,High,Raw Material Shortage
+1122,2024-11-07,Doxycycline,Antibiotic,42,1.2,1.15,1.15,6,7,Low,Raw Material Shortage
+1123,2024-11-07,Cetrizine,Antihistamine,40,0.4,0.37,0.37,0,10,High,None
+1124,2024-11-07,Loratadine,Antihistamine,42,0.45,0.42,0.42,12,9,High,None
+1125,2024-11-07,Fexofenadine,Antihistamine,79,0.5,0.47,0.47,3,5,High,Shipping Delay
+1126,2024-11-07,Metformin,Diabetes,47,0.9,0.81,0.81,2,6,High,None
+1127,2024-11-07,Glimepiride,Diabetes,94,1.1,0.97,0.97,1,6,Low,Shipping Delay
+1128,2024-11-07,Sitagliptin,Diabetes,81,1.6,1.4,1.4,10,14,Low,Raw Material Shortage
+1129,2024-11-07,Pioglitazone,Diabetes,16,1.2,1.16,1.16,0,15,Low,Raw Material Shortage
+1130,2024-11-07,Omeprazole,Acid Reflux,13,0.7,0.6,0.6,7,11,Low,None
+1131,2024-11-07,Losartan,Blood Pressure,27,1,0.97,0.97,6,6,Medium,None
+1132,2024-11-07,Levothyroxine,Thyroid,61,0.8,0.78,0.78,0,6,High,None
+1133,2024-11-08,Paracetamol,Painkiller,26,0.55,0.49,0.49,8,8,High,Shipping Delay
+1134,2024-11-08,Ibuprofen,Painkiller,76,0.75,0.64,0.64,10,13,Low,Raw Material Shortage
+1135,2024-11-08,Aspirin,Painkiller,54,0.6,0.53,0.53,10,12,Medium,None
+1136,2024-11-08,Naproxen,Painkiller,17,0.85,0.73,0.73,4,11,Medium,Shipping Delay
+1137,2024-11-08,Diclofenac,Painkiller,14,0.9,0.83,0.83,9,15,Medium,Shipping Delay
+1138,2024-11-08,Amoxicillin,Antibiotic,69,1.3,1.14,1.14,2,9,High,Shipping Delay
+1139,2024-11-08,Azithromycin,Antibiotic,59,1.5,1.34,1.34,1,8,Low,Shipping Delay
+1140,2024-11-08,Ciprofloxacin,Antibiotic,80,1.4,1.38,1.38,6,6,Medium,None
+1141,2024-11-08,Doxycycline,Antibiotic,55,1.2,1.05,1.05,7,14,High,Raw Material Shortage
+1142,2024-11-08,Cetrizine,Antihistamine,39,0.4,0.39,0.39,15,8,Medium,Raw Material Shortage
+1143,2024-11-08,Loratadine,Antihistamine,27,0.45,0.44,0.44,7,13,High,Shipping Delay
+1144,2024-11-08,Fexofenadine,Antihistamine,78,0.5,0.48,0.48,9,9,Medium,Shipping Delay
+1145,2024-11-08,Metformin,Diabetes,72,0.9,0.87,0.87,10,12,Low,Shipping Delay
+1146,2024-11-08,Glimepiride,Diabetes,100,1.1,0.94,0.94,3,12,Medium,Raw Material Shortage
+1147,2024-11-08,Sitagliptin,Diabetes,81,1.6,1.44,1.44,0,12,Low,None
+1148,2024-11-08,Pioglitazone,Diabetes,32,1.2,1.04,1.04,10,12,Low,None
+1149,2024-11-08,Omeprazole,Acid Reflux,98,0.7,0.65,0.65,12,6,High,None
+1150,2024-11-08,Losartan,Blood Pressure,73,1,0.88,0.88,8,7,High,Shipping Delay
+1151,2024-11-08,Levothyroxine,Thyroid,59,0.8,0.75,0.75,2,8,Medium,Shipping Delay
+1152,2024-11-09,Paracetamol,Painkiller,20,0.55,0.52,0.52,7,12,Low,Shipping Delay
+1153,2024-11-09,Ibuprofen,Painkiller,16,0.75,0.64,0.64,12,12,Medium,None
+1154,2024-11-09,Aspirin,Painkiller,43,0.6,0.52,0.52,15,8,Low,None
+1155,2024-11-09,Naproxen,Painkiller,58,0.85,0.8,0.8,8,11,High,Raw Material Shortage
+1156,2024-11-09,Diclofenac,Painkiller,77,0.9,0.79,0.79,5,8,Low,Shipping Delay
+1157,2024-11-09,Amoxicillin,Antibiotic,33,1.3,1.21,1.21,15,12,Low,Shipping Delay
+1158,2024-11-09,Azithromycin,Antibiotic,98,1.5,1.46,1.46,10,6,High,Shipping Delay
+1159,2024-11-09,Ciprofloxacin,Antibiotic,27,1.4,1.32,1.32,11,6,High,Raw Material Shortage
+1160,2024-11-09,Doxycycline,Antibiotic,74,1.2,1.03,1.03,4,5,Medium,Raw Material Shortage
+1161,2024-11-09,Cetrizine,Antihistamine,37,0.4,0.38,0.38,5,7,Low,Raw Material Shortage
+1162,2024-11-09,Loratadine,Antihistamine,84,0.45,0.39,0.39,8,10,Medium,None
+1163,2024-11-09,Fexofenadine,Antihistamine,15,0.5,0.47,0.47,3,10,Medium,None
+1164,2024-11-09,Metformin,Diabetes,75,0.9,0.9,0.9,12,15,Low,Shipping Delay
+1165,2024-11-09,Glimepiride,Diabetes,21,1.1,1,1,8,5,Low,Raw Material Shortage
+1166,2024-11-09,Sitagliptin,Diabetes,51,1.6,1.37,1.37,0,12,High,None
+1167,2024-11-09,Pioglitazone,Diabetes,22,1.2,1.06,1.06,1,7,High,Shipping Delay
+1168,2024-11-09,Omeprazole,Acid Reflux,78,0.7,0.62,0.62,1,7,High,Raw Material Shortage
+1169,2024-11-09,Losartan,Blood Pressure,18,1,0.93,0.93,13,9,High,None
+1170,2024-11-09,Levothyroxine,Thyroid,92,0.8,0.79,0.79,12,5,Medium,None
+1171,2024-11-10,Paracetamol,Painkiller,79,0.55,0.49,0.49,12,12,High,Raw Material Shortage
+1172,2024-11-10,Ibuprofen,Painkiller,88,0.75,0.65,0.65,11,8,Low,Raw Material Shortage
+1173,2024-11-10,Aspirin,Painkiller,11,0.6,0.57,0.57,6,15,Low,Raw Material Shortage
+1174,2024-11-10,Naproxen,Painkiller,14,0.85,0.79,0.79,0,14,High,Raw Material Shortage
+1175,2024-11-10,Diclofenac,Painkiller,30,0.9,0.79,0.79,7,11,High,Raw Material Shortage
+1176,2024-11-10,Amoxicillin,Antibiotic,60,1.3,1.23,1.23,2,14,Medium,None
+1177,2024-11-10,Azithromycin,Antibiotic,43,1.5,1.46,1.46,3,7,Medium,Shipping Delay
+1178,2024-11-10,Ciprofloxacin,Antibiotic,47,1.4,1.37,1.37,6,6,High,Shipping Delay
+1179,2024-11-10,Doxycycline,Antibiotic,42,1.2,1.15,1.15,11,5,Low,Shipping Delay
+1180,2024-11-10,Cetrizine,Antihistamine,59,0.4,0.34,0.34,1,9,High,Raw Material Shortage
+1181,2024-11-10,Loratadine,Antihistamine,88,0.45,0.38,0.38,13,11,Medium,Shipping Delay
+1182,2024-11-10,Fexofenadine,Antihistamine,90,0.5,0.48,0.48,7,14,High,Raw Material Shortage
+1183,2024-11-10,Metformin,Diabetes,15,0.9,0.8,0.8,7,7,Medium,Shipping Delay
+1184,2024-11-10,Glimepiride,Diabetes,87,1.1,0.95,0.95,9,9,Low,None
+1185,2024-11-10,Sitagliptin,Diabetes,63,1.6,1.52,1.52,4,10,High,Raw Material Shortage
+1186,2024-11-10,Pioglitazone,Diabetes,10,1.2,1.1,1.1,6,5,Medium,Raw Material Shortage
+1187,2024-11-10,Omeprazole,Acid Reflux,87,0.7,0.63,0.63,1,8,Low,Shipping Delay
+1188,2024-11-10,Losartan,Blood Pressure,66,1,0.91,0.91,15,6,High,Shipping Delay
+1189,2024-11-10,Levothyroxine,Thyroid,10,0.8,0.69,0.69,1,5,Low,Shipping Delay
+1190,2024-11-11,Paracetamol,Painkiller,85,0.55,0.52,0.52,13,7,Low,Shipping Delay
+1191,2024-11-11,Ibuprofen,Painkiller,58,0.75,0.73,0.73,4,7,Low,None
+1192,2024-11-11,Aspirin,Painkiller,51,0.6,0.55,0.55,3,13,Low,Shipping Delay
+1193,2024-11-11,Naproxen,Painkiller,78,0.85,0.83,0.83,8,11,Low,None
+1194,2024-11-11,Diclofenac,Painkiller,61,0.9,0.79,0.79,13,10,Low,Raw Material Shortage
+1195,2024-11-11,Amoxicillin,Antibiotic,69,1.3,1.3,1.3,5,12,Low,None
+1196,2024-11-11,Azithromycin,Antibiotic,59,1.5,1.37,1.37,4,9,Medium,Shipping Delay
+1197,2024-11-11,Ciprofloxacin,Antibiotic,46,1.4,1.31,1.31,1,11,High,None
+1198,2024-11-11,Doxycycline,Antibiotic,71,1.2,1.17,1.17,11,7,Low,Shipping Delay
+1199,2024-11-11,Cetrizine,Antihistamine,79,0.4,0.39,0.39,9,9,High,None
+1200,2024-11-11,Loratadine,Antihistamine,24,0.45,0.42,0.42,10,14,Low,None
+1201,2024-11-11,Fexofenadine,Antihistamine,84,0.5,0.46,0.46,11,15,Low,Raw Material Shortage
+1202,2024-11-11,Metformin,Diabetes,62,0.9,0.85,0.85,9,12,Medium,Shipping Delay
+1203,2024-11-11,Glimepiride,Diabetes,65,1.1,0.94,0.94,14,12,High,Raw Material Shortage
+1204,2024-11-11,Sitagliptin,Diabetes,56,1.6,1.43,1.43,2,10,High,None
+1205,2024-11-11,Pioglitazone,Diabetes,93,1.2,1.14,1.14,12,7,Low,None
+1206,2024-11-11,Omeprazole,Acid Reflux,69,0.7,0.65,0.65,4,10,Medium,None
+1207,2024-11-11,Losartan,Blood Pressure,33,1,0.94,0.94,7,9,Low,None
+1208,2024-11-11,Levothyroxine,Thyroid,13,0.8,0.79,0.79,8,14,Low,Shipping Delay
+1209,2024-11-12,Paracetamol,Painkiller,55,0.55,0.47,0.47,0,8,Low,Shipping Delay
+1210,2024-11-12,Ibuprofen,Painkiller,80,0.75,0.71,0.71,7,10,High,Raw Material Shortage
+1211,2024-11-12,Aspirin,Painkiller,82,0.6,0.54,0.54,7,10,Low,Raw Material Shortage
+1212,2024-11-12,Naproxen,Painkiller,49,0.85,0.75,0.75,7,7,Low,Shipping Delay
+1213,2024-11-12,Diclofenac,Painkiller,57,0.9,0.83,0.83,13,9,High,Raw Material Shortage
+1214,2024-11-12,Amoxicillin,Antibiotic,100,1.3,1.28,1.28,12,11,High,None
+1215,2024-11-12,Azithromycin,Antibiotic,15,1.5,1.46,1.46,15,15,Medium,None
+1216,2024-11-12,Ciprofloxacin,Antibiotic,88,1.4,1.24,1.24,9,6,High,Shipping Delay
+1217,2024-11-12,Doxycycline,Antibiotic,33,1.2,1.06,1.06,0,10,High,None
+1218,2024-11-12,Cetrizine,Antihistamine,66,0.4,0.39,0.39,7,10,Low,Raw Material Shortage
+1219,2024-11-12,Loratadine,Antihistamine,41,0.45,0.41,0.41,13,10,Medium,Raw Material Shortage
+1220,2024-11-12,Fexofenadine,Antihistamine,96,0.5,0.46,0.46,6,12,High,Raw Material Shortage
+1221,2024-11-12,Metformin,Diabetes,16,0.9,0.78,0.78,1,9,Low,None
+1222,2024-11-12,Glimepiride,Diabetes,36,1.1,1.07,1.07,0,13,High,Shipping Delay
+1223,2024-11-12,Sitagliptin,Diabetes,47,1.6,1.54,1.54,9,10,Medium,Raw Material Shortage
+1224,2024-11-12,Pioglitazone,Diabetes,39,1.2,1.03,1.03,8,9,Low,None
+1225,2024-11-12,Omeprazole,Acid Reflux,65,0.7,0.67,0.67,11,14,Low,None
+1226,2024-11-12,Losartan,Blood Pressure,67,1,0.89,0.89,15,10,Low,Shipping Delay
+1227,2024-11-12,Levothyroxine,Thyroid,100,0.8,0.73,0.73,15,6,High,Raw Material Shortage
+1228,2024-11-13,Paracetamol,Painkiller,31,0.55,0.5,0.5,3,15,High,None
+1229,2024-11-13,Ibuprofen,Painkiller,73,0.75,0.65,0.65,6,11,Low,None
+1230,2024-11-13,Aspirin,Painkiller,26,0.6,0.57,0.57,0,6,Medium,None
+1231,2024-11-13,Naproxen,Painkiller,93,0.85,0.81,0.81,4,14,High,Raw Material Shortage
+1232,2024-11-13,Diclofenac,Painkiller,60,0.9,0.79,0.79,5,7,Low,Raw Material Shortage
+1233,2024-11-13,Amoxicillin,Antibiotic,88,1.3,1.16,1.16,14,12,Medium,None
+1234,2024-11-13,Azithromycin,Antibiotic,22,1.5,1.46,1.46,11,8,Medium,Raw Material Shortage
+1235,2024-11-13,Ciprofloxacin,Antibiotic,97,1.4,1.37,1.37,4,13,Medium,None
+1236,2024-11-13,Doxycycline,Antibiotic,100,1.2,1.07,1.07,10,10,Low,None
+1237,2024-11-13,Cetrizine,Antihistamine,50,0.4,0.38,0.38,14,11,Medium,Shipping Delay
+1238,2024-11-13,Loratadine,Antihistamine,71,0.45,0.44,0.44,3,15,Low,Shipping Delay
+1239,2024-11-13,Fexofenadine,Antihistamine,98,0.5,0.46,0.46,12,6,High,None
+1240,2024-11-13,Metformin,Diabetes,93,0.9,0.81,0.81,6,10,High,Shipping Delay
+1241,2024-11-13,Glimepiride,Diabetes,27,1.1,1.05,1.05,9,5,High,None
+1242,2024-11-13,Sitagliptin,Diabetes,93,1.6,1.38,1.38,4,7,Medium,Raw Material Shortage
+1243,2024-11-13,Pioglitazone,Diabetes,98,1.2,1.04,1.04,12,15,Low,None
+1244,2024-11-13,Omeprazole,Acid Reflux,95,0.7,0.7,0.7,10,8,Low,Shipping Delay
+1245,2024-11-13,Losartan,Blood Pressure,53,1,0.91,0.91,8,8,High,Raw Material Shortage
+1246,2024-11-13,Levothyroxine,Thyroid,71,0.8,0.71,0.71,1,10,High,Raw Material Shortage
+1247,2024-11-14,Paracetamol,Painkiller,68,0.55,0.5,0.5,13,7,Low,None
+1248,2024-11-14,Ibuprofen,Painkiller,64,0.75,0.7,0.7,8,8,Low,Raw Material Shortage
+1249,2024-11-14,Aspirin,Painkiller,74,0.6,0.57,0.57,0,6,High,Raw Material Shortage
+1250,2024-11-14,Naproxen,Painkiller,14,0.85,0.81,0.81,10,8,High,Raw Material Shortage
+1251,2024-11-14,Diclofenac,Painkiller,39,0.9,0.89,0.89,6,15,High,Raw Material Shortage
+1252,2024-11-14,Amoxicillin,Antibiotic,95,1.3,1.19,1.19,12,14,Medium,Shipping Delay
+1253,2024-11-14,Azithromycin,Antibiotic,61,1.5,1.34,1.34,11,12,Low,Raw Material Shortage
+1254,2024-11-14,Ciprofloxacin,Antibiotic,76,1.4,1.34,1.34,11,10,Low,None
+1255,2024-11-14,Doxycycline,Antibiotic,35,1.2,1.17,1.17,9,8,Low,Shipping Delay
+1256,2024-11-14,Cetrizine,Antihistamine,33,0.4,0.38,0.38,0,12,Low,None
+1257,2024-11-14,Loratadine,Antihistamine,80,0.45,0.41,0.41,11,14,Medium,Raw Material Shortage
+1258,2024-11-14,Fexofenadine,Antihistamine,33,0.5,0.45,0.45,3,8,High,None
+1259,2024-11-14,Metformin,Diabetes,18,0.9,0.81,0.81,2,10,Medium,None
+1260,2024-11-14,Glimepiride,Diabetes,28,1.1,1.02,1.02,15,11,Medium,Raw Material Shortage
+1261,2024-11-14,Sitagliptin,Diabetes,16,1.6,1.44,1.44,14,13,Low,Shipping Delay
+1262,2024-11-14,Pioglitazone,Diabetes,15,1.2,1.18,1.18,13,8,Low,None
+1263,2024-11-14,Omeprazole,Acid Reflux,29,0.7,0.66,0.66,15,5,Medium,None
+1264,2024-11-14,Losartan,Blood Pressure,13,1,0.95,0.95,3,12,High,None
+1265,2024-11-14,Levothyroxine,Thyroid,44,0.8,0.79,0.79,12,13,Medium,None
+1266,2024-11-15,Paracetamol,Painkiller,84,0.55,0.49,0.49,0,5,High,Shipping Delay
+1267,2024-11-15,Ibuprofen,Painkiller,40,0.75,0.74,0.74,6,5,High,Raw Material Shortage
+1268,2024-11-15,Aspirin,Painkiller,38,0.6,0.6,0.6,1,12,Low,Raw Material Shortage
+1269,2024-11-15,Naproxen,Painkiller,21,0.85,0.77,0.77,8,9,Low,None
+1270,2024-11-15,Diclofenac,Painkiller,70,0.9,0.82,0.82,4,7,Low,Raw Material Shortage
+1271,2024-11-15,Amoxicillin,Antibiotic,72,1.3,1.23,1.23,12,7,High,None
+1272,2024-11-15,Azithromycin,Antibiotic,81,1.5,1.46,1.46,4,6,Medium,Raw Material Shortage
+1273,2024-11-15,Ciprofloxacin,Antibiotic,69,1.4,1.29,1.29,0,14,High,Raw Material Shortage
+1274,2024-11-15,Doxycycline,Antibiotic,53,1.2,1.17,1.17,4,12,High,None
+1275,2024-11-15,Cetrizine,Antihistamine,52,0.4,0.35,0.35,11,8,Low,None
+1276,2024-11-15,Loratadine,Antihistamine,83,0.45,0.38,0.38,13,11,Low,None
+1277,2024-11-15,Fexofenadine,Antihistamine,73,0.5,0.48,0.48,15,8,High,Raw Material Shortage
+1278,2024-11-15,Metformin,Diabetes,13,0.9,0.8,0.8,9,12,Medium,Shipping Delay
+1279,2024-11-15,Glimepiride,Diabetes,47,1.1,0.95,0.95,2,5,Medium,None
+1280,2024-11-15,Sitagliptin,Diabetes,80,1.6,1.57,1.57,4,15,High,Shipping Delay
+1281,2024-11-15,Pioglitazone,Diabetes,40,1.2,1.13,1.13,5,6,Low,Shipping Delay
+1282,2024-11-15,Omeprazole,Acid Reflux,84,0.7,0.6,0.6,4,12,Medium,Raw Material Shortage
+1283,2024-11-15,Losartan,Blood Pressure,43,1,0.99,0.99,11,11,Medium,Shipping Delay
+1284,2024-11-15,Levothyroxine,Thyroid,62,0.8,0.68,0.68,4,7,Medium,Raw Material Shortage
+1285,2024-11-16,Paracetamol,Painkiller,38,0.55,0.47,0.47,10,15,Low,Shipping Delay
+1286,2024-11-16,Ibuprofen,Painkiller,19,0.75,0.69,0.69,2,13,Medium,Shipping Delay
+1287,2024-11-16,Aspirin,Painkiller,98,0.6,0.56,0.56,7,9,Low,Shipping Delay
+1288,2024-11-16,Naproxen,Painkiller,45,0.85,0.73,0.73,4,13,Medium,Raw Material Shortage
+1289,2024-11-16,Diclofenac,Painkiller,64,0.9,0.8,0.8,10,6,Low,Raw Material Shortage
+1290,2024-11-16,Amoxicillin,Antibiotic,53,1.3,1.27,1.27,6,5,Medium,Raw Material Shortage
+1291,2024-11-16,Azithromycin,Antibiotic,59,1.5,1.42,1.42,13,9,Low,Raw Material Shortage
+1292,2024-11-16,Ciprofloxacin,Antibiotic,86,1.4,1.21,1.21,10,5,Medium,Raw Material Shortage
+1293,2024-11-16,Doxycycline,Antibiotic,98,1.2,1.19,1.19,2,14,Low,Raw Material Shortage
+1294,2024-11-16,Cetrizine,Antihistamine,32,0.4,0.35,0.35,7,7,High,None
+1295,2024-11-16,Loratadine,Antihistamine,52,0.45,0.4,0.4,6,15,Low,None
+1296,2024-11-16,Fexofenadine,Antihistamine,21,0.5,0.45,0.45,2,8,Low,None
+1297,2024-11-16,Metformin,Diabetes,67,0.9,0.89,0.89,11,9,Low,Shipping Delay
+1298,2024-11-16,Glimepiride,Diabetes,85,1.1,1.08,1.08,0,6,High,Shipping Delay
+1299,2024-11-16,Sitagliptin,Diabetes,72,1.6,1.6,1.6,14,13,Low,Raw Material Shortage
+1300,2024-11-16,Pioglitazone,Diabetes,54,1.2,1.1,1.1,14,13,High,Raw Material Shortage
+1301,2024-11-16,Omeprazole,Acid Reflux,45,0.7,0.61,0.61,9,7,Medium,Raw Material Shortage
+1302,2024-11-16,Losartan,Blood Pressure,21,1,0.87,0.87,7,14,Medium,Raw Material Shortage
+1303,2024-11-16,Levothyroxine,Thyroid,67,0.8,0.77,0.77,2,10,Low,Shipping Delay
+1304,2024-11-17,Paracetamol,Painkiller,62,0.55,0.51,0.51,10,12,High,Raw Material Shortage
+1305,2024-11-17,Ibuprofen,Painkiller,41,0.75,0.65,0.65,14,10,Low,None
+1306,2024-11-17,Aspirin,Painkiller,81,0.6,0.54,0.54,3,15,Low,Shipping Delay
+1307,2024-11-17,Naproxen,Painkiller,14,0.85,0.77,0.77,6,14,Low,Shipping Delay
+1308,2024-11-17,Diclofenac,Painkiller,55,0.9,0.81,0.81,1,11,Low,Raw Material Shortage
+1309,2024-11-17,Amoxicillin,Antibiotic,43,1.3,1.13,1.13,11,9,High,None
+1310,2024-11-17,Azithromycin,Antibiotic,35,1.5,1.29,1.29,10,13,Medium,None
+1311,2024-11-17,Ciprofloxacin,Antibiotic,58,1.4,1.25,1.25,12,7,High,Shipping Delay
+1312,2024-11-17,Doxycycline,Antibiotic,10,1.2,1.04,1.04,0,7,High,None
+1313,2024-11-17,Cetrizine,Antihistamine,77,0.4,0.35,0.35,10,12,Medium,Shipping Delay
+1314,2024-11-17,Loratadine,Antihistamine,56,0.45,0.44,0.44,12,9,High,None
+1315,2024-11-17,Fexofenadine,Antihistamine,24,0.5,0.47,0.47,6,8,High,None
+1316,2024-11-17,Metformin,Diabetes,36,0.9,0.84,0.84,13,8,Medium,None
+1317,2024-11-17,Glimepiride,Diabetes,76,1.1,1,1,0,11,Low,Raw Material Shortage
+1318,2024-11-17,Sitagliptin,Diabetes,73,1.6,1.51,1.51,3,11,Medium,None
+1319,2024-11-17,Pioglitazone,Diabetes,71,1.2,1.09,1.09,11,11,High,Shipping Delay
+1320,2024-11-17,Omeprazole,Acid Reflux,63,0.7,0.62,0.62,15,13,Medium,None
+1321,2024-11-17,Losartan,Blood Pressure,38,1,0.95,0.95,15,8,Medium,Raw Material Shortage
+1322,2024-11-17,Levothyroxine,Thyroid,33,0.8,0.69,0.69,4,15,Medium,Shipping Delay
+1323,2024-11-18,Paracetamol,Painkiller,64,0.55,0.48,0.48,15,11,Low,Shipping Delay
+1324,2024-11-18,Ibuprofen,Painkiller,97,0.75,0.66,0.66,4,14,High,Raw Material Shortage
+1325,2024-11-18,Aspirin,Painkiller,100,0.6,0.54,0.54,3,11,High,Shipping Delay
+1326,2024-11-18,Naproxen,Painkiller,71,0.85,0.75,0.75,13,5,High,None
+1327,2024-11-18,Diclofenac,Painkiller,37,0.9,0.82,0.82,8,9,Low,Shipping Delay
+1328,2024-11-18,Amoxicillin,Antibiotic,64,1.3,1.29,1.29,1,7,Low,Shipping Delay
+1329,2024-11-18,Azithromycin,Antibiotic,73,1.5,1.39,1.39,5,8,Low,None
+1330,2024-11-18,Ciprofloxacin,Antibiotic,32,1.4,1.21,1.21,7,14,Low,Raw Material Shortage
+1331,2024-11-18,Doxycycline,Antibiotic,28,1.2,1.06,1.06,7,11,Low,None
+1332,2024-11-18,Cetrizine,Antihistamine,50,0.4,0.35,0.35,7,9,Low,Raw Material Shortage
+1333,2024-11-18,Loratadine,Antihistamine,56,0.45,0.39,0.39,14,11,Medium,Shipping Delay
+1334,2024-11-18,Fexofenadine,Antihistamine,43,0.5,0.5,0.5,2,11,Medium,Raw Material Shortage
+1335,2024-11-18,Metformin,Diabetes,40,0.9,0.8,0.8,14,13,Medium,Raw Material Shortage
+1336,2024-11-18,Glimepiride,Diabetes,75,1.1,1.01,1.01,0,10,Low,Shipping Delay
+1337,2024-11-18,Sitagliptin,Diabetes,13,1.6,1.55,1.55,7,10,Medium,None
+1338,2024-11-18,Pioglitazone,Diabetes,90,1.2,1.1,1.1,6,10,Medium,Raw Material Shortage
+1339,2024-11-18,Omeprazole,Acid Reflux,53,0.7,0.63,0.63,5,11,Medium,Raw Material Shortage
+1340,2024-11-18,Losartan,Blood Pressure,84,1,0.99,0.99,12,7,Medium,Shipping Delay
+1341,2024-11-18,Levothyroxine,Thyroid,37,0.8,0.76,0.76,9,11,High,Raw Material Shortage
+1342,2024-11-19,Paracetamol,Painkiller,71,0.55,0.49,0.49,4,9,Low,Raw Material Shortage
+1343,2024-11-19,Ibuprofen,Painkiller,58,0.75,0.75,0.75,8,6,Medium,None
+1344,2024-11-19,Aspirin,Painkiller,69,0.6,0.56,0.56,0,5,High,Shipping Delay
+1345,2024-11-19,Naproxen,Painkiller,100,0.85,0.81,0.81,0,10,Medium,Shipping Delay
+1346,2024-11-19,Diclofenac,Painkiller,87,0.9,0.9,0.9,5,12,Medium,None
+1347,2024-11-19,Amoxicillin,Antibiotic,52,1.3,1.11,1.11,11,14,Low,None
+1348,2024-11-19,Azithromycin,Antibiotic,55,1.5,1.43,1.43,5,10,Low,Raw Material Shortage
+1349,2024-11-19,Ciprofloxacin,Antibiotic,27,1.4,1.37,1.37,12,7,High,Shipping Delay
+1350,2024-11-19,Doxycycline,Antibiotic,59,1.2,1.12,1.12,2,14,Medium,None
+1351,2024-11-19,Cetrizine,Antihistamine,33,0.4,0.4,0.4,11,9,Low,Raw Material Shortage
+1352,2024-11-19,Loratadine,Antihistamine,17,0.45,0.39,0.39,1,13,Medium,Shipping Delay
+1353,2024-11-19,Fexofenadine,Antihistamine,59,0.5,0.46,0.46,6,8,Low,None
+1354,2024-11-19,Metformin,Diabetes,83,0.9,0.81,0.81,6,10,Low,Shipping Delay
+1355,2024-11-19,Glimepiride,Diabetes,75,1.1,1.02,1.02,10,8,Low,Shipping Delay
+1356,2024-11-19,Sitagliptin,Diabetes,11,1.6,1.38,1.38,12,8,High,Raw Material Shortage
+1357,2024-11-19,Pioglitazone,Diabetes,50,1.2,1.13,1.13,14,12,Medium,Raw Material Shortage
+1358,2024-11-19,Omeprazole,Acid Reflux,38,0.7,0.68,0.68,5,10,Medium,None
+1359,2024-11-19,Losartan,Blood Pressure,54,1,0.99,0.99,10,8,High,Raw Material Shortage
+1360,2024-11-19,Levothyroxine,Thyroid,62,0.8,0.69,0.69,6,12,Medium,None
+1361,2024-11-20,Paracetamol,Painkiller,46,0.55,0.51,0.51,15,9,Medium,Shipping Delay
+1362,2024-11-20,Ibuprofen,Painkiller,10,0.75,0.69,0.69,3,10,Medium,None
+1363,2024-11-20,Aspirin,Painkiller,34,0.6,0.52,0.52,0,8,High,None
+1364,2024-11-20,Naproxen,Painkiller,69,0.85,0.76,0.76,12,13,Medium,Raw Material Shortage
+1365,2024-11-20,Diclofenac,Painkiller,73,0.9,0.88,0.88,1,8,Medium,Raw Material Shortage
+1366,2024-11-20,Amoxicillin,Antibiotic,99,1.3,1.2,1.2,3,14,Medium,Shipping Delay
+1367,2024-11-20,Azithromycin,Antibiotic,62,1.5,1.32,1.32,6,11,Medium,None
+1368,2024-11-20,Ciprofloxacin,Antibiotic,20,1.4,1.36,1.36,1,9,Medium,Shipping Delay
+1369,2024-11-20,Doxycycline,Antibiotic,87,1.2,1.17,1.17,3,13,High,Raw Material Shortage
+1370,2024-11-20,Cetrizine,Antihistamine,13,0.4,0.37,0.37,2,9,Medium,Raw Material Shortage
+1371,2024-11-20,Loratadine,Antihistamine,12,0.45,0.41,0.41,5,5,Medium,Raw Material Shortage
+1372,2024-11-20,Fexofenadine,Antihistamine,82,0.5,0.43,0.43,5,10,Medium,Shipping Delay
+1373,2024-11-20,Metformin,Diabetes,27,0.9,0.78,0.78,6,11,Medium,Raw Material Shortage
+1374,2024-11-20,Glimepiride,Diabetes,38,1.1,0.97,0.97,5,10,High,Raw Material Shortage
+1375,2024-11-20,Sitagliptin,Diabetes,99,1.6,1.39,1.39,11,12,High,None
+1376,2024-11-20,Pioglitazone,Diabetes,100,1.2,1.06,1.06,13,7,Medium,Shipping Delay
+1377,2024-11-20,Omeprazole,Acid Reflux,30,0.7,0.68,0.68,1,6,High,None
+1378,2024-11-20,Losartan,Blood Pressure,73,1,0.93,0.93,6,6,Low,Raw Material Shortage
+1379,2024-11-20,Levothyroxine,Thyroid,73,0.8,0.73,0.73,14,9,High,Raw Material Shortage
+1380,2024-11-21,Paracetamol,Painkiller,51,0.55,0.5,0.5,0,12,Low,Raw Material Shortage
+1381,2024-11-21,Ibuprofen,Painkiller,15,0.75,0.65,0.65,9,9,High,None
+1382,2024-11-21,Aspirin,Painkiller,22,0.6,0.53,0.53,7,9,Low,None
+1383,2024-11-21,Naproxen,Painkiller,96,0.85,0.79,0.79,7,6,Low,None
+1384,2024-11-21,Diclofenac,Painkiller,38,0.9,0.77,0.77,7,9,Low,Shipping Delay
+1385,2024-11-21,Amoxicillin,Antibiotic,70,1.3,1.24,1.24,0,10,Low,Raw Material Shortage
+1386,2024-11-21,Azithromycin,Antibiotic,26,1.5,1.46,1.46,7,13,Medium,Raw Material Shortage
+1387,2024-11-21,Ciprofloxacin,Antibiotic,21,1.4,1.21,1.21,13,15,Low,Shipping Delay
+1388,2024-11-21,Doxycycline,Antibiotic,53,1.2,1.08,1.08,15,9,High,Raw Material Shortage
+1389,2024-11-21,Cetrizine,Antihistamine,58,0.4,0.36,0.36,15,9,Medium,None
+1390,2024-11-21,Loratadine,Antihistamine,76,0.45,0.44,0.44,5,14,Medium,Shipping Delay
+1391,2024-11-21,Fexofenadine,Antihistamine,37,0.5,0.46,0.46,8,7,Medium,Shipping Delay
+1392,2024-11-21,Metformin,Diabetes,26,0.9,0.78,0.78,12,13,High,Shipping Delay
+1393,2024-11-21,Glimepiride,Diabetes,23,1.1,1.02,1.02,9,6,High,Shipping Delay
+1394,2024-11-21,Sitagliptin,Diabetes,46,1.6,1.51,1.51,12,6,Medium,Raw Material Shortage
+1395,2024-11-21,Pioglitazone,Diabetes,18,1.2,1.05,1.05,10,10,Medium,Shipping Delay
+1396,2024-11-21,Omeprazole,Acid Reflux,23,0.7,0.67,0.67,9,7,Low,None
+1397,2024-11-21,Losartan,Blood Pressure,98,1,0.94,0.94,9,10,High,Shipping Delay
+1398,2024-11-21,Levothyroxine,Thyroid,49,0.8,0.75,0.75,9,11,Low,None
+1399,2024-11-22,Paracetamol,Painkiller,15,0.55,0.52,0.52,7,7,High,Raw Material Shortage
+1400,2024-11-22,Ibuprofen,Painkiller,67,0.75,0.68,0.68,11,10,Medium,Shipping Delay
+1401,2024-11-22,Aspirin,Painkiller,84,0.6,0.51,0.51,8,11,Medium,None
+1402,2024-11-22,Naproxen,Painkiller,92,0.85,0.73,0.73,1,6,Low,Raw Material Shortage
+1403,2024-11-22,Diclofenac,Painkiller,55,0.9,0.83,0.83,1,11,Low,Shipping Delay
+1404,2024-11-22,Amoxicillin,Antibiotic,22,1.3,1.25,1.25,10,9,Low,Raw Material Shortage
+1405,2024-11-22,Azithromycin,Antibiotic,17,1.5,1.38,1.38,15,9,High,Shipping Delay
+1406,2024-11-22,Ciprofloxacin,Antibiotic,71,1.4,1.35,1.35,7,15,Medium,Shipping Delay
+1407,2024-11-22,Doxycycline,Antibiotic,54,1.2,1.09,1.09,0,5,High,Shipping Delay
+1408,2024-11-22,Cetrizine,Antihistamine,79,0.4,0.38,0.38,7,12,Medium,Raw Material Shortage
+1409,2024-11-22,Loratadine,Antihistamine,72,0.45,0.41,0.41,6,15,Low,Raw Material Shortage
+1410,2024-11-22,Fexofenadine,Antihistamine,49,0.5,0.43,0.43,12,6,Medium,Shipping Delay
+1411,2024-11-22,Metformin,Diabetes,33,0.9,0.79,0.79,10,13,Medium,Raw Material Shortage
+1412,2024-11-22,Glimepiride,Diabetes,70,1.1,1.03,1.03,2,5,Low,None
+1413,2024-11-22,Sitagliptin,Diabetes,16,1.6,1.57,1.57,7,13,Medium,Raw Material Shortage
+1414,2024-11-22,Pioglitazone,Diabetes,89,1.2,1.18,1.18,13,7,Medium,Shipping Delay
+1415,2024-11-22,Omeprazole,Acid Reflux,71,0.7,0.6,0.6,2,7,Medium,Shipping Delay
+1416,2024-11-22,Losartan,Blood Pressure,10,1,0.97,0.97,3,14,High,None
+1417,2024-11-22,Levothyroxine,Thyroid,63,0.8,0.72,0.72,10,14,Medium,Shipping Delay
+1418,2024-11-23,Paracetamol,Painkiller,36,0.55,0.51,0.51,1,14,Medium,Raw Material Shortage
+1419,2024-11-23,Ibuprofen,Painkiller,80,0.75,0.68,0.68,9,11,Medium,None
+1420,2024-11-23,Aspirin,Painkiller,17,0.6,0.55,0.55,14,15,High,Shipping Delay
+1421,2024-11-23,Naproxen,Painkiller,49,0.85,0.83,0.83,14,7,High,None
+1422,2024-11-23,Diclofenac,Painkiller,69,0.9,0.89,0.89,0,11,Medium,None
+1423,2024-11-23,Amoxicillin,Antibiotic,70,1.3,1.27,1.27,5,9,Medium,Raw Material Shortage
+1424,2024-11-23,Azithromycin,Antibiotic,25,1.5,1.35,1.35,13,6,Low,None
+1425,2024-11-23,Ciprofloxacin,Antibiotic,93,1.4,1.23,1.23,7,9,High,None
+1426,2024-11-23,Doxycycline,Antibiotic,100,1.2,1.16,1.16,8,8,High,Shipping Delay
+1427,2024-11-23,Cetrizine,Antihistamine,43,0.4,0.35,0.35,6,13,Low,Raw Material Shortage
+1428,2024-11-23,Loratadine,Antihistamine,68,0.45,0.39,0.39,4,6,Medium,Shipping Delay
+1429,2024-11-23,Fexofenadine,Antihistamine,33,0.5,0.45,0.45,0,12,High,None
+1430,2024-11-23,Metformin,Diabetes,24,0.9,0.83,0.83,7,6,Low,None
+1431,2024-11-23,Glimepiride,Diabetes,25,1.1,0.96,0.96,13,6,Medium,Raw Material Shortage
+1432,2024-11-23,Sitagliptin,Diabetes,57,1.6,1.47,1.47,7,14,Low,Shipping Delay
+1433,2024-11-23,Pioglitazone,Diabetes,75,1.2,1.05,1.05,7,8,Low,Shipping Delay
+1434,2024-11-23,Omeprazole,Acid Reflux,65,0.7,0.6,0.6,4,11,High,Raw Material Shortage
+1435,2024-11-23,Losartan,Blood Pressure,76,1,0.94,0.94,0,13,Low,None
+1436,2024-11-23,Levothyroxine,Thyroid,19,0.8,0.8,0.8,8,6,Low,None
+1437,2024-11-24,Paracetamol,Painkiller,21,0.55,0.5,0.5,8,15,Low,Shipping Delay
+1438,2024-11-24,Ibuprofen,Painkiller,84,0.75,0.74,0.74,9,14,High,Shipping Delay
+1439,2024-11-24,Aspirin,Painkiller,64,0.6,0.55,0.55,5,8,Medium,Raw Material Shortage
+1440,2024-11-24,Naproxen,Painkiller,73,0.85,0.78,0.78,2,15,Medium,Shipping Delay
+1441,2024-11-24,Diclofenac,Painkiller,58,0.9,0.89,0.89,6,5,High,Shipping Delay
+1442,2024-11-24,Amoxicillin,Antibiotic,51,1.3,1.23,1.23,8,7,High,Raw Material Shortage
+1443,2024-11-24,Azithromycin,Antibiotic,18,1.5,1.36,1.36,12,8,Medium,None
+1444,2024-11-24,Ciprofloxacin,Antibiotic,82,1.4,1.37,1.37,12,13,High,Shipping Delay
+1445,2024-11-24,Doxycycline,Antibiotic,52,1.2,1.1,1.1,9,12,High,None
+1446,2024-11-24,Cetrizine,Antihistamine,95,0.4,0.34,0.34,15,12,High,None
+1447,2024-11-24,Loratadine,Antihistamine,16,0.45,0.44,0.44,4,7,High,None
+1448,2024-11-24,Fexofenadine,Antihistamine,14,0.5,0.48,0.48,1,13,Low,Shipping Delay
+1449,2024-11-24,Metformin,Diabetes,54,0.9,0.9,0.9,7,8,Low,None
+1450,2024-11-24,Glimepiride,Diabetes,95,1.1,1.1,1.1,4,10,Low,Shipping Delay
+1451,2024-11-24,Sitagliptin,Diabetes,51,1.6,1.4,1.4,14,12,Medium,Shipping Delay
+1452,2024-11-24,Pioglitazone,Diabetes,26,1.2,1.08,1.08,0,14,Low,Shipping Delay
+1453,2024-11-24,Omeprazole,Acid Reflux,29,0.7,0.61,0.61,1,13,High,Raw Material Shortage
+1454,2024-11-24,Losartan,Blood Pressure,28,1,0.94,0.94,6,9,Medium,Shipping Delay
+1455,2024-11-24,Levothyroxine,Thyroid,58,0.8,0.8,0.8,1,11,Medium,Raw Material Shortage
+1456,2024-11-25,Paracetamol,Painkiller,74,0.55,0.52,0.52,4,7,Medium,Raw Material Shortage
+1457,2024-11-25,Ibuprofen,Painkiller,24,0.75,0.66,0.66,4,13,Low,None
+1458,2024-11-25,Aspirin,Painkiller,41,0.6,0.53,0.53,0,7,Medium,Raw Material Shortage
+1459,2024-11-25,Naproxen,Painkiller,50,0.85,0.81,0.81,11,14,Medium,Shipping Delay
+1460,2024-11-25,Diclofenac,Painkiller,52,0.9,0.89,0.89,14,12,Medium,None
+1461,2024-11-25,Amoxicillin,Antibiotic,97,1.3,1.24,1.24,14,11,High,Raw Material Shortage
+1462,2024-11-25,Azithromycin,Antibiotic,79,1.5,1.28,1.28,5,7,Medium,Shipping Delay
+1463,2024-11-25,Ciprofloxacin,Antibiotic,12,1.4,1.22,1.22,2,14,Low,Raw Material Shortage
+1464,2024-11-25,Doxycycline,Antibiotic,11,1.2,1.14,1.14,6,13,Low,None
+1465,2024-11-25,Cetrizine,Antihistamine,41,0.4,0.39,0.39,4,13,Low,Raw Material Shortage
+1466,2024-11-25,Loratadine,Antihistamine,34,0.45,0.39,0.39,10,13,High,Raw Material Shortage
+1467,2024-11-25,Fexofenadine,Antihistamine,16,0.5,0.44,0.44,0,14,High,None
+1468,2024-11-25,Metformin,Diabetes,30,0.9,0.88,0.88,9,13,Low,Raw Material Shortage
+1469,2024-11-25,Glimepiride,Diabetes,37,1.1,1,1,6,12,High,Raw Material Shortage
+1470,2024-11-25,Sitagliptin,Diabetes,59,1.6,1.43,1.43,11,8,High,None
+1471,2024-11-25,Pioglitazone,Diabetes,39,1.2,1.04,1.04,12,12,Low,Raw Material Shortage
+1472,2024-11-25,Omeprazole,Acid Reflux,53,0.7,0.66,0.66,14,13,Medium,Raw Material Shortage
+1473,2024-11-25,Losartan,Blood Pressure,45,1,0.86,0.86,4,12,Low,Shipping Delay
+1474,2024-11-25,Levothyroxine,Thyroid,85,0.8,0.7,0.7,15,6,High,None
+1475,2024-11-26,Paracetamol,Painkiller,13,0.55,0.51,0.51,6,11,High,Shipping Delay
+1476,2024-11-26,Ibuprofen,Painkiller,98,0.75,0.69,0.69,1,15,Low,Shipping Delay
+1477,2024-11-26,Aspirin,Painkiller,46,0.6,0.58,0.58,0,7,Low,Shipping Delay
+1478,2024-11-26,Naproxen,Painkiller,79,0.85,0.75,0.75,11,7,High,Raw Material Shortage
+1479,2024-11-26,Diclofenac,Painkiller,50,0.9,0.79,0.79,13,12,Low,None
+1480,2024-11-26,Amoxicillin,Antibiotic,18,1.3,1.11,1.11,1,8,High,Shipping Delay
+1481,2024-11-26,Azithromycin,Antibiotic,28,1.5,1.32,1.32,9,14,Medium,Shipping Delay
+1482,2024-11-26,Ciprofloxacin,Antibiotic,74,1.4,1.32,1.32,9,13,High,Raw Material Shortage
+1483,2024-11-26,Doxycycline,Antibiotic,12,1.2,1.16,1.16,1,6,High,Shipping Delay
+1484,2024-11-26,Cetrizine,Antihistamine,84,0.4,0.34,0.34,15,10,High,Shipping Delay
+1485,2024-11-26,Loratadine,Antihistamine,18,0.45,0.43,0.43,11,8,Medium,Raw Material Shortage
+1486,2024-11-26,Fexofenadine,Antihistamine,72,0.5,0.46,0.46,0,13,Low,Raw Material Shortage
+1487,2024-11-26,Metformin,Diabetes,90,0.9,0.82,0.82,7,9,High,Raw Material Shortage
+1488,2024-11-26,Glimepiride,Diabetes,73,1.1,1.07,1.07,8,11,High,Shipping Delay
+1489,2024-11-26,Sitagliptin,Diabetes,53,1.6,1.36,1.36,6,6,High,None
+1490,2024-11-26,Pioglitazone,Diabetes,60,1.2,1.1,1.1,15,14,Medium,Shipping Delay
+1491,2024-11-26,Omeprazole,Acid Reflux,65,0.7,0.64,0.64,12,5,Low,Shipping Delay
+1492,2024-11-26,Losartan,Blood Pressure,37,1,0.89,0.89,1,12,Medium,Shipping Delay
+1493,2024-11-26,Levothyroxine,Thyroid,54,0.8,0.75,0.75,14,12,High,Raw Material Shortage
+1494,2024-11-27,Paracetamol,Painkiller,71,0.55,0.49,0.49,8,7,Medium,Shipping Delay
+1495,2024-11-27,Ibuprofen,Painkiller,26,0.75,0.72,0.72,1,15,High,None
+1496,2024-11-27,Aspirin,Painkiller,34,0.6,0.59,0.59,13,15,Medium,Shipping Delay
+1497,2024-11-27,Naproxen,Painkiller,66,0.85,0.81,0.81,14,7,High,Raw Material Shortage
+1498,2024-11-27,Diclofenac,Painkiller,84,0.9,0.8,0.8,8,14,Low,Shipping Delay
+1499,2024-11-27,Amoxicillin,Antibiotic,74,1.3,1.21,1.21,3,12,Low,Raw Material Shortage
+1500,2024-11-27,Azithromycin,Antibiotic,37,1.5,1.37,1.37,2,10,Low,None
+1501,2024-11-27,Ciprofloxacin,Antibiotic,44,1.4,1.21,1.21,9,11,High,None
+1502,2024-11-27,Doxycycline,Antibiotic,58,1.2,1.17,1.17,0,8,Low,Shipping Delay
+1503,2024-11-27,Cetrizine,Antihistamine,36,0.4,0.37,0.37,0,13,Low,Raw Material Shortage
+1504,2024-11-27,Loratadine,Antihistamine,21,0.45,0.43,0.43,9,9,Low,Raw Material Shortage
+1505,2024-11-27,Fexofenadine,Antihistamine,68,0.5,0.43,0.43,14,8,Medium,None
+1506,2024-11-27,Metformin,Diabetes,72,0.9,0.82,0.82,10,12,Low,Raw Material Shortage
+1507,2024-11-27,Glimepiride,Diabetes,91,1.1,1.08,1.08,13,14,High,None
+1508,2024-11-27,Sitagliptin,Diabetes,16,1.6,1.41,1.41,5,13,Medium,Shipping Delay
+1509,2024-11-27,Pioglitazone,Diabetes,90,1.2,1.2,1.2,10,9,Medium,None
+1510,2024-11-27,Omeprazole,Acid Reflux,10,0.7,0.6,0.6,15,15,High,Shipping Delay
+1511,2024-11-27,Losartan,Blood Pressure,12,1,0.96,0.96,14,10,High,None
+1512,2024-11-27,Levothyroxine,Thyroid,12,0.8,0.72,0.72,10,9,High,None
+1513,2024-11-28,Paracetamol,Painkiller,45,0.55,0.47,0.47,10,14,Low,Shipping Delay
+1514,2024-11-28,Ibuprofen,Painkiller,63,0.75,0.7,0.7,8,12,Low,None
+1515,2024-11-28,Aspirin,Painkiller,54,0.6,0.51,0.51,2,12,Medium,Shipping Delay
+1516,2024-11-28,Naproxen,Painkiller,25,0.85,0.78,0.78,11,10,High,Shipping Delay
+1517,2024-11-28,Diclofenac,Painkiller,62,0.9,0.86,0.86,15,14,High,Shipping Delay
+1518,2024-11-28,Amoxicillin,Antibiotic,61,1.3,1.27,1.27,10,15,Medium,Shipping Delay
+1519,2024-11-28,Azithromycin,Antibiotic,78,1.5,1.45,1.45,11,7,Low,Shipping Delay
+1520,2024-11-28,Ciprofloxacin,Antibiotic,88,1.4,1.39,1.39,1,13,Low,Raw Material Shortage
+1521,2024-11-28,Doxycycline,Antibiotic,84,1.2,1.11,1.11,13,5,Low,None
+1522,2024-11-28,Cetrizine,Antihistamine,20,0.4,0.34,0.34,6,9,High,Shipping Delay
+1523,2024-11-28,Loratadine,Antihistamine,58,0.45,0.4,0.4,13,10,Medium,Shipping Delay
+1524,2024-11-28,Fexofenadine,Antihistamine,88,0.5,0.46,0.46,11,12,Medium,Shipping Delay
+1525,2024-11-28,Metformin,Diabetes,23,0.9,0.77,0.77,2,14,Medium,None
+1526,2024-11-28,Glimepiride,Diabetes,73,1.1,0.99,0.99,4,15,Medium,None
+1527,2024-11-28,Sitagliptin,Diabetes,63,1.6,1.38,1.38,14,12,Low,Shipping Delay
+1528,2024-11-28,Pioglitazone,Diabetes,98,1.2,1.1,1.1,13,5,Low,Shipping Delay
+1529,2024-11-28,Omeprazole,Acid Reflux,25,0.7,0.67,0.67,11,8,High,Shipping Delay
+1530,2024-11-28,Losartan,Blood Pressure,91,1,0.88,0.88,9,9,Low,Shipping Delay
+1531,2024-11-28,Levothyroxine,Thyroid,30,0.8,0.74,0.74,15,12,Low,Shipping Delay
+1532,2024-11-29,Paracetamol,Painkiller,40,0.55,0.49,0.49,5,15,High,Shipping Delay
+1533,2024-11-29,Ibuprofen,Painkiller,23,0.75,0.74,0.74,14,9,Low,Shipping Delay
+1534,2024-11-29,Aspirin,Painkiller,21,0.6,0.54,0.54,15,9,High,Shipping Delay
+1535,2024-11-29,Naproxen,Painkiller,64,0.85,0.74,0.74,10,14,Medium,Raw Material Shortage
+1536,2024-11-29,Diclofenac,Painkiller,88,0.9,0.78,0.78,0,10,High,Shipping Delay
+1537,2024-11-29,Amoxicillin,Antibiotic,62,1.3,1.18,1.18,2,5,High,Shipping Delay
+1538,2024-11-29,Azithromycin,Antibiotic,41,1.5,1.42,1.42,2,13,High,Shipping Delay
+1539,2024-11-29,Ciprofloxacin,Antibiotic,15,1.4,1.29,1.29,9,12,High,None
+1540,2024-11-29,Doxycycline,Antibiotic,42,1.2,1.15,1.15,0,10,High,Shipping Delay
+1541,2024-11-29,Cetrizine,Antihistamine,93,0.4,0.37,0.37,6,7,High,Raw Material Shortage
+1542,2024-11-29,Loratadine,Antihistamine,79,0.45,0.4,0.4,2,6,Medium,Shipping Delay
+1543,2024-11-29,Fexofenadine,Antihistamine,61,0.5,0.46,0.46,11,13,Low,None
+1544,2024-11-29,Metformin,Diabetes,82,0.9,0.86,0.86,12,8,High,None
+1545,2024-11-29,Glimepiride,Diabetes,69,1.1,1.01,1.01,14,10,High,Raw Material Shortage
+1546,2024-11-29,Sitagliptin,Diabetes,82,1.6,1.55,1.55,11,5,Medium,None
+1547,2024-11-29,Pioglitazone,Diabetes,80,1.2,1.12,1.12,6,14,High,Raw Material Shortage
+1548,2024-11-29,Omeprazole,Acid Reflux,26,0.7,0.67,0.67,5,6,High,None
+1549,2024-11-29,Losartan,Blood Pressure,55,1,0.86,0.86,0,11,High,Shipping Delay
+1550,2024-11-29,Levothyroxine,Thyroid,21,0.8,0.69,0.69,14,7,Medium,Shipping Delay
+1551,2024-11-30,Paracetamol,Painkiller,95,0.55,0.5,0.5,3,6,High,Raw Material Shortage
+1552,2024-11-30,Ibuprofen,Painkiller,52,0.75,0.67,0.67,5,15,Low,Raw Material Shortage
+1553,2024-11-30,Aspirin,Painkiller,56,0.6,0.53,0.53,15,10,High,Raw Material Shortage
+1554,2024-11-30,Naproxen,Painkiller,31,0.85,0.74,0.74,5,13,High,Shipping Delay
+1555,2024-11-30,Diclofenac,Painkiller,98,0.9,0.78,0.78,12,8,Low,Shipping Delay
+1556,2024-11-30,Amoxicillin,Antibiotic,68,1.3,1.14,1.14,10,13,High,Raw Material Shortage
+1557,2024-11-30,Azithromycin,Antibiotic,38,1.5,1.29,1.29,15,9,Low,Raw Material Shortage
+1558,2024-11-30,Ciprofloxacin,Antibiotic,72,1.4,1.23,1.23,12,13,Low,None
+1559,2024-11-30,Doxycycline,Antibiotic,33,1.2,1.09,1.09,0,11,High,Shipping Delay
+1560,2024-11-30,Cetrizine,Antihistamine,72,0.4,0.37,0.37,10,9,High,None
+1561,2024-11-30,Loratadine,Antihistamine,94,0.45,0.44,0.44,2,8,High,Raw Material Shortage
+1562,2024-11-30,Fexofenadine,Antihistamine,29,0.5,0.48,0.48,7,9,Low,None
+1563,2024-11-30,Metformin,Diabetes,28,0.9,0.78,0.78,2,8,Low,Shipping Delay
+1564,2024-11-30,Glimepiride,Diabetes,81,1.1,1.03,1.03,9,8,Low,Raw Material Shortage
+1565,2024-11-30,Sitagliptin,Diabetes,87,1.6,1.55,1.55,15,12,Low,Shipping Delay
+1566,2024-11-30,Pioglitazone,Diabetes,83,1.2,1.19,1.19,2,12,High,None
+1567,2024-11-30,Omeprazole,Acid Reflux,53,0.7,0.66,0.66,3,7,Medium,None
+1568,2024-11-30,Losartan,Blood Pressure,80,1,0.86,0.86,12,5,Low,Raw Material Shortage
+1569,2024-11-30,Levothyroxine,Thyroid,91,0.8,0.71,0.71,1,11,High,Shipping Delay
+1570,2024-12-01,Paracetamol,Painkiller,90,0.55,0.5,0.5,3,7,High,Shipping Delay
+1571,2024-12-01,Ibuprofen,Painkiller,43,0.75,0.69,0.69,10,14,High,Raw Material Shortage
+1572,2024-12-01,Aspirin,Painkiller,79,0.6,0.59,0.59,0,13,High,None
+1573,2024-12-01,Naproxen,Painkiller,64,0.85,0.78,0.78,4,5,High,None
+1574,2024-12-01,Diclofenac,Painkiller,47,0.9,0.78,0.78,7,9,High,None
+1575,2024-12-01,Amoxicillin,Antibiotic,60,1.3,1.21,1.21,9,10,Low,Shipping Delay
+1576,2024-12-01,Azithromycin,Antibiotic,37,1.5,1.4,1.4,14,14,Medium,Shipping Delay
+1577,2024-12-01,Ciprofloxacin,Antibiotic,41,1.4,1.39,1.39,15,7,Medium,Shipping Delay
+1578,2024-12-01,Doxycycline,Antibiotic,51,1.2,1.03,1.03,2,14,High,Raw Material Shortage
+1579,2024-12-01,Cetrizine,Antihistamine,43,0.4,0.38,0.38,0,15,Low,Raw Material Shortage
+1580,2024-12-01,Loratadine,Antihistamine,96,0.45,0.43,0.43,7,11,Medium,None
+1581,2024-12-01,Fexofenadine,Antihistamine,36,0.5,0.47,0.47,6,14,Low,Shipping Delay
+1582,2024-12-01,Metformin,Diabetes,74,0.9,0.78,0.78,15,6,Medium,None
+1583,2024-12-01,Glimepiride,Diabetes,97,1.1,1.09,1.09,10,7,Medium,Shipping Delay
+1584,2024-12-01,Sitagliptin,Diabetes,58,1.6,1.44,1.44,7,6,Medium,None
+1585,2024-12-01,Pioglitazone,Diabetes,72,1.2,1.2,1.2,13,8,High,Raw Material Shortage
+1586,2024-12-01,Omeprazole,Acid Reflux,13,0.7,0.65,0.65,7,7,Low,Raw Material Shortage
+1587,2024-12-01,Losartan,Blood Pressure,95,1,0.93,0.93,5,15,Low,Raw Material Shortage
+1588,2024-12-01,Levothyroxine,Thyroid,99,0.8,0.7,0.7,9,13,Low,Shipping Delay
+1589,2024-12-02,Paracetamol,Painkiller,17,0.55,0.54,0.54,1,7,Low,Raw Material Shortage
+1590,2024-12-02,Ibuprofen,Painkiller,83,0.75,0.73,0.73,2,10,High,Shipping Delay
+1591,2024-12-02,Aspirin,Painkiller,25,0.6,0.54,0.54,7,10,High,Raw Material Shortage
+1592,2024-12-02,Naproxen,Painkiller,37,0.85,0.8,0.8,13,7,Low,Raw Material Shortage
+1593,2024-12-02,Diclofenac,Painkiller,72,0.9,0.84,0.84,15,13,Low,None
+1594,2024-12-02,Amoxicillin,Antibiotic,68,1.3,1.26,1.26,7,9,Medium,Shipping Delay
+1595,2024-12-02,Azithromycin,Antibiotic,33,1.5,1.35,1.35,5,15,Low,Shipping Delay
+1596,2024-12-02,Ciprofloxacin,Antibiotic,97,1.4,1.37,1.37,12,11,Low,None
+1597,2024-12-02,Doxycycline,Antibiotic,33,1.2,1.06,1.06,10,5,Medium,Raw Material Shortage
+1598,2024-12-02,Cetrizine,Antihistamine,100,0.4,0.39,0.39,5,8,Medium,Shipping Delay
+1599,2024-12-02,Loratadine,Antihistamine,52,0.45,0.42,0.42,11,13,High,None
+1600,2024-12-02,Fexofenadine,Antihistamine,40,0.5,0.49,0.49,1,11,Low,None
+1601,2024-12-02,Metformin,Diabetes,29,0.9,0.85,0.85,8,13,High,None
+1602,2024-12-02,Glimepiride,Diabetes,40,1.1,0.99,0.99,0,11,High,None
+1603,2024-12-02,Sitagliptin,Diabetes,46,1.6,1.5,1.5,2,7,Low,None
+1604,2024-12-02,Pioglitazone,Diabetes,94,1.2,1.07,1.07,3,9,Medium,None
+1605,2024-12-02,Omeprazole,Acid Reflux,72,0.7,0.65,0.65,11,12,High,Shipping Delay
+1606,2024-12-02,Losartan,Blood Pressure,21,1,0.97,0.97,11,12,Low,Raw Material Shortage
+1607,2024-12-02,Levothyroxine,Thyroid,54,0.8,0.79,0.79,8,6,Medium,None
+1608,2024-12-03,Paracetamol,Painkiller,36,0.55,0.51,0.51,1,13,High,Shipping Delay
+1609,2024-12-03,Ibuprofen,Painkiller,80,0.75,0.71,0.71,10,6,High,Shipping Delay
+1610,2024-12-03,Aspirin,Painkiller,36,0.6,0.58,0.58,2,6,Medium,None
+1611,2024-12-03,Naproxen,Painkiller,66,0.85,0.78,0.78,3,8,Medium,Raw Material Shortage
+1612,2024-12-03,Diclofenac,Painkiller,77,0.9,0.78,0.78,3,12,Medium,Raw Material Shortage
+1613,2024-12-03,Amoxicillin,Antibiotic,76,1.3,1.27,1.27,0,11,Medium,Raw Material Shortage
+1614,2024-12-03,Azithromycin,Antibiotic,52,1.5,1.31,1.31,2,5,High,Shipping Delay
+1615,2024-12-03,Ciprofloxacin,Antibiotic,56,1.4,1.2,1.2,5,8,Low,None
+1616,2024-12-03,Doxycycline,Antibiotic,32,1.2,1.11,1.11,12,10,Low,None
+1617,2024-12-03,Cetrizine,Antihistamine,39,0.4,0.34,0.34,14,5,High,Shipping Delay
+1618,2024-12-03,Loratadine,Antihistamine,97,0.45,0.43,0.43,11,15,Medium,Shipping Delay
+1619,2024-12-03,Fexofenadine,Antihistamine,71,0.5,0.45,0.45,10,7,Low,Raw Material Shortage
+1620,2024-12-03,Metformin,Diabetes,48,0.9,0.84,0.84,2,6,Medium,Raw Material Shortage
+1621,2024-12-03,Glimepiride,Diabetes,82,1.1,1.01,1.01,5,11,Low,Shipping Delay
+1622,2024-12-03,Sitagliptin,Diabetes,25,1.6,1.52,1.52,13,14,Medium,Raw Material Shortage
+1623,2024-12-03,Pioglitazone,Diabetes,75,1.2,1.08,1.08,9,5,Medium,None
+1624,2024-12-03,Omeprazole,Acid Reflux,49,0.7,0.63,0.63,8,10,Medium,None
+1625,2024-12-03,Losartan,Blood Pressure,31,1,0.99,0.99,2,5,Medium,Raw Material Shortage
+1626,2024-12-03,Levothyroxine,Thyroid,62,0.8,0.79,0.79,12,11,Medium,None
+1627,2024-12-04,Paracetamol,Painkiller,96,0.55,0.53,0.53,6,8,Low,Shipping Delay
+1628,2024-12-04,Ibuprofen,Painkiller,96,0.75,0.72,0.72,8,9,High,Shipping Delay
+1629,2024-12-04,Aspirin,Painkiller,41,0.6,0.54,0.54,6,7,High,None
+1630,2024-12-04,Naproxen,Painkiller,95,0.85,0.78,0.78,8,13,Low,Shipping Delay
+1631,2024-12-04,Diclofenac,Painkiller,31,0.9,0.89,0.89,13,15,Low,None
+1632,2024-12-04,Amoxicillin,Antibiotic,46,1.3,1.29,1.29,1,10,High,Raw Material Shortage
+1633,2024-12-04,Azithromycin,Antibiotic,60,1.5,1.49,1.49,13,11,Medium,None
+1634,2024-12-04,Ciprofloxacin,Antibiotic,57,1.4,1.37,1.37,8,5,High,None
+1635,2024-12-04,Doxycycline,Antibiotic,93,1.2,1.06,1.06,6,11,High,Raw Material Shortage
+1636,2024-12-04,Cetrizine,Antihistamine,20,0.4,0.38,0.38,4,14,Medium,None
+1637,2024-12-04,Loratadine,Antihistamine,17,0.45,0.4,0.4,15,10,Medium,None
+1638,2024-12-04,Fexofenadine,Antihistamine,19,0.5,0.43,0.43,1,7,High,None
+1639,2024-12-04,Metformin,Diabetes,12,0.9,0.77,0.77,14,10,Low,None
+1640,2024-12-04,Glimepiride,Diabetes,36,1.1,0.94,0.94,13,5,High,Raw Material Shortage
+1641,2024-12-04,Sitagliptin,Diabetes,14,1.6,1.38,1.38,8,11,High,Shipping Delay
+1642,2024-12-04,Pioglitazone,Diabetes,76,1.2,1.07,1.07,12,8,Medium,Raw Material Shortage
+1643,2024-12-04,Omeprazole,Acid Reflux,47,0.7,0.66,0.66,14,6,Low,Shipping Delay
+1644,2024-12-04,Losartan,Blood Pressure,29,1,0.92,0.92,10,11,Medium,Shipping Delay
+1645,2024-12-04,Levothyroxine,Thyroid,53,0.8,0.72,0.72,4,6,High,Raw Material Shortage
+1646,2024-12-05,Paracetamol,Painkiller,15,0.55,0.54,0.54,8,7,Low,None
+1647,2024-12-05,Ibuprofen,Painkiller,71,0.75,0.74,0.74,2,12,High,Shipping Delay
+1648,2024-12-05,Aspirin,Painkiller,12,0.6,0.58,0.58,8,13,Low,None
+1649,2024-12-05,Naproxen,Painkiller,64,0.85,0.82,0.82,15,7,Medium,None
+1650,2024-12-05,Diclofenac,Painkiller,61,0.9,0.88,0.88,1,15,Low,Shipping Delay
+1651,2024-12-05,Amoxicillin,Antibiotic,39,1.3,1.27,1.27,4,6,Low,None
+1652,2024-12-05,Azithromycin,Antibiotic,100,1.5,1.44,1.44,1,6,Medium,None
+1653,2024-12-05,Ciprofloxacin,Antibiotic,14,1.4,1.37,1.37,1,6,Low,None
+1654,2024-12-05,Doxycycline,Antibiotic,11,1.2,1.17,1.17,4,15,Medium,Shipping Delay
+1655,2024-12-05,Cetrizine,Antihistamine,55,0.4,0.38,0.38,6,8,Medium,Shipping Delay
+1656,2024-12-05,Loratadine,Antihistamine,53,0.45,0.39,0.39,3,13,High,None
+1657,2024-12-05,Fexofenadine,Antihistamine,46,0.5,0.45,0.45,1,14,Medium,Raw Material Shortage
+1658,2024-12-05,Metformin,Diabetes,80,0.9,0.82,0.82,1,10,Medium,Raw Material Shortage
+1659,2024-12-05,Glimepiride,Diabetes,25,1.1,1.04,1.04,6,11,Low,Raw Material Shortage
+1660,2024-12-05,Sitagliptin,Diabetes,65,1.6,1.48,1.48,5,9,High,None
+1661,2024-12-05,Pioglitazone,Diabetes,13,1.2,1.08,1.08,11,12,High,None
+1662,2024-12-05,Omeprazole,Acid Reflux,42,0.7,0.64,0.64,8,13,Medium,Raw Material Shortage
+1663,2024-12-05,Losartan,Blood Pressure,54,1,0.95,0.95,15,5,Medium,None
+1664,2024-12-05,Levothyroxine,Thyroid,26,0.8,0.7,0.7,8,9,High,Raw Material Shortage
+1665,2024-12-06,Paracetamol,Painkiller,67,0.55,0.51,0.51,8,8,Low,None
+1666,2024-12-06,Ibuprofen,Painkiller,51,0.75,0.7,0.7,8,6,Low,Raw Material Shortage
+1667,2024-12-06,Aspirin,Painkiller,24,0.6,0.53,0.53,5,13,Medium,Shipping Delay
+1668,2024-12-06,Naproxen,Painkiller,60,0.85,0.76,0.76,11,5,Low,Raw Material Shortage
+1669,2024-12-06,Diclofenac,Painkiller,29,0.9,0.83,0.83,6,13,Low,Shipping Delay
+1670,2024-12-06,Amoxicillin,Antibiotic,86,1.3,1.17,1.17,2,8,Low,Shipping Delay
+1671,2024-12-06,Azithromycin,Antibiotic,71,1.5,1.48,1.48,5,10,Medium,Shipping Delay
+1672,2024-12-06,Ciprofloxacin,Antibiotic,22,1.4,1.3,1.3,13,7,High,Shipping Delay
+1673,2024-12-06,Doxycycline,Antibiotic,33,1.2,1.05,1.05,4,10,Low,Shipping Delay
+1674,2024-12-06,Cetrizine,Antihistamine,23,0.4,0.36,0.36,7,10,Medium,Raw Material Shortage
+1675,2024-12-06,Loratadine,Antihistamine,51,0.45,0.41,0.41,1,15,High,Raw Material Shortage
+1676,2024-12-06,Fexofenadine,Antihistamine,89,0.5,0.44,0.44,10,9,Low,Shipping Delay
+1677,2024-12-06,Metformin,Diabetes,13,0.9,0.89,0.89,5,14,High,Raw Material Shortage
+1678,2024-12-06,Glimepiride,Diabetes,84,1.1,1,1,2,7,Low,None
+1679,2024-12-06,Sitagliptin,Diabetes,99,1.6,1.54,1.54,1,8,High,Shipping Delay
+1680,2024-12-06,Pioglitazone,Diabetes,41,1.2,1.03,1.03,11,5,Low,Raw Material Shortage
+1681,2024-12-06,Omeprazole,Acid Reflux,43,0.7,0.6,0.6,0,10,Low,Shipping Delay
+1682,2024-12-06,Losartan,Blood Pressure,60,1,0.97,0.97,8,14,Low,None
+1683,2024-12-06,Levothyroxine,Thyroid,49,0.8,0.79,0.79,12,15,Low,Raw Material Shortage
+1684,2024-12-07,Paracetamol,Painkiller,63,0.55,0.49,0.49,14,9,Low,Raw Material Shortage
+1685,2024-12-07,Ibuprofen,Painkiller,22,0.75,0.75,0.75,14,5,High,Raw Material Shortage
+1686,2024-12-07,Aspirin,Painkiller,81,0.6,0.53,0.53,3,8,Low,Shipping Delay
+1687,2024-12-07,Naproxen,Painkiller,30,0.85,0.79,0.79,7,15,High,None
+1688,2024-12-07,Diclofenac,Painkiller,99,0.9,0.79,0.79,8,10,High,Raw Material Shortage
+1689,2024-12-07,Amoxicillin,Antibiotic,31,1.3,1.11,1.11,0,12,Low,None
+1690,2024-12-07,Azithromycin,Antibiotic,76,1.5,1.42,1.42,4,14,High,None
+1691,2024-12-07,Ciprofloxacin,Antibiotic,28,1.4,1.21,1.21,11,10,Low,None
+1692,2024-12-07,Doxycycline,Antibiotic,46,1.2,1.08,1.08,11,11,Medium,None
+1693,2024-12-07,Cetrizine,Antihistamine,79,0.4,0.38,0.38,1,5,Medium,Raw Material Shortage
+1694,2024-12-07,Loratadine,Antihistamine,17,0.45,0.44,0.44,7,7,High,None
+1695,2024-12-07,Fexofenadine,Antihistamine,26,0.5,0.47,0.47,10,12,High,Shipping Delay
+1696,2024-12-07,Metformin,Diabetes,45,0.9,0.78,0.78,1,8,Medium,Raw Material Shortage
+1697,2024-12-07,Glimepiride,Diabetes,66,1.1,0.97,0.97,12,5,High,Raw Material Shortage
+1698,2024-12-07,Sitagliptin,Diabetes,11,1.6,1.56,1.56,13,13,Low,Raw Material Shortage
+1699,2024-12-07,Pioglitazone,Diabetes,23,1.2,1.05,1.05,2,14,High,Raw Material Shortage
+1700,2024-12-07,Omeprazole,Acid Reflux,13,0.7,0.65,0.65,8,6,High,Raw Material Shortage
+1701,2024-12-07,Losartan,Blood Pressure,47,1,0.97,0.97,7,13,Medium,None
+1702,2024-12-07,Levothyroxine,Thyroid,32,0.8,0.76,0.76,1,5,Medium,Shipping Delay
+1703,2024-12-08,Paracetamol,Painkiller,93,0.55,0.53,0.53,4,10,Low,Shipping Delay
+1704,2024-12-08,Ibuprofen,Painkiller,77,0.75,0.69,0.69,3,14,High,Raw Material Shortage
+1705,2024-12-08,Aspirin,Painkiller,53,0.6,0.55,0.55,5,5,Medium,Raw Material Shortage
+1706,2024-12-08,Naproxen,Painkiller,70,0.85,0.8,0.8,4,14,Low,Raw Material Shortage
+1707,2024-12-08,Diclofenac,Painkiller,79,0.9,0.82,0.82,1,10,High,Shipping Delay
+1708,2024-12-08,Amoxicillin,Antibiotic,65,1.3,1.14,1.14,9,12,Medium,Shipping Delay
+1709,2024-12-08,Azithromycin,Antibiotic,91,1.5,1.42,1.42,0,13,High,Shipping Delay
+1710,2024-12-08,Ciprofloxacin,Antibiotic,10,1.4,1.21,1.21,1,8,Medium,Raw Material Shortage
+1711,2024-12-08,Doxycycline,Antibiotic,81,1.2,1.03,1.03,7,9,High,Raw Material Shortage
+1712,2024-12-08,Cetrizine,Antihistamine,16,0.4,0.39,0.39,4,13,Low,Shipping Delay
+1713,2024-12-08,Loratadine,Antihistamine,15,0.45,0.45,0.45,12,5,High,Shipping Delay
+1714,2024-12-08,Fexofenadine,Antihistamine,59,0.5,0.45,0.45,7,8,Medium,Raw Material Shortage
+1715,2024-12-08,Metformin,Diabetes,41,0.9,0.9,0.9,10,5,Medium,None
+1716,2024-12-08,Glimepiride,Diabetes,26,1.1,0.96,0.96,2,15,Medium,Raw Material Shortage
+1717,2024-12-08,Sitagliptin,Diabetes,85,1.6,1.57,1.57,8,14,High,None
+1718,2024-12-08,Pioglitazone,Diabetes,73,1.2,1.19,1.19,7,10,Low,None
+1719,2024-12-08,Omeprazole,Acid Reflux,45,0.7,0.68,0.68,3,11,Low,Raw Material Shortage
+1720,2024-12-08,Losartan,Blood Pressure,87,1,0.96,0.96,5,15,Low,None
+1721,2024-12-08,Levothyroxine,Thyroid,80,0.8,0.78,0.78,12,5,Medium,Shipping Delay
+1722,2024-12-09,Paracetamol,Painkiller,15,0.55,0.55,0.55,3,7,Medium,Shipping Delay
+1723,2024-12-09,Ibuprofen,Painkiller,21,0.75,0.75,0.75,13,10,Medium,None
+1724,2024-12-09,Aspirin,Painkiller,79,0.6,0.58,0.58,9,13,High,None
+1725,2024-12-09,Naproxen,Painkiller,77,0.85,0.75,0.75,7,6,Medium,Raw Material Shortage
+1726,2024-12-09,Diclofenac,Painkiller,54,0.9,0.77,0.77,5,12,Low,None
+1727,2024-12-09,Amoxicillin,Antibiotic,100,1.3,1.19,1.19,7,12,Low,None
+1728,2024-12-09,Azithromycin,Antibiotic,44,1.5,1.36,1.36,4,9,High,Raw Material Shortage
+1729,2024-12-09,Ciprofloxacin,Antibiotic,14,1.4,1.35,1.35,5,12,Medium,Shipping Delay
+1730,2024-12-09,Doxycycline,Antibiotic,97,1.2,1.19,1.19,0,9,Low,Shipping Delay
+1731,2024-12-09,Cetrizine,Antihistamine,43,0.4,0.36,0.36,12,9,Low,None
+1732,2024-12-09,Loratadine,Antihistamine,10,0.45,0.45,0.45,3,9,High,Raw Material Shortage
+1733,2024-12-09,Fexofenadine,Antihistamine,94,0.5,0.49,0.49,12,5,High,Raw Material Shortage
+1734,2024-12-09,Metformin,Diabetes,77,0.9,0.78,0.78,12,5,Low,Shipping Delay
+1735,2024-12-09,Glimepiride,Diabetes,32,1.1,1.08,1.08,1,9,Low,None
+1736,2024-12-09,Sitagliptin,Diabetes,100,1.6,1.58,1.58,14,13,Medium,Raw Material Shortage
+1737,2024-12-09,Pioglitazone,Diabetes,42,1.2,1.19,1.19,14,8,High,None
+1738,2024-12-09,Omeprazole,Acid Reflux,91,0.7,0.66,0.66,5,10,Medium,Raw Material Shortage
+1739,2024-12-09,Losartan,Blood Pressure,13,1,0.91,0.91,8,5,Low,None
+1740,2024-12-09,Levothyroxine,Thyroid,68,0.8,0.79,0.79,7,10,Medium,Raw Material Shortage
+1741,2024-12-10,Paracetamol,Painkiller,60,0.55,0.48,0.48,11,8,Low,Shipping Delay
+1742,2024-12-10,Ibuprofen,Painkiller,59,0.75,0.66,0.66,11,11,Medium,Shipping Delay
+1743,2024-12-10,Aspirin,Painkiller,96,0.6,0.55,0.55,13,10,Low,Raw Material Shortage
+1744,2024-12-10,Naproxen,Painkiller,26,0.85,0.78,0.78,4,8,High,Raw Material Shortage
+1745,2024-12-10,Diclofenac,Painkiller,49,0.9,0.78,0.78,0,8,Low,Shipping Delay
+1746,2024-12-10,Amoxicillin,Antibiotic,94,1.3,1.15,1.15,7,9,High,Raw Material Shortage
+1747,2024-12-10,Azithromycin,Antibiotic,30,1.5,1.47,1.47,13,10,High,Raw Material Shortage
+1748,2024-12-10,Ciprofloxacin,Antibiotic,83,1.4,1.36,1.36,6,15,High,Shipping Delay
+1749,2024-12-10,Doxycycline,Antibiotic,66,1.2,1.12,1.12,0,11,Low,Raw Material Shortage
+1750,2024-12-10,Cetrizine,Antihistamine,55,0.4,0.37,0.37,9,10,Low,Shipping Delay
+1751,2024-12-10,Loratadine,Antihistamine,91,0.45,0.42,0.42,12,6,Medium,Shipping Delay
+1752,2024-12-10,Fexofenadine,Antihistamine,37,0.5,0.48,0.48,6,12,Medium,None
+1753,2024-12-10,Metformin,Diabetes,22,0.9,0.8,0.8,10,6,High,Shipping Delay
+1754,2024-12-10,Glimepiride,Diabetes,15,1.1,0.95,0.95,15,7,Low,Raw Material Shortage
+1755,2024-12-10,Sitagliptin,Diabetes,64,1.6,1.51,1.51,15,9,High,Shipping Delay
+1756,2024-12-10,Pioglitazone,Diabetes,61,1.2,1.09,1.09,12,8,High,Raw Material Shortage
+1757,2024-12-10,Omeprazole,Acid Reflux,27,0.7,0.62,0.62,3,7,Low,Raw Material Shortage
+1758,2024-12-10,Losartan,Blood Pressure,26,1,0.91,0.91,8,11,Low,None
+1759,2024-12-10,Levothyroxine,Thyroid,47,0.8,0.7,0.7,12,10,Low,Shipping Delay
+1760,2024-12-11,Paracetamol,Painkiller,57,0.55,0.5,0.5,13,5,High,Shipping Delay
+1761,2024-12-11,Ibuprofen,Painkiller,63,0.75,0.68,0.68,10,14,High,Raw Material Shortage
+1762,2024-12-11,Aspirin,Painkiller,36,0.6,0.6,0.6,13,14,High,Shipping Delay
+1763,2024-12-11,Naproxen,Painkiller,91,0.85,0.79,0.79,4,7,Low,None
+1764,2024-12-11,Diclofenac,Painkiller,66,0.9,0.85,0.85,11,7,High,Raw Material Shortage
+1765,2024-12-11,Amoxicillin,Antibiotic,60,1.3,1.18,1.18,15,5,Medium,Raw Material Shortage
+1766,2024-12-11,Azithromycin,Antibiotic,44,1.5,1.29,1.29,1,8,Medium,Shipping Delay
+1767,2024-12-11,Ciprofloxacin,Antibiotic,73,1.4,1.29,1.29,12,13,Low,Shipping Delay
+1768,2024-12-11,Doxycycline,Antibiotic,72,1.2,1.06,1.06,7,13,Medium,Shipping Delay
+1769,2024-12-11,Cetrizine,Antihistamine,53,0.4,0.37,0.37,7,13,Medium,Shipping Delay
+1770,2024-12-11,Loratadine,Antihistamine,43,0.45,0.42,0.42,12,12,Medium,None
+1771,2024-12-11,Fexofenadine,Antihistamine,13,0.5,0.44,0.44,0,6,Medium,Shipping Delay
+1772,2024-12-11,Metformin,Diabetes,28,0.9,0.8,0.8,0,5,Medium,Shipping Delay
+1773,2024-12-11,Glimepiride,Diabetes,60,1.1,1.05,1.05,6,10,Low,Shipping Delay
+1774,2024-12-11,Sitagliptin,Diabetes,73,1.6,1.58,1.58,15,14,High,Shipping Delay
+1775,2024-12-11,Pioglitazone,Diabetes,44,1.2,1.17,1.17,1,13,Low,Shipping Delay
+1776,2024-12-11,Omeprazole,Acid Reflux,63,0.7,0.7,0.7,3,11,High,Raw Material Shortage
+1777,2024-12-11,Losartan,Blood Pressure,66,1,0.88,0.88,12,15,High,Raw Material Shortage
+1778,2024-12-11,Levothyroxine,Thyroid,75,0.8,0.77,0.77,14,9,Medium,Shipping Delay
+1779,2024-12-12,Paracetamol,Painkiller,18,0.55,0.5,0.5,5,5,Low,None
+1780,2024-12-12,Ibuprofen,Painkiller,62,0.75,0.64,0.64,1,12,Low,Shipping Delay
+1781,2024-12-12,Aspirin,Painkiller,43,0.6,0.57,0.57,13,14,High,Raw Material Shortage
+1782,2024-12-12,Naproxen,Painkiller,32,0.85,0.78,0.78,1,12,Low,Shipping Delay
+1783,2024-12-12,Diclofenac,Painkiller,24,0.9,0.9,0.9,14,13,High,Shipping Delay
+1784,2024-12-12,Amoxicillin,Antibiotic,52,1.3,1.3,1.3,0,15,High,Raw Material Shortage
+1785,2024-12-12,Azithromycin,Antibiotic,29,1.5,1.49,1.49,15,10,Medium,None
+1786,2024-12-12,Ciprofloxacin,Antibiotic,47,1.4,1.38,1.38,7,6,Medium,Shipping Delay
+1787,2024-12-12,Doxycycline,Antibiotic,98,1.2,1.03,1.03,6,13,Medium,Shipping Delay
+1788,2024-12-12,Cetrizine,Antihistamine,30,0.4,0.34,0.34,13,11,Low,None
+1789,2024-12-12,Loratadine,Antihistamine,41,0.45,0.42,0.42,15,6,Low,Raw Material Shortage
+1790,2024-12-12,Fexofenadine,Antihistamine,41,0.5,0.47,0.47,15,7,Medium,Raw Material Shortage
+1791,2024-12-12,Metformin,Diabetes,37,0.9,0.85,0.85,1,12,Medium,Shipping Delay
+1792,2024-12-12,Glimepiride,Diabetes,66,1.1,1.04,1.04,8,10,Medium,None
+1793,2024-12-12,Sitagliptin,Diabetes,22,1.6,1.42,1.42,12,11,Low,Raw Material Shortage
+1794,2024-12-12,Pioglitazone,Diabetes,71,1.2,1.05,1.05,4,5,High,Raw Material Shortage
+1795,2024-12-12,Omeprazole,Acid Reflux,18,0.7,0.66,0.66,2,15,Medium,Shipping Delay
+1796,2024-12-12,Losartan,Blood Pressure,90,1,0.96,0.96,1,14,Medium,Shipping Delay
+1797,2024-12-12,Levothyroxine,Thyroid,51,0.8,0.73,0.73,1,13,High,Shipping Delay
+1798,2024-12-13,Paracetamol,Painkiller,71,0.55,0.5,0.5,12,15,Low,Shipping Delay
+1799,2024-12-13,Ibuprofen,Painkiller,67,0.75,0.73,0.73,14,15,Low,None
+1800,2024-12-13,Aspirin,Painkiller,44,0.6,0.58,0.58,4,12,Low,None
+1801,2024-12-13,Naproxen,Painkiller,43,0.85,0.74,0.74,2,10,Low,Shipping Delay
+1802,2024-12-13,Diclofenac,Painkiller,72,0.9,0.77,0.77,8,7,High,None
+1803,2024-12-13,Amoxicillin,Antibiotic,21,1.3,1.11,1.11,1,9,Low,Raw Material Shortage
+1804,2024-12-13,Azithromycin,Antibiotic,12,1.5,1.3,1.3,14,5,High,Raw Material Shortage
+1805,2024-12-13,Ciprofloxacin,Antibiotic,62,1.4,1.38,1.38,0,6,High,Shipping Delay
+1806,2024-12-13,Doxycycline,Antibiotic,98,1.2,1.06,1.06,15,9,Low,Raw Material Shortage
+1807,2024-12-13,Cetrizine,Antihistamine,30,0.4,0.35,0.35,0,10,Low,Shipping Delay
+1808,2024-12-13,Loratadine,Antihistamine,67,0.45,0.44,0.44,0,8,Low,Shipping Delay
+1809,2024-12-13,Fexofenadine,Antihistamine,92,0.5,0.45,0.45,12,15,Low,Shipping Delay
+1810,2024-12-13,Metformin,Diabetes,100,0.9,0.83,0.83,7,15,Low,Shipping Delay
+1811,2024-12-13,Glimepiride,Diabetes,72,1.1,1,1,10,10,High,Shipping Delay
+1812,2024-12-13,Sitagliptin,Diabetes,88,1.6,1.46,1.46,1,7,Medium,None
+1813,2024-12-13,Pioglitazone,Diabetes,81,1.2,1.17,1.17,1,13,Medium,Shipping Delay
+1814,2024-12-13,Omeprazole,Acid Reflux,97,0.7,0.66,0.66,9,7,Medium,None
+1815,2024-12-13,Losartan,Blood Pressure,39,1,0.86,0.86,9,12,Medium,Raw Material Shortage
+1816,2024-12-13,Levothyroxine,Thyroid,71,0.8,0.76,0.76,3,13,High,Raw Material Shortage
+1817,2024-12-14,Paracetamol,Painkiller,41,0.55,0.55,0.55,12,7,High,None
+1818,2024-12-14,Ibuprofen,Painkiller,41,0.75,0.67,0.67,14,13,Medium,Raw Material Shortage
+1819,2024-12-14,Aspirin,Painkiller,43,0.6,0.59,0.59,2,5,Low,Raw Material Shortage
+1820,2024-12-14,Naproxen,Painkiller,74,0.85,0.76,0.76,7,15,High,None
+1821,2024-12-14,Diclofenac,Painkiller,98,0.9,0.88,0.88,0,15,Low,Shipping Delay
+1822,2024-12-14,Amoxicillin,Antibiotic,30,1.3,1.21,1.21,12,12,Medium,Shipping Delay
+1823,2024-12-14,Azithromycin,Antibiotic,34,1.5,1.36,1.36,9,5,Low,Shipping Delay
+1824,2024-12-14,Ciprofloxacin,Antibiotic,62,1.4,1.36,1.36,9,14,High,Shipping Delay
+1825,2024-12-14,Doxycycline,Antibiotic,18,1.2,1.14,1.14,5,5,High,Shipping Delay
+1826,2024-12-14,Cetrizine,Antihistamine,76,0.4,0.37,0.37,9,11,Medium,Shipping Delay
+1827,2024-12-14,Loratadine,Antihistamine,65,0.45,0.43,0.43,10,9,Medium,Shipping Delay
+1828,2024-12-14,Fexofenadine,Antihistamine,50,0.5,0.49,0.49,9,11,Low,Shipping Delay
+1829,2024-12-14,Metformin,Diabetes,57,0.9,0.82,0.82,4,13,Low,None
+1830,2024-12-14,Glimepiride,Diabetes,38,1.1,0.94,0.94,14,12,Low,Raw Material Shortage
+1831,2024-12-14,Sitagliptin,Diabetes,22,1.6,1.39,1.39,9,7,Low,Shipping Delay
+1832,2024-12-14,Pioglitazone,Diabetes,92,1.2,1.03,1.03,12,5,Medium,Shipping Delay
+1833,2024-12-14,Omeprazole,Acid Reflux,60,0.7,0.67,0.67,15,7,High,Shipping Delay
+1834,2024-12-14,Losartan,Blood Pressure,77,1,0.93,0.93,2,7,Medium,Shipping Delay
+1835,2024-12-14,Levothyroxine,Thyroid,84,0.8,0.73,0.73,4,13,Low,None
+1836,2024-12-15,Paracetamol,Painkiller,36,0.55,0.5,0.5,5,12,Low,Shipping Delay
+1837,2024-12-15,Ibuprofen,Painkiller,81,0.75,0.72,0.72,13,10,Medium,Shipping Delay
+1838,2024-12-15,Aspirin,Painkiller,62,0.6,0.54,0.54,10,7,High,None
+1839,2024-12-15,Naproxen,Painkiller,23,0.85,0.84,0.84,4,15,Medium,Raw Material Shortage
+1840,2024-12-15,Diclofenac,Painkiller,84,0.9,0.77,0.77,12,9,Low,Shipping Delay
+1841,2024-12-15,Amoxicillin,Antibiotic,64,1.3,1.21,1.21,9,11,High,Shipping Delay
+1842,2024-12-15,Azithromycin,Antibiotic,59,1.5,1.38,1.38,13,6,Low,Shipping Delay
+1843,2024-12-15,Ciprofloxacin,Antibiotic,19,1.4,1.24,1.24,2,12,Low,Raw Material Shortage
+1844,2024-12-15,Doxycycline,Antibiotic,68,1.2,1.15,1.15,11,10,Medium,Raw Material Shortage
+1845,2024-12-15,Cetrizine,Antihistamine,80,0.4,0.34,0.34,2,7,Low,Shipping Delay
+1846,2024-12-15,Loratadine,Antihistamine,26,0.45,0.39,0.39,14,15,Medium,Shipping Delay
+1847,2024-12-15,Fexofenadine,Antihistamine,24,0.5,0.46,0.46,1,11,Low,None
+1848,2024-12-15,Metformin,Diabetes,48,0.9,0.82,0.82,6,6,Low,Raw Material Shortage
+1849,2024-12-15,Glimepiride,Diabetes,76,1.1,1.04,1.04,5,7,High,Shipping Delay
+1850,2024-12-15,Sitagliptin,Diabetes,53,1.6,1.54,1.54,15,11,High,None
+1851,2024-12-15,Pioglitazone,Diabetes,44,1.2,1.09,1.09,6,7,Low,Shipping Delay
+1852,2024-12-15,Omeprazole,Acid Reflux,40,0.7,0.66,0.66,0,10,High,Raw Material Shortage
+1853,2024-12-15,Losartan,Blood Pressure,97,1,0.86,0.86,6,14,Low,None
+1854,2024-12-15,Levothyroxine,Thyroid,38,0.8,0.74,0.74,6,14,Low,Shipping Delay
+1855,2024-12-16,Paracetamol,Painkiller,98,0.55,0.52,0.52,15,15,High,Shipping Delay
+1856,2024-12-16,Ibuprofen,Painkiller,69,0.75,0.73,0.73,1,11,Medium,Shipping Delay
+1857,2024-12-16,Aspirin,Painkiller,100,0.6,0.6,0.6,15,8,High,Shipping Delay
+1858,2024-12-16,Naproxen,Painkiller,30,0.85,0.82,0.82,5,12,Medium,Raw Material Shortage
+1859,2024-12-16,Diclofenac,Painkiller,50,0.9,0.79,0.79,2,12,High,None
+1860,2024-12-16,Amoxicillin,Antibiotic,78,1.3,1.13,1.13,12,6,High,None
+1861,2024-12-16,Azithromycin,Antibiotic,60,1.5,1.37,1.37,4,5,Low,Shipping Delay
+1862,2024-12-16,Ciprofloxacin,Antibiotic,53,1.4,1.39,1.39,1,13,High,None
+1863,2024-12-16,Doxycycline,Antibiotic,42,1.2,1.06,1.06,11,9,Medium,Shipping Delay
+1864,2024-12-16,Cetrizine,Antihistamine,41,0.4,0.37,0.37,15,7,Medium,None
+1865,2024-12-16,Loratadine,Antihistamine,72,0.45,0.41,0.41,4,5,Medium,Raw Material Shortage
+1866,2024-12-16,Fexofenadine,Antihistamine,48,0.5,0.47,0.47,14,13,High,Raw Material Shortage
+1867,2024-12-16,Metformin,Diabetes,30,0.9,0.77,0.77,15,11,Low,Raw Material Shortage
+1868,2024-12-16,Glimepiride,Diabetes,62,1.1,0.95,0.95,7,7,Low,None
+1869,2024-12-16,Sitagliptin,Diabetes,57,1.6,1.54,1.54,10,7,Medium,None
+1870,2024-12-16,Pioglitazone,Diabetes,56,1.2,1.16,1.16,10,7,Low,Shipping Delay
+1871,2024-12-16,Omeprazole,Acid Reflux,25,0.7,0.69,0.69,8,13,Medium,None
+1872,2024-12-16,Losartan,Blood Pressure,11,1,0.94,0.94,8,9,Low,None
+1873,2024-12-16,Levothyroxine,Thyroid,44,0.8,0.75,0.75,3,8,Low,None
+1874,2024-12-17,Paracetamol,Painkiller,29,0.55,0.53,0.53,15,13,Low,Raw Material Shortage
+1875,2024-12-17,Ibuprofen,Painkiller,90,0.75,0.66,0.66,0,15,Medium,Raw Material Shortage
+1876,2024-12-17,Aspirin,Painkiller,57,0.6,0.54,0.54,2,11,Low,Shipping Delay
+1877,2024-12-17,Naproxen,Painkiller,34,0.85,0.84,0.84,12,15,Medium,None
+1878,2024-12-17,Diclofenac,Painkiller,33,0.9,0.81,0.81,0,12,Low,Shipping Delay
+1879,2024-12-17,Amoxicillin,Antibiotic,73,1.3,1.28,1.28,9,13,Medium,Shipping Delay
+1880,2024-12-17,Azithromycin,Antibiotic,23,1.5,1.41,1.41,5,15,Low,None
+1881,2024-12-17,Ciprofloxacin,Antibiotic,51,1.4,1.39,1.39,1,14,Medium,Shipping Delay
+1882,2024-12-17,Doxycycline,Antibiotic,30,1.2,1.19,1.19,0,8,Medium,Raw Material Shortage
+1883,2024-12-17,Cetrizine,Antihistamine,60,0.4,0.34,0.34,6,5,Medium,Shipping Delay
+1884,2024-12-17,Loratadine,Antihistamine,95,0.45,0.43,0.43,8,5,Medium,Shipping Delay
+1885,2024-12-17,Fexofenadine,Antihistamine,94,0.5,0.44,0.44,3,6,High,None
+1886,2024-12-17,Metformin,Diabetes,18,0.9,0.84,0.84,8,12,Medium,Shipping Delay
+1887,2024-12-17,Glimepiride,Diabetes,64,1.1,0.98,0.98,11,14,Medium,Shipping Delay
+1888,2024-12-17,Sitagliptin,Diabetes,69,1.6,1.51,1.51,1,10,Low,Shipping Delay
+1889,2024-12-17,Pioglitazone,Diabetes,79,1.2,1.13,1.13,6,15,Low,None
+1890,2024-12-17,Omeprazole,Acid Reflux,99,0.7,0.67,0.67,2,11,Medium,Raw Material Shortage
+1891,2024-12-17,Losartan,Blood Pressure,66,1,0.87,0.87,4,12,Low,None
+1892,2024-12-17,Levothyroxine,Thyroid,65,0.8,0.7,0.7,12,12,High,Shipping Delay
+1893,2024-12-18,Paracetamol,Painkiller,92,0.55,0.49,0.49,15,13,Low,None
+1894,2024-12-18,Ibuprofen,Painkiller,10,0.75,0.65,0.65,7,12,Low,Shipping Delay
+1895,2024-12-18,Aspirin,Painkiller,48,0.6,0.56,0.56,1,10,Low,Shipping Delay
+1896,2024-12-18,Naproxen,Painkiller,89,0.85,0.82,0.82,14,5,Medium,None
+1897,2024-12-18,Diclofenac,Painkiller,77,0.9,0.77,0.77,8,9,Medium,Shipping Delay
+1898,2024-12-18,Amoxicillin,Antibiotic,58,1.3,1.15,1.15,1,7,Medium,Raw Material Shortage
+1899,2024-12-18,Azithromycin,Antibiotic,46,1.5,1.28,1.28,0,5,Low,Raw Material Shortage
+1900,2024-12-18,Ciprofloxacin,Antibiotic,29,1.4,1.2,1.2,12,9,High,None
+1901,2024-12-18,Doxycycline,Antibiotic,30,1.2,1.05,1.05,9,11,Low,Shipping Delay
+1902,2024-12-18,Cetrizine,Antihistamine,24,0.4,0.39,0.39,5,14,Low,Raw Material Shortage
+1903,2024-12-18,Loratadine,Antihistamine,64,0.45,0.44,0.44,10,6,High,Raw Material Shortage
+1904,2024-12-18,Fexofenadine,Antihistamine,84,0.5,0.48,0.48,2,7,High,Raw Material Shortage
+1905,2024-12-18,Metformin,Diabetes,48,0.9,0.88,0.88,9,11,Medium,Raw Material Shortage
+1906,2024-12-18,Glimepiride,Diabetes,14,1.1,1.09,1.09,13,6,Medium,Raw Material Shortage
+1907,2024-12-18,Sitagliptin,Diabetes,71,1.6,1.53,1.53,11,9,Medium,None
+1908,2024-12-18,Pioglitazone,Diabetes,48,1.2,1.1,1.1,0,12,Low,None
+1909,2024-12-18,Omeprazole,Acid Reflux,100,0.7,0.62,0.62,10,11,Low,None
+1910,2024-12-18,Losartan,Blood Pressure,58,1,0.97,0.97,12,9,Medium,None
+1911,2024-12-18,Levothyroxine,Thyroid,60,0.8,0.8,0.8,12,13,High,None
+1912,2024-12-19,Paracetamol,Painkiller,73,0.55,0.54,0.54,6,14,Low,None
+1913,2024-12-19,Ibuprofen,Painkiller,21,0.75,0.71,0.71,11,11,High,Shipping Delay
+1914,2024-12-19,Aspirin,Painkiller,34,0.6,0.52,0.52,9,12,Low,Shipping Delay
+1915,2024-12-19,Naproxen,Painkiller,62,0.85,0.82,0.82,1,13,Medium,None
+1916,2024-12-19,Diclofenac,Painkiller,27,0.9,0.85,0.85,12,14,Low,Shipping Delay
+1917,2024-12-19,Amoxicillin,Antibiotic,84,1.3,1.16,1.16,14,14,Medium,Raw Material Shortage
+1918,2024-12-19,Azithromycin,Antibiotic,91,1.5,1.31,1.31,10,12,Low,Raw Material Shortage
+1919,2024-12-19,Ciprofloxacin,Antibiotic,98,1.4,1.32,1.32,7,6,Medium,None
+1920,2024-12-19,Doxycycline,Antibiotic,89,1.2,1.09,1.09,5,10,High,Shipping Delay
+1921,2024-12-19,Cetrizine,Antihistamine,21,0.4,0.36,0.36,10,5,Medium,Raw Material Shortage
+1922,2024-12-19,Loratadine,Antihistamine,84,0.45,0.43,0.43,10,12,High,Shipping Delay
+1923,2024-12-19,Fexofenadine,Antihistamine,61,0.5,0.48,0.48,4,10,High,Shipping Delay
+1924,2024-12-19,Metformin,Diabetes,80,0.9,0.89,0.89,0,7,Low,None
+1925,2024-12-19,Glimepiride,Diabetes,57,1.1,1,1,0,14,Low,Shipping Delay
+1926,2024-12-19,Sitagliptin,Diabetes,27,1.6,1.39,1.39,2,14,High,None
+1927,2024-12-19,Pioglitazone,Diabetes,74,1.2,1.05,1.05,6,6,Low,None
+1928,2024-12-19,Omeprazole,Acid Reflux,35,0.7,0.61,0.61,0,9,High,Shipping Delay
+1929,2024-12-19,Losartan,Blood Pressure,66,1,0.95,0.95,15,11,Low,None
+1930,2024-12-19,Levothyroxine,Thyroid,95,0.8,0.79,0.79,4,11,High,Raw Material Shortage
+1931,2024-12-20,Paracetamol,Painkiller,51,0.55,0.52,0.52,7,5,Low,Raw Material Shortage
+1932,2024-12-20,Ibuprofen,Painkiller,56,0.75,0.71,0.71,3,10,High,None
+1933,2024-12-20,Aspirin,Painkiller,60,0.6,0.52,0.52,8,5,High,None
+1934,2024-12-20,Naproxen,Painkiller,74,0.85,0.82,0.82,12,11,High,Raw Material Shortage
+1935,2024-12-20,Diclofenac,Painkiller,84,0.9,0.84,0.84,12,14,High,None
+1936,2024-12-20,Amoxicillin,Antibiotic,87,1.3,1.17,1.17,8,12,High,Shipping Delay
+1937,2024-12-20,Azithromycin,Antibiotic,41,1.5,1.37,1.37,4,8,Low,None
+1938,2024-12-20,Ciprofloxacin,Antibiotic,80,1.4,1.23,1.23,11,6,High,None
+1939,2024-12-20,Doxycycline,Antibiotic,10,1.2,1.04,1.04,6,10,Low,Shipping Delay
+1940,2024-12-20,Cetrizine,Antihistamine,93,0.4,0.39,0.39,6,7,Medium,Shipping Delay
+1941,2024-12-20,Loratadine,Antihistamine,97,0.45,0.45,0.45,5,12,High,None
+1942,2024-12-20,Fexofenadine,Antihistamine,27,0.5,0.48,0.48,0,10,Low,None
+1943,2024-12-20,Metformin,Diabetes,70,0.9,0.85,0.85,2,13,Low,None
+1944,2024-12-20,Glimepiride,Diabetes,29,1.1,0.99,0.99,4,15,Medium,Shipping Delay
+1945,2024-12-20,Sitagliptin,Diabetes,11,1.6,1.54,1.54,4,5,High,None
+1946,2024-12-20,Pioglitazone,Diabetes,50,1.2,1.08,1.08,8,13,Medium,Shipping Delay
+1947,2024-12-20,Omeprazole,Acid Reflux,57,0.7,0.64,0.64,0,5,Medium,None
+1948,2024-12-20,Losartan,Blood Pressure,32,1,0.93,0.93,5,13,High,Shipping Delay
+1949,2024-12-20,Levothyroxine,Thyroid,95,0.8,0.75,0.75,5,14,Medium,Raw Material Shortage
+1950,2024-12-21,Paracetamol,Painkiller,58,0.55,0.53,0.53,13,12,Low,Raw Material Shortage
+1951,2024-12-21,Ibuprofen,Painkiller,24,0.75,0.72,0.72,10,6,Low,None
+1952,2024-12-21,Aspirin,Painkiller,75,0.6,0.58,0.58,7,10,High,Raw Material Shortage
+1953,2024-12-21,Naproxen,Painkiller,91,0.85,0.77,0.77,11,12,High,Raw Material Shortage
+1954,2024-12-21,Diclofenac,Painkiller,38,0.9,0.79,0.79,13,9,Medium,Raw Material Shortage
+1955,2024-12-21,Amoxicillin,Antibiotic,48,1.3,1.23,1.23,10,9,High,Raw Material Shortage
+1956,2024-12-21,Azithromycin,Antibiotic,69,1.5,1.39,1.39,9,9,High,None
+1957,2024-12-21,Ciprofloxacin,Antibiotic,51,1.4,1.31,1.31,1,6,High,Raw Material Shortage
+1958,2024-12-21,Doxycycline,Antibiotic,46,1.2,1.16,1.16,5,9,Low,Shipping Delay
+1959,2024-12-21,Cetrizine,Antihistamine,59,0.4,0.37,0.37,2,11,Low,None
+1960,2024-12-21,Loratadine,Antihistamine,70,0.45,0.39,0.39,4,13,High,Shipping Delay
+1961,2024-12-21,Fexofenadine,Antihistamine,39,0.5,0.46,0.46,3,10,High,None
+1962,2024-12-21,Metformin,Diabetes,16,0.9,0.88,0.88,15,10,Low,None
+1963,2024-12-21,Glimepiride,Diabetes,36,1.1,1.02,1.02,5,13,Low,Raw Material Shortage
+1964,2024-12-21,Sitagliptin,Diabetes,68,1.6,1.44,1.44,5,8,Medium,None
+1965,2024-12-21,Pioglitazone,Diabetes,34,1.2,1.04,1.04,9,14,Low,Raw Material Shortage
+1966,2024-12-21,Omeprazole,Acid Reflux,75,0.7,0.69,0.69,6,5,Low,Raw Material Shortage
+1967,2024-12-21,Losartan,Blood Pressure,79,1,0.94,0.94,14,7,Medium,Shipping Delay
+1968,2024-12-21,Levothyroxine,Thyroid,24,0.8,0.7,0.7,13,6,High,None
+1969,2024-12-22,Paracetamol,Painkiller,55,0.55,0.51,0.51,5,13,High,Shipping Delay
+1970,2024-12-22,Ibuprofen,Painkiller,98,0.75,0.73,0.73,12,11,Low,Shipping Delay
+1971,2024-12-22,Aspirin,Painkiller,45,0.6,0.57,0.57,0,15,Low,Shipping Delay
+1972,2024-12-22,Naproxen,Painkiller,22,0.85,0.73,0.73,12,5,Low,Shipping Delay
+1973,2024-12-22,Diclofenac,Painkiller,47,0.9,0.8,0.8,1,7,Low,None
+1974,2024-12-22,Amoxicillin,Antibiotic,12,1.3,1.22,1.22,0,8,High,None
+1975,2024-12-22,Azithromycin,Antibiotic,93,1.5,1.31,1.31,7,8,Low,Raw Material Shortage
+1976,2024-12-22,Ciprofloxacin,Antibiotic,90,1.4,1.24,1.24,13,8,Low,Raw Material Shortage
+1977,2024-12-22,Doxycycline,Antibiotic,16,1.2,1.04,1.04,8,11,High,Shipping Delay
+1978,2024-12-22,Cetrizine,Antihistamine,47,0.4,0.35,0.35,10,9,Low,None
+1979,2024-12-22,Loratadine,Antihistamine,12,0.45,0.39,0.39,15,9,Low,None
+1980,2024-12-22,Fexofenadine,Antihistamine,33,0.5,0.5,0.5,2,6,Medium,Raw Material Shortage
+1981,2024-12-22,Metformin,Diabetes,63,0.9,0.82,0.82,11,13,High,None
+1982,2024-12-22,Glimepiride,Diabetes,92,1.1,0.97,0.97,11,15,Medium,None
+1983,2024-12-22,Sitagliptin,Diabetes,89,1.6,1.51,1.51,10,10,High,Shipping Delay
+1984,2024-12-22,Pioglitazone,Diabetes,50,1.2,1.17,1.17,7,8,High,Raw Material Shortage
+1985,2024-12-22,Omeprazole,Acid Reflux,90,0.7,0.65,0.65,8,8,Medium,None
+1986,2024-12-22,Losartan,Blood Pressure,37,1,0.86,0.86,15,15,Medium,Shipping Delay
+1987,2024-12-22,Levothyroxine,Thyroid,40,0.8,0.78,0.78,8,11,Medium,None
+1988,2024-12-23,Paracetamol,Painkiller,39,0.55,0.55,0.55,2,15,Medium,None
+1989,2024-12-23,Ibuprofen,Painkiller,23,0.75,0.74,0.74,6,12,Medium,Raw Material Shortage
+1990,2024-12-23,Aspirin,Painkiller,51,0.6,0.57,0.57,6,9,Medium,Shipping Delay
+1991,2024-12-23,Naproxen,Painkiller,96,0.85,0.83,0.83,11,8,High,Shipping Delay
+1992,2024-12-23,Diclofenac,Painkiller,54,0.9,0.78,0.78,7,11,Medium,Raw Material Shortage
+1993,2024-12-23,Amoxicillin,Antibiotic,28,1.3,1.28,1.28,0,11,High,Shipping Delay
+1994,2024-12-23,Azithromycin,Antibiotic,77,1.5,1.44,1.44,3,11,High,None
+1995,2024-12-23,Ciprofloxacin,Antibiotic,61,1.4,1.31,1.31,8,5,High,Shipping Delay
+1996,2024-12-23,Doxycycline,Antibiotic,37,1.2,1.03,1.03,11,8,Medium,None
+1997,2024-12-23,Cetrizine,Antihistamine,10,0.4,0.35,0.35,14,14,Low,None
+1998,2024-12-23,Loratadine,Antihistamine,95,0.45,0.4,0.4,14,5,High,Raw Material Shortage
+1999,2024-12-23,Fexofenadine,Antihistamine,32,0.5,0.45,0.45,12,12,Medium,Raw Material Shortage
+2000,2024-12-23,Metformin,Diabetes,80,0.9,0.81,0.81,4,14,Low,Shipping Delay
+2001,2024-12-23,Glimepiride,Diabetes,35,1.1,1.05,1.05,5,10,High,Raw Material Shortage
+2002,2024-12-23,Sitagliptin,Diabetes,38,1.6,1.49,1.49,6,6,Medium,Shipping Delay
+2003,2024-12-23,Pioglitazone,Diabetes,65,1.2,1.19,1.19,12,12,Low,None
+2004,2024-12-23,Omeprazole,Acid Reflux,88,0.7,0.61,0.61,7,11,Low,Raw Material Shortage
+2005,2024-12-23,Losartan,Blood Pressure,89,1,0.87,0.87,5,10,Medium,Raw Material Shortage
+2006,2024-12-23,Levothyroxine,Thyroid,74,0.8,0.74,0.74,7,5,Medium,Shipping Delay
+2007,2024-12-24,Paracetamol,Painkiller,82,0.55,0.55,0.55,2,6,Low,None
+2008,2024-12-24,Ibuprofen,Painkiller,82,0.75,0.67,0.67,4,8,Medium,Raw Material Shortage
+2009,2024-12-24,Aspirin,Painkiller,32,0.6,0.52,0.52,4,15,High,Shipping Delay
+2010,2024-12-24,Naproxen,Painkiller,15,0.85,0.74,0.74,11,5,Low,None
+2011,2024-12-24,Diclofenac,Painkiller,75,0.9,0.8,0.8,14,15,High,None
+2012,2024-12-24,Amoxicillin,Antibiotic,60,1.3,1.11,1.11,9,12,Medium,Raw Material Shortage
+2013,2024-12-24,Azithromycin,Antibiotic,26,1.5,1.28,1.28,0,10,Medium,None
+2014,2024-12-24,Ciprofloxacin,Antibiotic,34,1.4,1.39,1.39,9,7,Medium,Raw Material Shortage
+2015,2024-12-24,Doxycycline,Antibiotic,62,1.2,1.2,1.2,8,13,High,None
+2016,2024-12-24,Cetrizine,Antihistamine,60,0.4,0.37,0.37,14,14,High,None
+2017,2024-12-24,Loratadine,Antihistamine,97,0.45,0.41,0.41,3,8,Low,Shipping Delay
+2018,2024-12-24,Fexofenadine,Antihistamine,84,0.5,0.45,0.45,14,10,Medium,None
+2019,2024-12-24,Metformin,Diabetes,22,0.9,0.79,0.79,12,13,Low,None
+2020,2024-12-24,Glimepiride,Diabetes,42,1.1,1.08,1.08,8,12,Low,Raw Material Shortage
+2021,2024-12-24,Sitagliptin,Diabetes,72,1.6,1.5,1.5,0,11,High,None
+2022,2024-12-24,Pioglitazone,Diabetes,20,1.2,1.12,1.12,14,6,Medium,None
+2023,2024-12-24,Omeprazole,Acid Reflux,46,0.7,0.61,0.61,10,14,High,Raw Material Shortage
+2024,2024-12-24,Losartan,Blood Pressure,87,1,0.92,0.92,10,7,Low,Raw Material Shortage
+2025,2024-12-24,Levothyroxine,Thyroid,27,0.8,0.71,0.71,6,7,Low,None
+2026,2024-12-25,Paracetamol,Painkiller,72,0.55,0.52,0.52,14,6,Low,Shipping Delay
+2027,2024-12-25,Ibuprofen,Painkiller,89,0.75,0.65,0.65,3,6,Medium,Shipping Delay
+2028,2024-12-25,Aspirin,Painkiller,77,0.6,0.54,0.54,4,9,Medium,None
+2029,2024-12-25,Naproxen,Painkiller,41,0.85,0.75,0.75,1,7,High,Raw Material Shortage
+2030,2024-12-25,Diclofenac,Painkiller,95,0.9,0.9,0.9,15,15,Low,None
+2031,2024-12-25,Amoxicillin,Antibiotic,98,1.3,1.14,1.14,8,15,High,Raw Material Shortage
+2032,2024-12-25,Azithromycin,Antibiotic,76,1.5,1.36,1.36,13,11,Low,Raw Material Shortage
+2033,2024-12-25,Ciprofloxacin,Antibiotic,52,1.4,1.38,1.38,15,9,High,Raw Material Shortage
+2034,2024-12-25,Doxycycline,Antibiotic,29,1.2,1.05,1.05,12,12,Low,None
+2035,2024-12-25,Cetrizine,Antihistamine,95,0.4,0.35,0.35,1,9,High,None
+2036,2024-12-25,Loratadine,Antihistamine,67,0.45,0.44,0.44,0,13,Low,None
+2037,2024-12-25,Fexofenadine,Antihistamine,20,0.5,0.48,0.48,9,7,High,None
+2038,2024-12-25,Metformin,Diabetes,82,0.9,0.84,0.84,1,7,Medium,None
+2039,2024-12-25,Glimepiride,Diabetes,31,1.1,0.96,0.96,9,14,Low,Raw Material Shortage
+2040,2024-12-25,Sitagliptin,Diabetes,95,1.6,1.53,1.53,4,6,Low,None
+2041,2024-12-25,Pioglitazone,Diabetes,71,1.2,1.1,1.1,13,14,Low,Raw Material Shortage
+2042,2024-12-25,Omeprazole,Acid Reflux,90,0.7,0.61,0.61,14,14,Low,None
+2043,2024-12-25,Losartan,Blood Pressure,82,1,0.98,0.98,12,14,High,Shipping Delay
+2044,2024-12-25,Levothyroxine,Thyroid,85,0.8,0.71,0.71,2,10,Low,Shipping Delay
+2045,2024-12-26,Paracetamol,Painkiller,12,0.55,0.5,0.5,5,14,Medium,None
+2046,2024-12-26,Ibuprofen,Painkiller,38,0.75,0.64,0.64,1,6,Low,None
+2047,2024-12-26,Aspirin,Painkiller,83,0.6,0.58,0.58,14,6,Low,Raw Material Shortage
+2048,2024-12-26,Naproxen,Painkiller,70,0.85,0.83,0.83,15,5,High,None
+2049,2024-12-26,Diclofenac,Painkiller,48,0.9,0.89,0.89,1,6,Low,Raw Material Shortage
+2050,2024-12-26,Amoxicillin,Antibiotic,57,1.3,1.27,1.27,15,13,Medium,Shipping Delay
+2051,2024-12-26,Azithromycin,Antibiotic,12,1.5,1.42,1.42,2,13,Low,None
+2052,2024-12-26,Ciprofloxacin,Antibiotic,59,1.4,1.39,1.39,1,15,Low,None
+2053,2024-12-26,Doxycycline,Antibiotic,56,1.2,1.12,1.12,10,8,Low,None
+2054,2024-12-26,Cetrizine,Antihistamine,78,0.4,0.39,0.39,4,12,High,None
+2055,2024-12-26,Loratadine,Antihistamine,24,0.45,0.45,0.45,5,11,Medium,None
+2056,2024-12-26,Fexofenadine,Antihistamine,90,0.5,0.48,0.48,13,5,Medium,Shipping Delay
+2057,2024-12-26,Metformin,Diabetes,23,0.9,0.83,0.83,14,15,Medium,None
+2058,2024-12-26,Glimepiride,Diabetes,12,1.1,1,1,9,6,High,Shipping Delay
+2059,2024-12-26,Sitagliptin,Diabetes,12,1.6,1.37,1.37,13,5,High,Shipping Delay
+2060,2024-12-26,Pioglitazone,Diabetes,61,1.2,1.09,1.09,3,10,Low,Raw Material Shortage
+2061,2024-12-26,Omeprazole,Acid Reflux,95,0.7,0.63,0.63,5,6,Low,Raw Material Shortage
+2062,2024-12-26,Losartan,Blood Pressure,24,1,0.89,0.89,8,11,Medium,None
+2063,2024-12-26,Levothyroxine,Thyroid,89,0.8,0.79,0.79,3,9,Medium,Raw Material Shortage
+2064,2024-12-27,Paracetamol,Painkiller,70,0.55,0.5,0.5,15,15,Medium,Raw Material Shortage
+2065,2024-12-27,Ibuprofen,Painkiller,11,0.75,0.65,0.65,10,5,High,Raw Material Shortage
+2066,2024-12-27,Aspirin,Painkiller,100,0.6,0.57,0.57,6,11,High,Raw Material Shortage
+2067,2024-12-27,Naproxen,Painkiller,98,0.85,0.81,0.81,15,9,Low,Shipping Delay
+2068,2024-12-27,Diclofenac,Painkiller,88,0.9,0.79,0.79,8,5,Medium,Shipping Delay
+2069,2024-12-27,Amoxicillin,Antibiotic,19,1.3,1.26,1.26,3,7,Medium,Raw Material Shortage
+2070,2024-12-27,Azithromycin,Antibiotic,82,1.5,1.29,1.29,6,15,Medium,Shipping Delay
+2071,2024-12-27,Ciprofloxacin,Antibiotic,74,1.4,1.26,1.26,6,15,High,None
+2072,2024-12-27,Doxycycline,Antibiotic,71,1.2,1.18,1.18,4,6,High,Shipping Delay
+2073,2024-12-27,Cetrizine,Antihistamine,47,0.4,0.35,0.35,13,9,Medium,Shipping Delay
+2074,2024-12-27,Loratadine,Antihistamine,80,0.45,0.45,0.45,0,14,High,Shipping Delay
+2075,2024-12-27,Fexofenadine,Antihistamine,92,0.5,0.44,0.44,4,11,High,Shipping Delay
+2076,2024-12-27,Metformin,Diabetes,98,0.9,0.86,0.86,12,11,Medium,Raw Material Shortage
+2077,2024-12-27,Glimepiride,Diabetes,89,1.1,1.09,1.09,12,5,High,Raw Material Shortage
+2078,2024-12-27,Sitagliptin,Diabetes,30,1.6,1.43,1.43,9,14,Low,None
+2079,2024-12-27,Pioglitazone,Diabetes,57,1.2,1.1,1.1,5,13,High,None
+2080,2024-12-27,Omeprazole,Acid Reflux,14,0.7,0.61,0.61,13,13,Low,Shipping Delay
+2081,2024-12-27,Losartan,Blood Pressure,47,1,0.99,0.99,15,15,Medium,None
+2082,2024-12-27,Levothyroxine,Thyroid,40,0.8,0.76,0.76,13,9,Medium,Raw Material Shortage
+2083,2024-12-28,Paracetamol,Painkiller,98,0.55,0.48,0.48,2,5,High,Shipping Delay
+2084,2024-12-28,Ibuprofen,Painkiller,52,0.75,0.71,0.71,12,8,High,Shipping Delay
+2085,2024-12-28,Aspirin,Painkiller,45,0.6,0.59,0.59,5,7,Low,Raw Material Shortage
+2086,2024-12-28,Naproxen,Painkiller,73,0.85,0.72,0.72,4,6,High,Shipping Delay
+2087,2024-12-28,Diclofenac,Painkiller,46,0.9,0.79,0.79,2,9,Medium,None
+2088,2024-12-28,Amoxicillin,Antibiotic,91,1.3,1.27,1.27,9,8,Medium,Raw Material Shortage
+2089,2024-12-28,Azithromycin,Antibiotic,63,1.5,1.49,1.49,0,15,Medium,Raw Material Shortage
+2090,2024-12-28,Ciprofloxacin,Antibiotic,95,1.4,1.36,1.36,4,10,High,Shipping Delay
+2091,2024-12-28,Doxycycline,Antibiotic,26,1.2,1.17,1.17,11,5,Low,Shipping Delay
+2092,2024-12-28,Cetrizine,Antihistamine,84,0.4,0.39,0.39,9,8,Medium,Shipping Delay
+2093,2024-12-28,Loratadine,Antihistamine,93,0.45,0.39,0.39,4,8,Medium,Raw Material Shortage
+2094,2024-12-28,Fexofenadine,Antihistamine,29,0.5,0.5,0.5,7,15,High,None
+2095,2024-12-28,Metformin,Diabetes,18,0.9,0.8,0.8,15,10,High,Shipping Delay
+2096,2024-12-28,Glimepiride,Diabetes,33,1.1,1.02,1.02,13,5,Low,None
+2097,2024-12-28,Sitagliptin,Diabetes,53,1.6,1.47,1.47,11,13,Low,Shipping Delay
+2098,2024-12-28,Pioglitazone,Diabetes,70,1.2,1.03,1.03,11,12,Low,Raw Material Shortage
+2099,2024-12-28,Omeprazole,Acid Reflux,94,0.7,0.64,0.64,3,12,High,Raw Material Shortage
+2100,2024-12-28,Losartan,Blood Pressure,82,1,0.88,0.88,10,13,Low,Raw Material Shortage
+2101,2024-12-28,Levothyroxine,Thyroid,24,0.8,0.73,0.73,3,13,Low,None
+2102,2024-12-29,Paracetamol,Painkiller,37,0.55,0.48,0.48,14,15,Medium,Raw Material Shortage
+2103,2024-12-29,Ibuprofen,Painkiller,86,0.75,0.68,0.68,3,14,Low,Shipping Delay
+2104,2024-12-29,Aspirin,Painkiller,36,0.6,0.55,0.55,13,14,Low,None
+2105,2024-12-29,Naproxen,Painkiller,47,0.85,0.82,0.82,6,10,High,Shipping Delay
+2106,2024-12-29,Diclofenac,Painkiller,15,0.9,0.78,0.78,7,10,High,Raw Material Shortage
+2107,2024-12-29,Amoxicillin,Antibiotic,24,1.3,1.2,1.2,7,11,High,None
+2108,2024-12-29,Azithromycin,Antibiotic,59,1.5,1.35,1.35,0,10,Medium,None
+2109,2024-12-29,Ciprofloxacin,Antibiotic,69,1.4,1.37,1.37,4,15,High,Raw Material Shortage
+2110,2024-12-29,Doxycycline,Antibiotic,24,1.2,1.09,1.09,13,6,Low,None
+2111,2024-12-29,Cetrizine,Antihistamine,88,0.4,0.39,0.39,8,14,Low,None
+2112,2024-12-29,Loratadine,Antihistamine,82,0.45,0.41,0.41,8,13,Medium,Shipping Delay
+2113,2024-12-29,Fexofenadine,Antihistamine,73,0.5,0.43,0.43,0,10,Low,None
+2114,2024-12-29,Metformin,Diabetes,30,0.9,0.88,0.88,3,11,Medium,None
+2115,2024-12-29,Glimepiride,Diabetes,69,1.1,1.07,1.07,6,6,Low,None
+2116,2024-12-29,Sitagliptin,Diabetes,53,1.6,1.5,1.5,8,10,Low,Shipping Delay
+2117,2024-12-29,Pioglitazone,Diabetes,31,1.2,1.05,1.05,15,11,Low,None
+2118,2024-12-29,Omeprazole,Acid Reflux,12,0.7,0.68,0.68,6,5,Medium,Shipping Delay
+2119,2024-12-29,Losartan,Blood Pressure,41,1,0.96,0.96,10,8,Low,None
+2120,2024-12-29,Levothyroxine,Thyroid,68,0.8,0.73,0.73,7,8,High,None
+2121,2024-12-30,Paracetamol,Painkiller,95,0.55,0.51,0.51,12,11,Medium,Raw Material Shortage
+2122,2024-12-30,Ibuprofen,Painkiller,17,0.75,0.68,0.68,7,11,Low,Shipping Delay
+2123,2024-12-30,Aspirin,Painkiller,42,0.6,0.56,0.56,7,6,Low,None
+2124,2024-12-30,Naproxen,Painkiller,81,0.85,0.84,0.84,13,7,High,Shipping Delay
+2125,2024-12-30,Diclofenac,Painkiller,15,0.9,0.87,0.87,5,6,Medium,Shipping Delay
+2126,2024-12-30,Amoxicillin,Antibiotic,39,1.3,1.3,1.3,14,9,High,Raw Material Shortage
+2127,2024-12-30,Azithromycin,Antibiotic,74,1.5,1.29,1.29,6,12,Medium,Shipping Delay
+2128,2024-12-30,Ciprofloxacin,Antibiotic,61,1.4,1.37,1.37,11,14,Low,Shipping Delay
+2129,2024-12-30,Doxycycline,Antibiotic,56,1.2,1.03,1.03,15,9,High,Shipping Delay
+2130,2024-12-30,Cetrizine,Antihistamine,71,0.4,0.35,0.35,1,14,High,Shipping Delay
+2131,2024-12-30,Loratadine,Antihistamine,26,0.45,0.43,0.43,7,6,High,Raw Material Shortage
+2132,2024-12-30,Fexofenadine,Antihistamine,55,0.5,0.46,0.46,5,12,High,None
+2133,2024-12-30,Metformin,Diabetes,61,0.9,0.88,0.88,12,13,Low,Raw Material Shortage
+2134,2024-12-30,Glimepiride,Diabetes,24,1.1,0.99,0.99,3,7,Low,Raw Material Shortage
+2135,2024-12-30,Sitagliptin,Diabetes,79,1.6,1.59,1.59,3,12,Medium,None
+2136,2024-12-30,Pioglitazone,Diabetes,63,1.2,1.11,1.11,6,9,Medium,Shipping Delay
+2137,2024-12-30,Omeprazole,Acid Reflux,55,0.7,0.65,0.65,3,11,Medium,Shipping Delay
+2138,2024-12-30,Losartan,Blood Pressure,61,1,0.86,0.86,4,12,Medium,Raw Material Shortage
+2139,2024-12-30,Levothyroxine,Thyroid,28,0.8,0.75,0.75,12,14,Low,None
+2140,2024-12-31,Paracetamol,Painkiller,39,0.55,0.5,0.5,12,6,High,None
+2141,2024-12-31,Ibuprofen,Painkiller,72,0.75,0.68,0.68,4,9,Medium,None
+2142,2024-12-31,Aspirin,Painkiller,52,0.6,0.57,0.57,5,11,Low,None
+2143,2024-12-31,Naproxen,Painkiller,91,0.85,0.8,0.8,4,5,High,None
+2144,2024-12-31,Diclofenac,Painkiller,98,0.9,0.82,0.82,0,6,Medium,Raw Material Shortage
+2145,2024-12-31,Amoxicillin,Antibiotic,38,1.3,1.12,1.12,3,7,Medium,None
+2146,2024-12-31,Azithromycin,Antibiotic,90,1.5,1.42,1.42,14,11,High,None
+2147,2024-12-31,Ciprofloxacin,Antibiotic,86,1.4,1.24,1.24,9,12,Low,Raw Material Shortage
+2148,2024-12-31,Doxycycline,Antibiotic,90,1.2,1.16,1.16,3,7,High,Shipping Delay
+2149,2024-12-31,Cetrizine,Antihistamine,38,0.4,0.35,0.35,5,15,High,None
+2150,2024-12-31,Loratadine,Antihistamine,41,0.45,0.42,0.42,13,14,High,Raw Material Shortage
+2151,2024-12-31,Fexofenadine,Antihistamine,48,0.5,0.48,0.48,1,13,High,Raw Material Shortage
+2152,2024-12-31,Metformin,Diabetes,46,0.9,0.87,0.87,7,11,Low,Shipping Delay
+2153,2024-12-31,Glimepiride,Diabetes,24,1.1,1.01,1.01,10,9,Low,Raw Material Shortage
+2154,2024-12-31,Sitagliptin,Diabetes,34,1.6,1.5,1.5,13,11,Low,None
+2155,2024-12-31,Pioglitazone,Diabetes,25,1.2,1.11,1.11,11,15,Medium,Raw Material Shortage
+2156,2024-12-31,Omeprazole,Acid Reflux,17,0.7,0.69,0.69,12,7,High,Shipping Delay
+2157,2024-12-31,Losartan,Blood Pressure,21,1,0.95,0.95,11,11,High,Shipping Delay
+2158,2024-12-31,Levothyroxine,Thyroid,86,0.8,0.7,0.7,15,15,Medium,None
+2159,2025-01-01,Paracetamol,Painkiller,50,0.55,0.54,0.54,4,12,Medium,Shipping Delay
+2160,2025-01-01,Ibuprofen,Painkiller,21,0.75,0.64,0.64,0,12,High,Raw Material Shortage
+2161,2025-01-01,Aspirin,Painkiller,22,0.6,0.53,0.53,2,7,Medium,Raw Material Shortage
+2162,2025-01-01,Naproxen,Painkiller,99,0.85,0.73,0.73,8,15,High,Shipping Delay
+2163,2025-01-01,Diclofenac,Painkiller,74,0.9,0.8,0.8,6,7,Low,Shipping Delay
+2164,2025-01-01,Amoxicillin,Antibiotic,28,1.3,1.18,1.18,7,9,Medium,Raw Material Shortage
+2165,2025-01-01,Azithromycin,Antibiotic,81,1.5,1.39,1.39,5,9,High,Shipping Delay
+2166,2025-01-01,Ciprofloxacin,Antibiotic,20,1.4,1.28,1.28,13,15,Medium,Raw Material Shortage
+2167,2025-01-01,Doxycycline,Antibiotic,52,1.2,1.07,1.07,2,12,High,None
+2168,2025-01-01,Cetrizine,Antihistamine,70,0.4,0.34,0.34,7,9,High,Raw Material Shortage
+2169,2025-01-01,Loratadine,Antihistamine,87,0.45,0.44,0.44,6,7,High,Raw Material Shortage
+2170,2025-01-01,Fexofenadine,Antihistamine,94,0.5,0.5,0.5,4,14,High,Raw Material Shortage
+2171,2025-01-01,Metformin,Diabetes,86,0.9,0.85,0.85,15,15,Medium,None
+2172,2025-01-01,Glimepiride,Diabetes,96,1.1,1.04,1.04,15,7,High,Shipping Delay
+2173,2025-01-01,Sitagliptin,Diabetes,97,1.6,1.42,1.42,5,7,High,None
+2174,2025-01-01,Pioglitazone,Diabetes,77,1.2,1.04,1.04,0,8,High,None
+2175,2025-01-01,Omeprazole,Acid Reflux,64,0.7,0.62,0.62,8,14,High,Shipping Delay
+2176,2025-01-01,Losartan,Blood Pressure,27,1,0.92,0.92,15,11,High,None
+2177,2025-01-01,Levothyroxine,Thyroid,53,0.8,0.79,0.79,3,8,High,None
+2178,2025-01-02,Paracetamol,Painkiller,94,0.55,0.53,0.53,7,7,High,Raw Material Shortage
+2179,2025-01-02,Ibuprofen,Painkiller,64,0.75,0.75,0.75,9,9,Low,None
+2180,2025-01-02,Aspirin,Painkiller,62,0.6,0.52,0.52,9,7,Low,Shipping Delay
+2181,2025-01-02,Naproxen,Painkiller,66,0.85,0.75,0.75,6,14,Low,None
+2182,2025-01-02,Diclofenac,Painkiller,63,0.9,0.87,0.87,9,5,High,Raw Material Shortage
+2183,2025-01-02,Amoxicillin,Antibiotic,60,1.3,1.3,1.3,13,6,Medium,None
+2184,2025-01-02,Azithromycin,Antibiotic,44,1.5,1.36,1.36,4,14,High,None
+2185,2025-01-02,Ciprofloxacin,Antibiotic,52,1.4,1.36,1.36,0,5,High,None
+2186,2025-01-02,Doxycycline,Antibiotic,92,1.2,1.05,1.05,10,10,Medium,None
+2187,2025-01-02,Cetrizine,Antihistamine,100,0.4,0.39,0.39,9,12,Low,Raw Material Shortage
+2188,2025-01-02,Loratadine,Antihistamine,65,0.45,0.4,0.4,6,6,Medium,None
+2189,2025-01-02,Fexofenadine,Antihistamine,65,0.5,0.44,0.44,0,12,Low,None
+2190,2025-01-02,Metformin,Diabetes,24,0.9,0.77,0.77,9,6,High,Raw Material Shortage
+2191,2025-01-02,Glimepiride,Diabetes,49,1.1,1.08,1.08,2,5,Medium,Shipping Delay
+2192,2025-01-02,Sitagliptin,Diabetes,75,1.6,1.37,1.37,13,7,Medium,Shipping Delay
+2193,2025-01-02,Pioglitazone,Diabetes,51,1.2,1.02,1.02,7,11,High,Shipping Delay
+2194,2025-01-02,Omeprazole,Acid Reflux,71,0.7,0.65,0.65,6,6,Medium,Shipping Delay
+2195,2025-01-02,Losartan,Blood Pressure,97,1,0.91,0.91,3,7,Medium,Raw Material Shortage
+2196,2025-01-02,Levothyroxine,Thyroid,48,0.8,0.79,0.79,14,5,Medium,Raw Material Shortage
+2197,2025-01-03,Paracetamol,Painkiller,88,0.55,0.52,0.52,11,8,High,None
+2198,2025-01-03,Ibuprofen,Painkiller,12,0.75,0.68,0.68,9,5,Low,Shipping Delay
+2199,2025-01-03,Aspirin,Painkiller,97,0.6,0.54,0.54,10,13,Medium,Raw Material Shortage
+2200,2025-01-03,Naproxen,Painkiller,79,0.85,0.77,0.77,5,14,Medium,None
+2201,2025-01-03,Diclofenac,Painkiller,43,0.9,0.79,0.79,0,5,High,Shipping Delay
+2202,2025-01-03,Amoxicillin,Antibiotic,21,1.3,1.27,1.27,0,14,High,Raw Material Shortage
+2203,2025-01-03,Azithromycin,Antibiotic,58,1.5,1.44,1.44,6,9,Low,Raw Material Shortage
+2204,2025-01-03,Ciprofloxacin,Antibiotic,19,1.4,1.32,1.32,12,13,Medium,None
+2205,2025-01-03,Doxycycline,Antibiotic,39,1.2,1.12,1.12,13,8,Medium,Shipping Delay
+2206,2025-01-03,Cetrizine,Antihistamine,34,0.4,0.38,0.38,1,13,High,Shipping Delay
+2207,2025-01-03,Loratadine,Antihistamine,87,0.45,0.41,0.41,1,7,Medium,None
+2208,2025-01-03,Fexofenadine,Antihistamine,57,0.5,0.44,0.44,13,13,Medium,Raw Material Shortage
+2209,2025-01-03,Metformin,Diabetes,44,0.9,0.77,0.77,6,14,High,Shipping Delay
+2210,2025-01-03,Glimepiride,Diabetes,81,1.1,1.02,1.02,12,6,High,Shipping Delay
+2211,2025-01-03,Sitagliptin,Diabetes,68,1.6,1.36,1.36,1,7,High,Raw Material Shortage
+2212,2025-01-03,Pioglitazone,Diabetes,43,1.2,1.09,1.09,14,6,Medium,Raw Material Shortage
+2213,2025-01-03,Omeprazole,Acid Reflux,26,0.7,0.63,0.63,3,15,Low,Shipping Delay
+2214,2025-01-03,Losartan,Blood Pressure,61,1,0.88,0.88,10,7,Low,Shipping Delay
+2215,2025-01-03,Levothyroxine,Thyroid,17,0.8,0.75,0.75,12,9,Low,Shipping Delay
+2216,2025-01-04,Paracetamol,Painkiller,72,0.55,0.54,0.54,12,13,Medium,None
+2217,2025-01-04,Ibuprofen,Painkiller,82,0.75,0.66,0.66,3,15,High,None
+2218,2025-01-04,Aspirin,Painkiller,79,0.6,0.56,0.56,7,9,Medium,Raw Material Shortage
+2219,2025-01-04,Naproxen,Painkiller,91,0.85,0.78,0.78,11,11,High,Shipping Delay
+2220,2025-01-04,Diclofenac,Painkiller,67,0.9,0.77,0.77,2,10,Low,Shipping Delay
+2221,2025-01-04,Amoxicillin,Antibiotic,80,1.3,1.24,1.24,11,6,Low,Raw Material Shortage
+2222,2025-01-04,Azithromycin,Antibiotic,65,1.5,1.36,1.36,6,15,High,Raw Material Shortage
+2223,2025-01-04,Ciprofloxacin,Antibiotic,45,1.4,1.32,1.32,10,6,Low,Raw Material Shortage
+2224,2025-01-04,Doxycycline,Antibiotic,80,1.2,1.17,1.17,9,15,Low,None
+2225,2025-01-04,Cetrizine,Antihistamine,96,0.4,0.36,0.36,7,10,High,None
+2226,2025-01-04,Loratadine,Antihistamine,14,0.45,0.41,0.41,15,12,Low,None
+2227,2025-01-04,Fexofenadine,Antihistamine,78,0.5,0.5,0.5,1,13,High,Shipping Delay
+2228,2025-01-04,Metformin,Diabetes,13,0.9,0.83,0.83,12,5,Low,Shipping Delay
+2229,2025-01-04,Glimepiride,Diabetes,23,1.1,0.96,0.96,15,10,Low,None
+2230,2025-01-04,Sitagliptin,Diabetes,33,1.6,1.38,1.38,13,6,Medium,None
+2231,2025-01-04,Pioglitazone,Diabetes,27,1.2,1.14,1.14,5,12,Low,Shipping Delay
+2232,2025-01-04,Omeprazole,Acid Reflux,23,0.7,0.62,0.62,4,7,Low,Shipping Delay
+2233,2025-01-04,Losartan,Blood Pressure,48,1,0.87,0.87,15,13,Low,Raw Material Shortage
+2234,2025-01-04,Levothyroxine,Thyroid,73,0.8,0.76,0.76,9,13,Medium,None
+2235,2025-01-05,Paracetamol,Painkiller,89,0.55,0.54,0.54,13,10,High,Raw Material Shortage
+2236,2025-01-05,Ibuprofen,Painkiller,26,0.75,0.7,0.7,5,8,Medium,Shipping Delay
+2237,2025-01-05,Aspirin,Painkiller,39,0.6,0.51,0.51,0,5,Low,None
+2238,2025-01-05,Naproxen,Painkiller,90,0.85,0.75,0.75,10,6,High,None
+2239,2025-01-05,Diclofenac,Painkiller,12,0.9,0.81,0.81,8,14,High,Shipping Delay
+2240,2025-01-05,Amoxicillin,Antibiotic,13,1.3,1.14,1.14,0,11,High,Shipping Delay
+2241,2025-01-05,Azithromycin,Antibiotic,56,1.5,1.44,1.44,14,14,Low,Raw Material Shortage
+2242,2025-01-05,Ciprofloxacin,Antibiotic,51,1.4,1.27,1.27,4,9,High,Shipping Delay
+2243,2025-01-05,Doxycycline,Antibiotic,80,1.2,1.11,1.11,2,14,High,Raw Material Shortage
+2244,2025-01-05,Cetrizine,Antihistamine,17,0.4,0.36,0.36,14,6,Medium,None
+2245,2025-01-05,Loratadine,Antihistamine,63,0.45,0.39,0.39,4,11,Low,None
+2246,2025-01-05,Fexofenadine,Antihistamine,45,0.5,0.46,0.46,6,15,Low,None
+2247,2025-01-05,Metformin,Diabetes,89,0.9,0.77,0.77,5,11,High,Shipping Delay
+2248,2025-01-05,Glimepiride,Diabetes,71,1.1,1.1,1.1,7,8,High,Raw Material Shortage
+2249,2025-01-05,Sitagliptin,Diabetes,59,1.6,1.46,1.46,1,13,High,Raw Material Shortage
+2250,2025-01-05,Pioglitazone,Diabetes,80,1.2,1.09,1.09,15,8,Medium,Raw Material Shortage
+2251,2025-01-05,Omeprazole,Acid Reflux,70,0.7,0.63,0.63,13,5,High,Shipping Delay
+2252,2025-01-05,Losartan,Blood Pressure,39,1,0.92,0.92,1,5,Low,Raw Material Shortage
+2253,2025-01-05,Levothyroxine,Thyroid,58,0.8,0.79,0.79,12,12,Low,None
+2254,2025-01-06,Paracetamol,Painkiller,34,0.55,0.55,0.55,10,8,Low,None
+2255,2025-01-06,Ibuprofen,Painkiller,72,0.75,0.66,0.66,1,8,Medium,Raw Material Shortage
+2256,2025-01-06,Aspirin,Painkiller,71,0.6,0.56,0.56,5,15,Medium,Raw Material Shortage
+2257,2025-01-06,Naproxen,Painkiller,79,0.85,0.75,0.75,1,13,High,Shipping Delay
+2258,2025-01-06,Diclofenac,Painkiller,49,0.9,0.82,0.82,8,8,Low,None
+2259,2025-01-06,Amoxicillin,Antibiotic,45,1.3,1.28,1.28,0,8,Medium,Shipping Delay
+2260,2025-01-06,Azithromycin,Antibiotic,90,1.5,1.41,1.41,2,14,High,None
+2261,2025-01-06,Ciprofloxacin,Antibiotic,68,1.4,1.29,1.29,10,12,Low,Raw Material Shortage
+2262,2025-01-06,Doxycycline,Antibiotic,94,1.2,1.13,1.13,0,11,High,Raw Material Shortage
+2263,2025-01-06,Cetrizine,Antihistamine,34,0.4,0.36,0.36,15,11,Low,Raw Material Shortage
+2264,2025-01-06,Loratadine,Antihistamine,20,0.45,0.45,0.45,15,15,Medium,Raw Material Shortage
+2265,2025-01-06,Fexofenadine,Antihistamine,80,0.5,0.48,0.48,15,6,Low,Shipping Delay
+2266,2025-01-06,Metformin,Diabetes,58,0.9,0.88,0.88,14,11,Low,Shipping Delay
+2267,2025-01-06,Glimepiride,Diabetes,52,1.1,1,1,11,8,Medium,Raw Material Shortage
+2268,2025-01-06,Sitagliptin,Diabetes,12,1.6,1.57,1.57,8,6,High,Raw Material Shortage
+2269,2025-01-06,Pioglitazone,Diabetes,30,1.2,1.11,1.11,0,10,Low,Shipping Delay
+2270,2025-01-06,Omeprazole,Acid Reflux,26,0.7,0.68,0.68,3,12,High,Raw Material Shortage
+2271,2025-01-06,Losartan,Blood Pressure,91,1,0.96,0.96,9,9,High,None
+2272,2025-01-06,Levothyroxine,Thyroid,35,0.8,0.77,0.77,9,7,High,None
+2273,2025-01-07,Paracetamol,Painkiller,84,0.55,0.54,0.54,12,7,High,None
+2274,2025-01-07,Ibuprofen,Painkiller,99,0.75,0.74,0.74,11,14,Medium,None
+2275,2025-01-07,Aspirin,Painkiller,47,0.6,0.59,0.59,1,9,Low,Raw Material Shortage
+2276,2025-01-07,Naproxen,Painkiller,54,0.85,0.75,0.75,13,6,Low,Raw Material Shortage
+2277,2025-01-07,Diclofenac,Painkiller,86,0.9,0.78,0.78,12,12,Medium,Raw Material Shortage
+2278,2025-01-07,Amoxicillin,Antibiotic,27,1.3,1.24,1.24,4,11,Medium,Shipping Delay
+2279,2025-01-07,Azithromycin,Antibiotic,77,1.5,1.47,1.47,2,9,High,None
+2280,2025-01-07,Ciprofloxacin,Antibiotic,74,1.4,1.38,1.38,14,6,High,None
+2281,2025-01-07,Doxycycline,Antibiotic,43,1.2,1.05,1.05,6,14,Low,Raw Material Shortage
+2282,2025-01-07,Cetrizine,Antihistamine,88,0.4,0.34,0.34,12,15,High,Raw Material Shortage
+2283,2025-01-07,Loratadine,Antihistamine,15,0.45,0.45,0.45,6,6,Medium,Raw Material Shortage
+2284,2025-01-07,Fexofenadine,Antihistamine,73,0.5,0.49,0.49,6,14,Low,None
+2285,2025-01-07,Metformin,Diabetes,67,0.9,0.87,0.87,1,14,Medium,Raw Material Shortage
+2286,2025-01-07,Glimepiride,Diabetes,79,1.1,1.09,1.09,13,14,High,None
+2287,2025-01-07,Sitagliptin,Diabetes,78,1.6,1.55,1.55,6,5,Medium,Raw Material Shortage
+2288,2025-01-07,Pioglitazone,Diabetes,63,1.2,1.12,1.12,1,12,Medium,None
+2289,2025-01-07,Omeprazole,Acid Reflux,53,0.7,0.64,0.64,12,7,Low,None
+2290,2025-01-07,Losartan,Blood Pressure,49,1,0.98,0.98,13,15,Medium,Shipping Delay
+2291,2025-01-07,Levothyroxine,Thyroid,87,0.8,0.76,0.76,2,13,Medium,None
+2292,2025-01-08,Paracetamol,Painkiller,80,0.55,0.54,0.54,12,9,Low,Shipping Delay
+2293,2025-01-08,Ibuprofen,Painkiller,98,0.75,0.69,0.69,10,9,Low,None
+2294,2025-01-08,Aspirin,Painkiller,17,0.6,0.52,0.52,15,9,Medium,Raw Material Shortage
+2295,2025-01-08,Naproxen,Painkiller,85,0.85,0.78,0.78,10,13,High,Raw Material Shortage
+2296,2025-01-08,Diclofenac,Painkiller,51,0.9,0.77,0.77,6,5,Low,None
+2297,2025-01-08,Amoxicillin,Antibiotic,54,1.3,1.29,1.29,0,9,Medium,Shipping Delay
+2298,2025-01-08,Azithromycin,Antibiotic,69,1.5,1.49,1.49,7,13,Low,Raw Material Shortage
+2299,2025-01-08,Ciprofloxacin,Antibiotic,74,1.4,1.2,1.2,7,8,High,Raw Material Shortage
+2300,2025-01-08,Doxycycline,Antibiotic,59,1.2,1.08,1.08,6,12,High,Raw Material Shortage
+2301,2025-01-08,Cetrizine,Antihistamine,80,0.4,0.38,0.38,2,9,Medium,None
+2302,2025-01-08,Loratadine,Antihistamine,81,0.45,0.43,0.43,4,14,Medium,Shipping Delay
+2303,2025-01-08,Fexofenadine,Antihistamine,40,0.5,0.48,0.48,5,15,High,Shipping Delay
+2304,2025-01-08,Metformin,Diabetes,75,0.9,0.86,0.86,2,5,Low,Raw Material Shortage
+2305,2025-01-08,Glimepiride,Diabetes,96,1.1,1.05,1.05,11,6,High,None
+2306,2025-01-08,Sitagliptin,Diabetes,26,1.6,1.46,1.46,9,7,Medium,Shipping Delay
+2307,2025-01-08,Pioglitazone,Diabetes,71,1.2,1.19,1.19,0,7,High,None
+2308,2025-01-08,Omeprazole,Acid Reflux,54,0.7,0.6,0.6,9,10,Medium,None
+2309,2025-01-08,Losartan,Blood Pressure,91,1,0.94,0.94,9,15,Medium,Raw Material Shortage
+2310,2025-01-08,Levothyroxine,Thyroid,82,0.8,0.76,0.76,5,8,High,Shipping Delay
+2311,2025-01-09,Paracetamol,Painkiller,54,0.55,0.54,0.54,3,5,Medium,Raw Material Shortage
+2312,2025-01-09,Ibuprofen,Painkiller,52,0.75,0.67,0.67,10,7,Medium,Raw Material Shortage
+2313,2025-01-09,Aspirin,Painkiller,15,0.6,0.56,0.56,14,15,Medium,Shipping Delay
+2314,2025-01-09,Naproxen,Painkiller,65,0.85,0.82,0.82,6,9,Low,Shipping Delay
+2315,2025-01-09,Diclofenac,Painkiller,26,0.9,0.77,0.77,1,10,Low,None
+2316,2025-01-09,Amoxicillin,Antibiotic,89,1.3,1.19,1.19,12,15,Medium,None
+2317,2025-01-09,Azithromycin,Antibiotic,91,1.5,1.28,1.28,15,11,Medium,None
+2318,2025-01-09,Ciprofloxacin,Antibiotic,45,1.4,1.34,1.34,8,6,Medium,None
+2319,2025-01-09,Doxycycline,Antibiotic,72,1.2,1.13,1.13,13,6,High,Raw Material Shortage
+2320,2025-01-09,Cetrizine,Antihistamine,32,0.4,0.39,0.39,13,12,Low,None
+2321,2025-01-09,Loratadine,Antihistamine,50,0.45,0.43,0.43,1,9,Low,Raw Material Shortage
+2322,2025-01-09,Fexofenadine,Antihistamine,53,0.5,0.48,0.48,9,14,Medium,Shipping Delay
+2323,2025-01-09,Metformin,Diabetes,73,0.9,0.84,0.84,2,8,Low,None
+2324,2025-01-09,Glimepiride,Diabetes,55,1.1,0.98,0.98,13,13,Medium,Shipping Delay
+2325,2025-01-09,Sitagliptin,Diabetes,97,1.6,1.51,1.51,9,5,High,Raw Material Shortage
+2326,2025-01-09,Pioglitazone,Diabetes,63,1.2,1.02,1.02,6,15,Low,Shipping Delay
+2327,2025-01-09,Omeprazole,Acid Reflux,50,0.7,0.66,0.66,14,5,High,None
+2328,2025-01-09,Losartan,Blood Pressure,61,1,0.94,0.94,0,14,Low,None
+2329,2025-01-09,Levothyroxine,Thyroid,100,0.8,0.72,0.72,13,7,High,Shipping Delay
+2330,2025-01-10,Paracetamol,Painkiller,76,0.55,0.55,0.55,15,5,High,Shipping Delay
+2331,2025-01-10,Ibuprofen,Painkiller,71,0.75,0.65,0.65,6,11,Medium,None
+2332,2025-01-10,Aspirin,Painkiller,95,0.6,0.56,0.56,6,11,Low,Shipping Delay
+2333,2025-01-10,Naproxen,Painkiller,29,0.85,0.81,0.81,7,6,Low,Shipping Delay
+2334,2025-01-10,Diclofenac,Painkiller,19,0.9,0.84,0.84,1,12,High,None
+2335,2025-01-10,Amoxicillin,Antibiotic,79,1.3,1.18,1.18,5,10,High,Shipping Delay
+2336,2025-01-10,Azithromycin,Antibiotic,27,1.5,1.32,1.32,2,8,High,None
+2337,2025-01-10,Ciprofloxacin,Antibiotic,18,1.4,1.28,1.28,2,12,Medium,Shipping Delay
+2338,2025-01-10,Doxycycline,Antibiotic,83,1.2,1.05,1.05,3,8,Medium,None
+2339,2025-01-10,Cetrizine,Antihistamine,25,0.4,0.37,0.37,15,6,High,None
+2340,2025-01-10,Loratadine,Antihistamine,12,0.45,0.39,0.39,3,5,Low,None
+2341,2025-01-10,Fexofenadine,Antihistamine,45,0.5,0.45,0.45,15,14,Medium,Shipping Delay
+2342,2025-01-10,Metformin,Diabetes,16,0.9,0.85,0.85,4,8,High,None
+2343,2025-01-10,Glimepiride,Diabetes,20,1.1,1.07,1.07,8,10,Medium,Raw Material Shortage
+2344,2025-01-10,Sitagliptin,Diabetes,67,1.6,1.4,1.4,12,9,Medium,Shipping Delay
+2345,2025-01-10,Pioglitazone,Diabetes,79,1.2,1.19,1.19,3,8,Low,Shipping Delay
+2346,2025-01-10,Omeprazole,Acid Reflux,27,0.7,0.61,0.61,6,9,Low,Raw Material Shortage
+2347,2025-01-10,Losartan,Blood Pressure,35,1,0.94,0.94,2,8,High,None
+2348,2025-01-10,Levothyroxine,Thyroid,45,0.8,0.7,0.7,14,8,Medium,Raw Material Shortage
+2349,2025-01-11,Paracetamol,Painkiller,32,0.55,0.55,0.55,6,13,High,None
+2350,2025-01-11,Ibuprofen,Painkiller,18,0.75,0.75,0.75,6,8,High,Raw Material Shortage
+2351,2025-01-11,Aspirin,Painkiller,21,0.6,0.51,0.51,14,11,Medium,Raw Material Shortage
+2352,2025-01-11,Naproxen,Painkiller,27,0.85,0.84,0.84,8,7,Low,Shipping Delay
+2353,2025-01-11,Diclofenac,Painkiller,31,0.9,0.86,0.86,14,5,Low,None
+2354,2025-01-11,Amoxicillin,Antibiotic,74,1.3,1.27,1.27,7,9,High,Raw Material Shortage
+2355,2025-01-11,Azithromycin,Antibiotic,54,1.5,1.46,1.46,10,10,Low,Shipping Delay
+2356,2025-01-11,Ciprofloxacin,Antibiotic,37,1.4,1.33,1.33,5,6,Low,Raw Material Shortage
+2357,2025-01-11,Doxycycline,Antibiotic,66,1.2,1.05,1.05,9,11,Medium,Shipping Delay
+2358,2025-01-11,Cetrizine,Antihistamine,72,0.4,0.4,0.4,6,9,Low,Shipping Delay
+2359,2025-01-11,Loratadine,Antihistamine,99,0.45,0.38,0.38,9,10,High,Raw Material Shortage
+2360,2025-01-11,Fexofenadine,Antihistamine,20,0.5,0.5,0.5,2,11,Medium,None
+2361,2025-01-11,Metformin,Diabetes,25,0.9,0.85,0.85,4,6,Medium,Shipping Delay
+2362,2025-01-11,Glimepiride,Diabetes,96,1.1,0.97,0.97,8,6,Low,None
+2363,2025-01-11,Sitagliptin,Diabetes,33,1.6,1.36,1.36,11,8,Medium,Raw Material Shortage
+2364,2025-01-11,Pioglitazone,Diabetes,42,1.2,1.18,1.18,2,15,Low,None
+2365,2025-01-11,Omeprazole,Acid Reflux,88,0.7,0.68,0.68,14,8,Low,Raw Material Shortage
+2366,2025-01-11,Losartan,Blood Pressure,26,1,0.96,0.96,14,14,High,Raw Material Shortage
+2367,2025-01-11,Levothyroxine,Thyroid,55,0.8,0.75,0.75,1,7,High,Shipping Delay
+2368,2025-01-12,Paracetamol,Painkiller,19,0.55,0.51,0.51,8,15,Medium,Raw Material Shortage
+2369,2025-01-12,Ibuprofen,Painkiller,12,0.75,0.65,0.65,0,8,Medium,Raw Material Shortage
+2370,2025-01-12,Aspirin,Painkiller,63,0.6,0.6,0.6,8,5,High,Raw Material Shortage
+2371,2025-01-12,Naproxen,Painkiller,14,0.85,0.76,0.76,7,11,Medium,Shipping Delay
+2372,2025-01-12,Diclofenac,Painkiller,61,0.9,0.79,0.79,10,5,Medium,Shipping Delay
+2373,2025-01-12,Amoxicillin,Antibiotic,60,1.3,1.22,1.22,8,15,High,Raw Material Shortage
+2374,2025-01-12,Azithromycin,Antibiotic,42,1.5,1.31,1.31,7,13,Low,None
+2375,2025-01-12,Ciprofloxacin,Antibiotic,84,1.4,1.24,1.24,2,6,Medium,Raw Material Shortage
+2376,2025-01-12,Doxycycline,Antibiotic,69,1.2,1.18,1.18,0,10,Medium,Raw Material Shortage
+2377,2025-01-12,Cetrizine,Antihistamine,95,0.4,0.37,0.37,6,9,High,Raw Material Shortage
+2378,2025-01-12,Loratadine,Antihistamine,88,0.45,0.45,0.45,6,15,Low,Shipping Delay
+2379,2025-01-12,Fexofenadine,Antihistamine,100,0.5,0.49,0.49,0,12,Low,Shipping Delay
+2380,2025-01-12,Metformin,Diabetes,54,0.9,0.78,0.78,6,8,High,None
+2381,2025-01-12,Glimepiride,Diabetes,40,1.1,1.08,1.08,1,8,Low,None
+2382,2025-01-12,Sitagliptin,Diabetes,54,1.6,1.51,1.51,0,10,High,Raw Material Shortage
+2383,2025-01-12,Pioglitazone,Diabetes,49,1.2,1.15,1.15,7,9,Low,None
+2384,2025-01-12,Omeprazole,Acid Reflux,82,0.7,0.64,0.64,6,11,Medium,Raw Material Shortage
+2385,2025-01-12,Losartan,Blood Pressure,56,1,0.98,0.98,14,11,High,None
+2386,2025-01-12,Levothyroxine,Thyroid,100,0.8,0.7,0.7,14,12,Medium,Raw Material Shortage
+2387,2025-01-13,Paracetamol,Painkiller,48,0.55,0.52,0.52,2,5,Medium,Shipping Delay
+2388,2025-01-13,Ibuprofen,Painkiller,61,0.75,0.73,0.73,4,9,High,Shipping Delay
+2389,2025-01-13,Aspirin,Painkiller,16,0.6,0.51,0.51,13,12,Low,Shipping Delay
+2390,2025-01-13,Naproxen,Painkiller,96,0.85,0.74,0.74,3,14,High,None
+2391,2025-01-13,Diclofenac,Painkiller,25,0.9,0.87,0.87,9,10,Medium,Shipping Delay
+2392,2025-01-13,Amoxicillin,Antibiotic,79,1.3,1.3,1.3,4,11,Low,None
+2393,2025-01-13,Azithromycin,Antibiotic,15,1.5,1.46,1.46,4,6,Low,Shipping Delay
+2394,2025-01-13,Ciprofloxacin,Antibiotic,10,1.4,1.34,1.34,0,9,High,Raw Material Shortage
+2395,2025-01-13,Doxycycline,Antibiotic,27,1.2,1.11,1.11,11,9,Medium,None
+2396,2025-01-13,Cetrizine,Antihistamine,99,0.4,0.38,0.38,11,15,Medium,Raw Material Shortage
+2397,2025-01-13,Loratadine,Antihistamine,57,0.45,0.45,0.45,12,8,Medium,Raw Material Shortage
+2398,2025-01-13,Fexofenadine,Antihistamine,71,0.5,0.5,0.5,5,12,Low,Shipping Delay
+2399,2025-01-13,Metformin,Diabetes,83,0.9,0.78,0.78,8,9,Medium,Shipping Delay
+2400,2025-01-13,Glimepiride,Diabetes,25,1.1,0.99,0.99,12,5,Low,Shipping Delay
+2401,2025-01-13,Sitagliptin,Diabetes,23,1.6,1.49,1.49,3,7,High,Raw Material Shortage
+2402,2025-01-13,Pioglitazone,Diabetes,62,1.2,1.13,1.13,3,7,Medium,Raw Material Shortage
+2403,2025-01-13,Omeprazole,Acid Reflux,59,0.7,0.63,0.63,3,6,Low,Raw Material Shortage
+2404,2025-01-13,Losartan,Blood Pressure,67,1,0.89,0.89,2,8,Low,None
+2405,2025-01-13,Levothyroxine,Thyroid,32,0.8,0.77,0.77,3,15,High,Shipping Delay
+2406,2025-01-14,Paracetamol,Painkiller,68,0.55,0.52,0.52,5,14,Low,Shipping Delay
+2407,2025-01-14,Ibuprofen,Painkiller,75,0.75,0.67,0.67,4,7,Medium,None
+2408,2025-01-14,Aspirin,Painkiller,14,0.6,0.6,0.6,14,6,High,None
+2409,2025-01-14,Naproxen,Painkiller,36,0.85,0.73,0.73,14,12,Low,Raw Material Shortage
+2410,2025-01-14,Diclofenac,Painkiller,95,0.9,0.83,0.83,1,13,High,None
+2411,2025-01-14,Amoxicillin,Antibiotic,73,1.3,1.24,1.24,2,9,Low,Shipping Delay
+2412,2025-01-14,Azithromycin,Antibiotic,53,1.5,1.37,1.37,15,8,Medium,Raw Material Shortage
+2413,2025-01-14,Ciprofloxacin,Antibiotic,67,1.4,1.24,1.24,6,7,Low,Raw Material Shortage
+2414,2025-01-14,Doxycycline,Antibiotic,24,1.2,1.06,1.06,3,8,High,Raw Material Shortage
+2415,2025-01-14,Cetrizine,Antihistamine,10,0.4,0.36,0.36,10,13,Low,None
+2416,2025-01-14,Loratadine,Antihistamine,86,0.45,0.43,0.43,4,8,High,Raw Material Shortage
+2417,2025-01-14,Fexofenadine,Antihistamine,47,0.5,0.47,0.47,15,10,Low,None
+2418,2025-01-14,Metformin,Diabetes,45,0.9,0.78,0.78,1,7,Low,None
+2419,2025-01-14,Glimepiride,Diabetes,34,1.1,1.04,1.04,9,9,Medium,Shipping Delay
+2420,2025-01-14,Sitagliptin,Diabetes,34,1.6,1.56,1.56,2,8,High,Raw Material Shortage
+2421,2025-01-14,Pioglitazone,Diabetes,62,1.2,1.18,1.18,2,11,High,None
+2422,2025-01-14,Omeprazole,Acid Reflux,72,0.7,0.64,0.64,13,10,Medium,None
+2423,2025-01-14,Losartan,Blood Pressure,91,1,0.96,0.96,14,5,High,Shipping Delay
+2424,2025-01-14,Levothyroxine,Thyroid,35,0.8,0.72,0.72,3,7,Medium,None
+2425,2025-01-15,Paracetamol,Painkiller,76,0.55,0.55,0.55,3,13,High,Shipping Delay
+2426,2025-01-15,Ibuprofen,Painkiller,58,0.75,0.75,0.75,11,6,High,Shipping Delay
+2427,2025-01-15,Aspirin,Painkiller,85,0.6,0.56,0.56,12,10,Low,Raw Material Shortage
+2428,2025-01-15,Naproxen,Painkiller,39,0.85,0.78,0.78,9,7,Medium,None
+2429,2025-01-15,Diclofenac,Painkiller,16,0.9,0.84,0.84,14,15,High,Shipping Delay
+2430,2025-01-15,Amoxicillin,Antibiotic,83,1.3,1.2,1.2,12,11,Medium,Shipping Delay
+2431,2025-01-15,Azithromycin,Antibiotic,57,1.5,1.4,1.4,13,9,High,Raw Material Shortage
+2432,2025-01-15,Ciprofloxacin,Antibiotic,61,1.4,1.35,1.35,12,5,Medium,Shipping Delay
+2433,2025-01-15,Doxycycline,Antibiotic,87,1.2,1.13,1.13,1,11,Medium,Raw Material Shortage
+2434,2025-01-15,Cetrizine,Antihistamine,21,0.4,0.34,0.34,5,7,Low,None
+2435,2025-01-15,Loratadine,Antihistamine,95,0.45,0.44,0.44,12,14,Medium,None
+2436,2025-01-15,Fexofenadine,Antihistamine,91,0.5,0.44,0.44,6,11,Low,Raw Material Shortage
+2437,2025-01-15,Metformin,Diabetes,95,0.9,0.87,0.87,6,9,Medium,Raw Material Shortage
+2438,2025-01-15,Glimepiride,Diabetes,27,1.1,0.94,0.94,14,13,High,None
+2439,2025-01-15,Sitagliptin,Diabetes,97,1.6,1.39,1.39,8,13,Low,Raw Material Shortage
+2440,2025-01-15,Pioglitazone,Diabetes,64,1.2,1.06,1.06,6,6,High,None
+2441,2025-01-15,Omeprazole,Acid Reflux,31,0.7,0.66,0.66,7,5,Medium,None
+2442,2025-01-15,Losartan,Blood Pressure,95,1,0.99,0.99,7,15,Medium,Raw Material Shortage
+2443,2025-01-15,Levothyroxine,Thyroid,70,0.8,0.69,0.69,5,10,Low,Shipping Delay
+2444,2025-01-16,Paracetamol,Painkiller,17,0.55,0.48,0.48,5,10,High,Raw Material Shortage
+2445,2025-01-16,Ibuprofen,Painkiller,85,0.75,0.66,0.66,10,13,Low,Shipping Delay
+2446,2025-01-16,Aspirin,Painkiller,25,0.6,0.58,0.58,15,10,Medium,None
+2447,2025-01-16,Naproxen,Painkiller,69,0.85,0.83,0.83,4,12,High,None
+2448,2025-01-16,Diclofenac,Painkiller,41,0.9,0.83,0.83,2,15,Medium,Shipping Delay
+2449,2025-01-16,Amoxicillin,Antibiotic,97,1.3,1.17,1.17,0,5,Medium,Raw Material Shortage
+2450,2025-01-16,Azithromycin,Antibiotic,43,1.5,1.42,1.42,7,11,High,Shipping Delay
+2451,2025-01-16,Ciprofloxacin,Antibiotic,75,1.4,1.2,1.2,3,7,High,Raw Material Shortage
+2452,2025-01-16,Doxycycline,Antibiotic,91,1.2,1.03,1.03,9,9,High,Raw Material Shortage
+2453,2025-01-16,Cetrizine,Antihistamine,24,0.4,0.37,0.37,9,13,Low,Shipping Delay
+2454,2025-01-16,Loratadine,Antihistamine,24,0.45,0.4,0.4,12,14,High,Raw Material Shortage
+2455,2025-01-16,Fexofenadine,Antihistamine,93,0.5,0.49,0.49,8,14,Medium,None
+2456,2025-01-16,Metformin,Diabetes,71,0.9,0.87,0.87,4,9,Low,None
+2457,2025-01-16,Glimepiride,Diabetes,95,1.1,0.94,0.94,2,11,Medium,Raw Material Shortage
+2458,2025-01-16,Sitagliptin,Diabetes,57,1.6,1.45,1.45,1,8,Low,Shipping Delay
+2459,2025-01-16,Pioglitazone,Diabetes,32,1.2,1.11,1.11,9,5,High,Shipping Delay
+2460,2025-01-16,Omeprazole,Acid Reflux,58,0.7,0.68,0.68,4,6,Medium,Shipping Delay
+2461,2025-01-16,Losartan,Blood Pressure,14,1,0.98,0.98,0,12,Low,Raw Material Shortage
+2462,2025-01-16,Levothyroxine,Thyroid,82,0.8,0.73,0.73,13,15,Low,None
+2463,2025-01-17,Paracetamol,Painkiller,14,0.55,0.5,0.5,6,6,Medium,Shipping Delay
+2464,2025-01-17,Ibuprofen,Painkiller,63,0.75,0.72,0.72,2,6,High,Raw Material Shortage
+2465,2025-01-17,Aspirin,Painkiller,45,0.6,0.54,0.54,9,11,Medium,Raw Material Shortage
+2466,2025-01-17,Naproxen,Painkiller,68,0.85,0.82,0.82,13,15,High,Raw Material Shortage
+2467,2025-01-17,Diclofenac,Painkiller,98,0.9,0.79,0.79,7,7,Medium,None
+2468,2025-01-17,Amoxicillin,Antibiotic,20,1.3,1.24,1.24,3,9,High,Raw Material Shortage
+2469,2025-01-17,Azithromycin,Antibiotic,10,1.5,1.36,1.36,10,15,Low,Shipping Delay
+2470,2025-01-17,Ciprofloxacin,Antibiotic,26,1.4,1.27,1.27,6,15,High,Shipping Delay
+2471,2025-01-17,Doxycycline,Antibiotic,19,1.2,1.09,1.09,15,7,Low,Raw Material Shortage
+2472,2025-01-17,Cetrizine,Antihistamine,67,0.4,0.34,0.34,2,8,Low,Raw Material Shortage
+2473,2025-01-17,Loratadine,Antihistamine,27,0.45,0.41,0.41,3,14,High,None
+2474,2025-01-17,Fexofenadine,Antihistamine,46,0.5,0.5,0.5,15,10,Medium,None
+2475,2025-01-17,Metformin,Diabetes,53,0.9,0.89,0.89,0,8,Medium,Shipping Delay
+2476,2025-01-17,Glimepiride,Diabetes,35,1.1,1.08,1.08,3,12,Low,Raw Material Shortage
+2477,2025-01-17,Sitagliptin,Diabetes,80,1.6,1.4,1.4,11,11,Low,Raw Material Shortage
+2478,2025-01-17,Pioglitazone,Diabetes,40,1.2,1.13,1.13,14,7,Low,Raw Material Shortage
+2479,2025-01-17,Omeprazole,Acid Reflux,73,0.7,0.6,0.6,8,7,High,Shipping Delay
+2480,2025-01-17,Losartan,Blood Pressure,95,1,0.91,0.91,8,6,Low,Shipping Delay
+2481,2025-01-17,Levothyroxine,Thyroid,42,0.8,0.69,0.69,9,10,High,Raw Material Shortage
+2482,2025-01-18,Paracetamol,Painkiller,13,0.55,0.51,0.51,13,8,High,Shipping Delay
+2483,2025-01-18,Ibuprofen,Painkiller,30,0.75,0.64,0.64,7,8,Medium,None
+2484,2025-01-18,Aspirin,Painkiller,53,0.6,0.52,0.52,9,11,Low,Raw Material Shortage
+2485,2025-01-18,Naproxen,Painkiller,85,0.85,0.82,0.82,4,10,Low,Raw Material Shortage
+2486,2025-01-18,Diclofenac,Painkiller,39,0.9,0.78,0.78,11,9,High,None
+2487,2025-01-18,Amoxicillin,Antibiotic,87,1.3,1.28,1.28,4,7,Medium,None
+2488,2025-01-18,Azithromycin,Antibiotic,22,1.5,1.47,1.47,10,9,Low,Raw Material Shortage
+2489,2025-01-18,Ciprofloxacin,Antibiotic,99,1.4,1.32,1.32,1,15,Medium,Raw Material Shortage
+2490,2025-01-18,Doxycycline,Antibiotic,50,1.2,1.04,1.04,7,13,Low,Raw Material Shortage
+2491,2025-01-18,Cetrizine,Antihistamine,49,0.4,0.38,0.38,4,13,Low,Shipping Delay
+2492,2025-01-18,Loratadine,Antihistamine,30,0.45,0.4,0.4,12,14,High,Raw Material Shortage
+2493,2025-01-18,Fexofenadine,Antihistamine,100,0.5,0.48,0.48,12,11,Medium,None
+2494,2025-01-18,Metformin,Diabetes,86,0.9,0.84,0.84,0,9,High,None
+2495,2025-01-18,Glimepiride,Diabetes,84,1.1,0.95,0.95,8,12,High,None
+2496,2025-01-18,Sitagliptin,Diabetes,83,1.6,1.47,1.47,5,11,High,Shipping Delay
+2497,2025-01-18,Pioglitazone,Diabetes,75,1.2,1.09,1.09,14,7,Low,Shipping Delay
+2498,2025-01-18,Omeprazole,Acid Reflux,77,0.7,0.61,0.61,1,10,High,Shipping Delay
+2499,2025-01-18,Losartan,Blood Pressure,71,1,0.92,0.92,0,8,High,Raw Material Shortage
+2500,2025-01-18,Levothyroxine,Thyroid,80,0.8,0.78,0.78,8,6,High,None
+2501,2025-01-19,Paracetamol,Painkiller,80,0.55,0.48,0.48,14,15,Medium,Shipping Delay
+2502,2025-01-19,Ibuprofen,Painkiller,20,0.75,0.65,0.65,3,12,Low,Raw Material Shortage
+2503,2025-01-19,Aspirin,Painkiller,67,0.6,0.6,0.6,11,6,High,None
+2504,2025-01-19,Naproxen,Painkiller,82,0.85,0.8,0.8,13,14,High,Shipping Delay
+2505,2025-01-19,Diclofenac,Painkiller,31,0.9,0.78,0.78,0,9,Low,Raw Material Shortage
+2506,2025-01-19,Amoxicillin,Antibiotic,96,1.3,1.27,1.27,2,10,Low,None
+2507,2025-01-19,Azithromycin,Antibiotic,64,1.5,1.5,1.5,0,14,Low,Raw Material Shortage
+2508,2025-01-19,Ciprofloxacin,Antibiotic,72,1.4,1.35,1.35,6,9,Low,Shipping Delay
+2509,2025-01-19,Doxycycline,Antibiotic,93,1.2,1.12,1.12,7,13,High,Shipping Delay
+2510,2025-01-19,Cetrizine,Antihistamine,100,0.4,0.38,0.38,1,11,Medium,Raw Material Shortage
+2511,2025-01-19,Loratadine,Antihistamine,18,0.45,0.39,0.39,10,15,Low,Raw Material Shortage
+2512,2025-01-19,Fexofenadine,Antihistamine,79,0.5,0.45,0.45,8,9,Medium,Raw Material Shortage
+2513,2025-01-19,Metformin,Diabetes,66,0.9,0.89,0.89,1,13,High,Raw Material Shortage
+2514,2025-01-19,Glimepiride,Diabetes,61,1.1,0.94,0.94,11,8,Low,Shipping Delay
+2515,2025-01-19,Sitagliptin,Diabetes,28,1.6,1.47,1.47,7,12,Medium,None
+2516,2025-01-19,Pioglitazone,Diabetes,48,1.2,1.03,1.03,6,11,High,Raw Material Shortage
+2517,2025-01-19,Omeprazole,Acid Reflux,42,0.7,0.69,0.69,8,12,High,Shipping Delay
+2518,2025-01-19,Losartan,Blood Pressure,85,1,0.88,0.88,10,5,Medium,None
+2519,2025-01-19,Levothyroxine,Thyroid,25,0.8,0.8,0.8,8,12,Low,None
+2520,2025-01-20,Paracetamol,Painkiller,33,0.55,0.49,0.49,6,10,High,Shipping Delay
+2521,2025-01-20,Ibuprofen,Painkiller,85,0.75,0.64,0.64,8,6,Medium,None
+2522,2025-01-20,Aspirin,Painkiller,92,0.6,0.56,0.56,0,5,High,None
+2523,2025-01-20,Naproxen,Painkiller,46,0.85,0.72,0.72,10,7,High,Shipping Delay
+2524,2025-01-20,Diclofenac,Painkiller,17,0.9,0.86,0.86,2,8,Low,None
+2525,2025-01-20,Amoxicillin,Antibiotic,25,1.3,1.18,1.18,5,13,High,Shipping Delay
+2526,2025-01-20,Azithromycin,Antibiotic,100,1.5,1.3,1.3,11,11,High,Raw Material Shortage
+2527,2025-01-20,Ciprofloxacin,Antibiotic,93,1.4,1.29,1.29,6,7,High,None
+2528,2025-01-20,Doxycycline,Antibiotic,41,1.2,1.11,1.11,1,13,Medium,Shipping Delay
+2529,2025-01-20,Cetrizine,Antihistamine,80,0.4,0.39,0.39,13,7,Medium,Shipping Delay
+2530,2025-01-20,Loratadine,Antihistamine,22,0.45,0.44,0.44,11,6,Low,Raw Material Shortage
+2531,2025-01-20,Fexofenadine,Antihistamine,93,0.5,0.47,0.47,12,5,Medium,Shipping Delay
+2532,2025-01-20,Metformin,Diabetes,61,0.9,0.81,0.81,13,5,High,None
+2533,2025-01-20,Glimepiride,Diabetes,81,1.1,1.1,1.1,5,7,Medium,Shipping Delay
+2534,2025-01-20,Sitagliptin,Diabetes,56,1.6,1.58,1.58,7,9,Low,Shipping Delay
+2535,2025-01-20,Pioglitazone,Diabetes,91,1.2,1.17,1.17,9,12,High,Shipping Delay
+2536,2025-01-20,Omeprazole,Acid Reflux,58,0.7,0.68,0.68,3,11,Low,None
+2537,2025-01-20,Losartan,Blood Pressure,93,1,0.96,0.96,9,8,Low,None
+2538,2025-01-20,Levothyroxine,Thyroid,46,0.8,0.7,0.7,1,9,Medium,Raw Material Shortage
+2539,2025-01-21,Paracetamol,Painkiller,54,0.55,0.48,0.48,10,6,Low,None
+2540,2025-01-21,Ibuprofen,Painkiller,56,0.75,0.75,0.75,7,12,High,Shipping Delay
+2541,2025-01-21,Aspirin,Painkiller,54,0.6,0.57,0.57,0,9,Medium,Raw Material Shortage
+2542,2025-01-21,Naproxen,Painkiller,54,0.85,0.73,0.73,0,7,Low,Shipping Delay
+2543,2025-01-21,Diclofenac,Painkiller,73,0.9,0.81,0.81,7,10,Low,Shipping Delay
+2544,2025-01-21,Amoxicillin,Antibiotic,85,1.3,1.21,1.21,10,5,Low,Raw Material Shortage
+2545,2025-01-21,Azithromycin,Antibiotic,80,1.5,1.46,1.46,15,9,High,None
+2546,2025-01-21,Ciprofloxacin,Antibiotic,19,1.4,1.28,1.28,10,9,Low,None
+2547,2025-01-21,Doxycycline,Antibiotic,83,1.2,1.17,1.17,13,11,Medium,Raw Material Shortage
+2548,2025-01-21,Cetrizine,Antihistamine,66,0.4,0.34,0.34,12,10,Low,None
+2549,2025-01-21,Loratadine,Antihistamine,37,0.45,0.42,0.42,6,10,High,Raw Material Shortage
+2550,2025-01-21,Fexofenadine,Antihistamine,39,0.5,0.48,0.48,10,12,Medium,None
+2551,2025-01-21,Metformin,Diabetes,60,0.9,0.89,0.89,8,5,Low,Raw Material Shortage
+2552,2025-01-21,Glimepiride,Diabetes,17,1.1,0.96,0.96,5,13,Low,Shipping Delay
+2553,2025-01-21,Sitagliptin,Diabetes,31,1.6,1.56,1.56,0,11,Low,Raw Material Shortage
+2554,2025-01-21,Pioglitazone,Diabetes,92,1.2,1.18,1.18,2,8,High,None
+2555,2025-01-21,Omeprazole,Acid Reflux,67,0.7,0.68,0.68,7,11,Low,Raw Material Shortage
+2556,2025-01-21,Losartan,Blood Pressure,71,1,0.92,0.92,10,14,High,Raw Material Shortage
+2557,2025-01-21,Levothyroxine,Thyroid,66,0.8,0.79,0.79,15,15,High,None
+2558,2025-01-22,Paracetamol,Painkiller,27,0.55,0.51,0.51,6,15,Low,Shipping Delay
+2559,2025-01-22,Ibuprofen,Painkiller,100,0.75,0.66,0.66,2,12,Medium,None
+2560,2025-01-22,Aspirin,Painkiller,33,0.6,0.55,0.55,0,6,Medium,None
+2561,2025-01-22,Naproxen,Painkiller,50,0.85,0.76,0.76,6,10,Medium,Shipping Delay
+2562,2025-01-22,Diclofenac,Painkiller,21,0.9,0.8,0.8,11,10,High,None
+2563,2025-01-22,Amoxicillin,Antibiotic,48,1.3,1.17,1.17,6,14,Medium,Raw Material Shortage
+2564,2025-01-22,Azithromycin,Antibiotic,12,1.5,1.47,1.47,14,7,Low,None
+2565,2025-01-22,Ciprofloxacin,Antibiotic,42,1.4,1.25,1.25,4,12,High,Shipping Delay
+2566,2025-01-22,Doxycycline,Antibiotic,26,1.2,1.15,1.15,3,12,High,None
+2567,2025-01-22,Cetrizine,Antihistamine,24,0.4,0.39,0.39,0,13,Medium,Raw Material Shortage
+2568,2025-01-22,Loratadine,Antihistamine,70,0.45,0.43,0.43,0,7,High,Shipping Delay
+2569,2025-01-22,Fexofenadine,Antihistamine,16,0.5,0.5,0.5,3,5,Medium,Shipping Delay
+2570,2025-01-22,Metformin,Diabetes,80,0.9,0.84,0.84,11,10,Low,Shipping Delay
+2571,2025-01-22,Glimepiride,Diabetes,24,1.1,0.95,0.95,13,11,Medium,None
+2572,2025-01-22,Sitagliptin,Diabetes,48,1.6,1.39,1.39,7,6,Medium,Raw Material Shortage
+2573,2025-01-22,Pioglitazone,Diabetes,54,1.2,1.15,1.15,3,6,Low,Raw Material Shortage
+2574,2025-01-22,Omeprazole,Acid Reflux,21,0.7,0.61,0.61,12,10,High,Raw Material Shortage
+2575,2025-01-22,Losartan,Blood Pressure,49,1,0.97,0.97,5,8,Medium,None
+2576,2025-01-22,Levothyroxine,Thyroid,44,0.8,0.68,0.68,3,15,High,None
+2577,2025-01-23,Paracetamol,Painkiller,74,0.55,0.52,0.52,5,14,High,None
+2578,2025-01-23,Ibuprofen,Painkiller,99,0.75,0.7,0.7,10,11,Low,Shipping Delay
+2579,2025-01-23,Aspirin,Painkiller,70,0.6,0.57,0.57,5,10,High,None
+2580,2025-01-23,Naproxen,Painkiller,91,0.85,0.74,0.74,1,9,Low,None
+2581,2025-01-23,Diclofenac,Painkiller,21,0.9,0.78,0.78,2,5,Medium,Raw Material Shortage
+2582,2025-01-23,Amoxicillin,Antibiotic,76,1.3,1.26,1.26,2,14,Low,None
+2583,2025-01-23,Azithromycin,Antibiotic,82,1.5,1.35,1.35,12,15,Low,Shipping Delay
+2584,2025-01-23,Ciprofloxacin,Antibiotic,15,1.4,1.26,1.26,0,9,Medium,Shipping Delay
+2585,2025-01-23,Doxycycline,Antibiotic,82,1.2,1.14,1.14,4,8,High,Raw Material Shortage
+2586,2025-01-23,Cetrizine,Antihistamine,83,0.4,0.37,0.37,15,6,High,Raw Material Shortage
+2587,2025-01-23,Loratadine,Antihistamine,83,0.45,0.43,0.43,15,10,Medium,Raw Material Shortage
+2588,2025-01-23,Fexofenadine,Antihistamine,91,0.5,0.47,0.47,5,10,Low,Shipping Delay
+2589,2025-01-23,Metformin,Diabetes,34,0.9,0.84,0.84,5,10,High,None
+2590,2025-01-23,Glimepiride,Diabetes,31,1.1,0.94,0.94,5,5,Low,Raw Material Shortage
+2591,2025-01-23,Sitagliptin,Diabetes,76,1.6,1.42,1.42,9,9,Low,Shipping Delay
+2592,2025-01-23,Pioglitazone,Diabetes,97,1.2,1.15,1.15,6,12,High,Raw Material Shortage
+2593,2025-01-23,Omeprazole,Acid Reflux,87,0.7,0.61,0.61,4,14,Low,None
+2594,2025-01-23,Losartan,Blood Pressure,95,1,0.96,0.96,2,5,Low,None
+2595,2025-01-23,Levothyroxine,Thyroid,61,0.8,0.8,0.8,7,10,Medium,Shipping Delay
+2596,2025-01-24,Paracetamol,Painkiller,67,0.55,0.49,0.49,9,10,Low,Shipping Delay
+2597,2025-01-24,Ibuprofen,Painkiller,13,0.75,0.69,0.69,9,8,Medium,None
+2598,2025-01-24,Aspirin,Painkiller,15,0.6,0.52,0.52,7,6,Medium,Raw Material Shortage
+2599,2025-01-24,Naproxen,Painkiller,38,0.85,0.77,0.77,2,9,Medium,None
+2600,2025-01-24,Diclofenac,Painkiller,33,0.9,0.86,0.86,6,10,Low,Raw Material Shortage
+2601,2025-01-24,Amoxicillin,Antibiotic,40,1.3,1.23,1.23,7,9,Medium,None
+2602,2025-01-24,Azithromycin,Antibiotic,41,1.5,1.46,1.46,7,10,Low,Raw Material Shortage
+2603,2025-01-24,Ciprofloxacin,Antibiotic,26,1.4,1.27,1.27,8,15,High,Shipping Delay
+2604,2025-01-24,Doxycycline,Antibiotic,68,1.2,1.08,1.08,0,12,Low,Shipping Delay
+2605,2025-01-24,Cetrizine,Antihistamine,41,0.4,0.4,0.4,3,9,Medium,None
+2606,2025-01-24,Loratadine,Antihistamine,17,0.45,0.41,0.41,3,8,Medium,None
+2607,2025-01-24,Fexofenadine,Antihistamine,74,0.5,0.43,0.43,4,15,High,Raw Material Shortage
+2608,2025-01-24,Metformin,Diabetes,81,0.9,0.86,0.86,15,12,High,None
+2609,2025-01-24,Glimepiride,Diabetes,85,1.1,1.05,1.05,12,13,High,Raw Material Shortage
+2610,2025-01-24,Sitagliptin,Diabetes,99,1.6,1.44,1.44,5,5,High,None
+2611,2025-01-24,Pioglitazone,Diabetes,37,1.2,1.08,1.08,10,15,Low,Shipping Delay
+2612,2025-01-24,Omeprazole,Acid Reflux,57,0.7,0.63,0.63,0,13,High,Shipping Delay
+2613,2025-01-24,Losartan,Blood Pressure,51,1,0.94,0.94,4,11,Low,None
+2614,2025-01-24,Levothyroxine,Thyroid,20,0.8,0.77,0.77,15,6,Low,None
+2615,2025-01-25,Paracetamol,Painkiller,82,0.55,0.49,0.49,6,13,Low,Raw Material Shortage
+2616,2025-01-25,Ibuprofen,Painkiller,44,0.75,0.65,0.65,14,7,Medium,None
+2617,2025-01-25,Aspirin,Painkiller,90,0.6,0.58,0.58,4,14,High,Raw Material Shortage
+2618,2025-01-25,Naproxen,Painkiller,81,0.85,0.78,0.78,3,12,High,None
+2619,2025-01-25,Diclofenac,Painkiller,100,0.9,0.8,0.8,13,13,Medium,None
+2620,2025-01-25,Amoxicillin,Antibiotic,51,1.3,1.14,1.14,12,15,Medium,Shipping Delay
+2621,2025-01-25,Azithromycin,Antibiotic,10,1.5,1.36,1.36,2,11,Low,None
+2622,2025-01-25,Ciprofloxacin,Antibiotic,71,1.4,1.23,1.23,7,12,Medium,Raw Material Shortage
+2623,2025-01-25,Doxycycline,Antibiotic,100,1.2,1.16,1.16,8,5,Medium,Shipping Delay
+2624,2025-01-25,Cetrizine,Antihistamine,18,0.4,0.38,0.38,3,15,High,None
+2625,2025-01-25,Loratadine,Antihistamine,56,0.45,0.43,0.43,9,13,Low,None
+2626,2025-01-25,Fexofenadine,Antihistamine,91,0.5,0.49,0.49,2,11,Medium,Shipping Delay
+2627,2025-01-25,Metformin,Diabetes,22,0.9,0.85,0.85,13,9,Low,Shipping Delay
+2628,2025-01-25,Glimepiride,Diabetes,37,1.1,0.99,0.99,10,10,High,None
+2629,2025-01-25,Sitagliptin,Diabetes,95,1.6,1.39,1.39,1,10,Medium,Shipping Delay
+2630,2025-01-25,Pioglitazone,Diabetes,93,1.2,1.13,1.13,3,8,Low,Raw Material Shortage
+2631,2025-01-25,Omeprazole,Acid Reflux,65,0.7,0.62,0.62,11,9,High,None
+2632,2025-01-25,Losartan,Blood Pressure,18,1,0.85,0.85,11,12,High,Raw Material Shortage
+2633,2025-01-25,Levothyroxine,Thyroid,79,0.8,0.69,0.69,0,13,Medium,Shipping Delay
+2634,2025-01-26,Paracetamol,Painkiller,25,0.55,0.52,0.52,5,11,High,Raw Material Shortage
+2635,2025-01-26,Ibuprofen,Painkiller,67,0.75,0.64,0.64,13,15,High,Raw Material Shortage
+2636,2025-01-26,Aspirin,Painkiller,90,0.6,0.58,0.58,3,7,High,Raw Material Shortage
+2637,2025-01-26,Naproxen,Painkiller,34,0.85,0.75,0.75,4,10,High,Raw Material Shortage
+2638,2025-01-26,Diclofenac,Painkiller,73,0.9,0.78,0.78,0,9,High,Shipping Delay
+2639,2025-01-26,Amoxicillin,Antibiotic,30,1.3,1.13,1.13,0,10,High,Raw Material Shortage
+2640,2025-01-26,Azithromycin,Antibiotic,13,1.5,1.37,1.37,8,14,Medium,None
+2641,2025-01-26,Ciprofloxacin,Antibiotic,94,1.4,1.19,1.19,4,7,High,Raw Material Shortage
+2642,2025-01-26,Doxycycline,Antibiotic,22,1.2,1.09,1.09,2,5,Medium,None
+2643,2025-01-26,Cetrizine,Antihistamine,38,0.4,0.35,0.35,9,15,Medium,Shipping Delay
+2644,2025-01-26,Loratadine,Antihistamine,75,0.45,0.41,0.41,5,5,Medium,None
+2645,2025-01-26,Fexofenadine,Antihistamine,86,0.5,0.5,0.5,10,9,Low,Shipping Delay
+2646,2025-01-26,Metformin,Diabetes,51,0.9,0.88,0.88,15,10,Medium,None
+2647,2025-01-26,Glimepiride,Diabetes,93,1.1,1.01,1.01,4,6,Medium,None
+2648,2025-01-26,Sitagliptin,Diabetes,90,1.6,1.37,1.37,0,12,Low,Raw Material Shortage
+2649,2025-01-26,Pioglitazone,Diabetes,53,1.2,1.15,1.15,4,15,High,Raw Material Shortage
+2650,2025-01-26,Omeprazole,Acid Reflux,91,0.7,0.6,0.6,14,15,High,Shipping Delay
+2651,2025-01-26,Losartan,Blood Pressure,71,1,0.88,0.88,2,9,Low,Raw Material Shortage
+2652,2025-01-26,Levothyroxine,Thyroid,65,0.8,0.69,0.69,9,9,Low,Raw Material Shortage
+2653,2025-01-27,Paracetamol,Painkiller,56,0.55,0.49,0.49,15,10,Medium,Raw Material Shortage
+2654,2025-01-27,Ibuprofen,Painkiller,91,0.75,0.68,0.68,13,14,Medium,Raw Material Shortage
+2655,2025-01-27,Aspirin,Painkiller,30,0.6,0.57,0.57,1,14,Medium,Raw Material Shortage
+2656,2025-01-27,Naproxen,Painkiller,64,0.85,0.81,0.81,4,15,High,Shipping Delay
+2657,2025-01-27,Diclofenac,Painkiller,84,0.9,0.81,0.81,8,11,High,None
+2658,2025-01-27,Amoxicillin,Antibiotic,58,1.3,1.12,1.12,14,14,High,Raw Material Shortage
+2659,2025-01-27,Azithromycin,Antibiotic,27,1.5,1.41,1.41,3,11,Low,None
+2660,2025-01-27,Ciprofloxacin,Antibiotic,70,1.4,1.24,1.24,13,8,High,Shipping Delay
+2661,2025-01-27,Doxycycline,Antibiotic,53,1.2,1.17,1.17,10,12,Low,Raw Material Shortage
+2662,2025-01-27,Cetrizine,Antihistamine,55,0.4,0.39,0.39,6,12,Medium,None
+2663,2025-01-27,Loratadine,Antihistamine,52,0.45,0.41,0.41,11,15,High,None
+2664,2025-01-27,Fexofenadine,Antihistamine,69,0.5,0.47,0.47,14,8,Medium,Shipping Delay
+2665,2025-01-27,Metformin,Diabetes,90,0.9,0.81,0.81,15,8,Low,None
+2666,2025-01-27,Glimepiride,Diabetes,88,1.1,0.96,0.96,13,11,High,Shipping Delay
+2667,2025-01-27,Sitagliptin,Diabetes,19,1.6,1.59,1.59,14,8,Medium,Shipping Delay
+2668,2025-01-27,Pioglitazone,Diabetes,82,1.2,1.15,1.15,13,8,High,Shipping Delay
+2669,2025-01-27,Omeprazole,Acid Reflux,16,0.7,0.6,0.6,5,12,High,None
+2670,2025-01-27,Losartan,Blood Pressure,23,1,0.98,0.98,13,8,Low,Raw Material Shortage
+2671,2025-01-27,Levothyroxine,Thyroid,41,0.8,0.75,0.75,6,10,Medium,Raw Material Shortage
+2672,2025-01-28,Paracetamol,Painkiller,20,0.55,0.54,0.54,11,12,Low,Raw Material Shortage
+2673,2025-01-28,Ibuprofen,Painkiller,55,0.75,0.64,0.64,13,7,Medium,None
+2674,2025-01-28,Aspirin,Painkiller,28,0.6,0.56,0.56,14,9,High,Raw Material Shortage
+2675,2025-01-28,Naproxen,Painkiller,97,0.85,0.76,0.76,2,12,Medium,Shipping Delay
+2676,2025-01-28,Diclofenac,Painkiller,89,0.9,0.8,0.8,3,10,Medium,Raw Material Shortage
+2677,2025-01-28,Amoxicillin,Antibiotic,25,1.3,1.15,1.15,8,12,High,Shipping Delay
+2678,2025-01-28,Azithromycin,Antibiotic,97,1.5,1.39,1.39,15,15,Medium,None
+2679,2025-01-28,Ciprofloxacin,Antibiotic,71,1.4,1.24,1.24,7,11,High,Raw Material Shortage
+2680,2025-01-28,Doxycycline,Antibiotic,48,1.2,1.16,1.16,0,7,Medium,Shipping Delay
+2681,2025-01-28,Cetrizine,Antihistamine,19,0.4,0.35,0.35,14,6,High,None
+2682,2025-01-28,Loratadine,Antihistamine,10,0.45,0.43,0.43,5,11,Medium,None
+2683,2025-01-28,Fexofenadine,Antihistamine,79,0.5,0.47,0.47,4,12,Low,Shipping Delay
+2684,2025-01-28,Metformin,Diabetes,19,0.9,0.89,0.89,9,14,Low,Shipping Delay
+2685,2025-01-28,Glimepiride,Diabetes,52,1.1,1.09,1.09,1,8,High,Raw Material Shortage
+2686,2025-01-28,Sitagliptin,Diabetes,55,1.6,1.39,1.39,14,13,High,Raw Material Shortage
+2687,2025-01-28,Pioglitazone,Diabetes,40,1.2,1.13,1.13,5,6,Low,Shipping Delay
+2688,2025-01-28,Omeprazole,Acid Reflux,91,0.7,0.69,0.69,15,6,Medium,Shipping Delay
+2689,2025-01-28,Losartan,Blood Pressure,94,1,0.85,0.85,6,11,Low,Raw Material Shortage
+2690,2025-01-28,Levothyroxine,Thyroid,29,0.8,0.79,0.79,10,6,High,Raw Material Shortage
+2691,2025-01-29,Paracetamol,Painkiller,29,0.55,0.5,0.5,14,15,High,None
+2692,2025-01-29,Ibuprofen,Painkiller,86,0.75,0.69,0.69,6,13,High,Raw Material Shortage
+2693,2025-01-29,Aspirin,Painkiller,77,0.6,0.57,0.57,4,12,High,Shipping Delay
+2694,2025-01-29,Naproxen,Painkiller,34,0.85,0.81,0.81,1,7,Low,None
+2695,2025-01-29,Diclofenac,Painkiller,96,0.9,0.89,0.89,0,5,Medium,Shipping Delay
+2696,2025-01-29,Amoxicillin,Antibiotic,57,1.3,1.11,1.11,0,5,Medium,None
+2697,2025-01-29,Azithromycin,Antibiotic,49,1.5,1.38,1.38,14,12,High,Raw Material Shortage
+2698,2025-01-29,Ciprofloxacin,Antibiotic,67,1.4,1.27,1.27,3,10,Low,Shipping Delay
+2699,2025-01-29,Doxycycline,Antibiotic,50,1.2,1.12,1.12,13,13,Medium,Raw Material Shortage
+2700,2025-01-29,Cetrizine,Antihistamine,47,0.4,0.38,0.38,12,6,Low,None
+2701,2025-01-29,Loratadine,Antihistamine,64,0.45,0.43,0.43,5,9,High,None
+2702,2025-01-29,Fexofenadine,Antihistamine,62,0.5,0.45,0.45,3,8,Medium,Shipping Delay
+2703,2025-01-29,Metformin,Diabetes,91,0.9,0.79,0.79,15,9,Medium,Raw Material Shortage
+2704,2025-01-29,Glimepiride,Diabetes,68,1.1,0.96,0.96,13,12,Low,Shipping Delay
+2705,2025-01-29,Sitagliptin,Diabetes,30,1.6,1.44,1.44,0,12,High,Shipping Delay
+2706,2025-01-29,Pioglitazone,Diabetes,93,1.2,1.07,1.07,14,15,High,Raw Material Shortage
+2707,2025-01-29,Omeprazole,Acid Reflux,61,0.7,0.64,0.64,1,14,High,Shipping Delay
+2708,2025-01-29,Losartan,Blood Pressure,91,1,0.91,0.91,14,7,Medium,None
+2709,2025-01-29,Levothyroxine,Thyroid,34,0.8,0.71,0.71,7,12,Low,Raw Material Shortage
+2710,2025-01-30,Paracetamol,Painkiller,63,0.55,0.48,0.48,8,14,High,None
+2711,2025-01-30,Ibuprofen,Painkiller,58,0.75,0.71,0.71,5,12,High,Shipping Delay
+2712,2025-01-30,Aspirin,Painkiller,58,0.6,0.53,0.53,13,14,Low,Shipping Delay
+2713,2025-01-30,Naproxen,Painkiller,79,0.85,0.75,0.75,0,9,Medium,Raw Material Shortage
+2714,2025-01-30,Diclofenac,Painkiller,55,0.9,0.8,0.8,15,7,Low,Raw Material Shortage
+2715,2025-01-30,Amoxicillin,Antibiotic,43,1.3,1.22,1.22,15,9,Low,Raw Material Shortage
+2716,2025-01-30,Azithromycin,Antibiotic,70,1.5,1.44,1.44,15,9,High,None
+2717,2025-01-30,Ciprofloxacin,Antibiotic,29,1.4,1.3,1.3,1,6,High,Raw Material Shortage
+2718,2025-01-30,Doxycycline,Antibiotic,85,1.2,1.15,1.15,15,14,Medium,None
+2719,2025-01-30,Cetrizine,Antihistamine,16,0.4,0.38,0.38,3,15,High,Shipping Delay
+2720,2025-01-30,Loratadine,Antihistamine,77,0.45,0.43,0.43,15,5,High,None
+2721,2025-01-30,Fexofenadine,Antihistamine,64,0.5,0.47,0.47,12,11,Medium,Raw Material Shortage
+2722,2025-01-30,Metformin,Diabetes,99,0.9,0.82,0.82,13,5,High,Raw Material Shortage
+2723,2025-01-30,Glimepiride,Diabetes,57,1.1,1.05,1.05,8,5,Medium,None
+2724,2025-01-30,Sitagliptin,Diabetes,53,1.6,1.59,1.59,2,11,High,Shipping Delay
+2725,2025-01-30,Pioglitazone,Diabetes,15,1.2,1.05,1.05,15,11,High,Shipping Delay
+2726,2025-01-30,Omeprazole,Acid Reflux,73,0.7,0.65,0.65,11,11,Low,Shipping Delay
+2727,2025-01-30,Losartan,Blood Pressure,16,1,0.93,0.93,2,13,Medium,Shipping Delay
+2728,2025-01-30,Levothyroxine,Thyroid,86,0.8,0.77,0.77,4,14,Medium,None
+2729,2025-01-31,Paracetamol,Painkiller,18,0.55,0.53,0.53,12,12,High,Shipping Delay
+2730,2025-01-31,Ibuprofen,Painkiller,23,0.75,0.64,0.64,1,5,High,Raw Material Shortage
+2731,2025-01-31,Aspirin,Painkiller,56,0.6,0.51,0.51,0,5,Low,Raw Material Shortage
+2732,2025-01-31,Naproxen,Painkiller,89,0.85,0.82,0.82,10,15,Low,Shipping Delay
+2733,2025-01-31,Diclofenac,Painkiller,89,0.9,0.8,0.8,4,8,Medium,None
+2734,2025-01-31,Amoxicillin,Antibiotic,96,1.3,1.24,1.24,8,8,Low,Raw Material Shortage
+2735,2025-01-31,Azithromycin,Antibiotic,83,1.5,1.37,1.37,3,8,High,Raw Material Shortage
+2736,2025-01-31,Ciprofloxacin,Antibiotic,95,1.4,1.27,1.27,1,13,Low,Raw Material Shortage
+2737,2025-01-31,Doxycycline,Antibiotic,85,1.2,1.14,1.14,13,12,Low,None
+2738,2025-01-31,Cetrizine,Antihistamine,22,0.4,0.39,0.39,10,14,Medium,Shipping Delay
+2739,2025-01-31,Loratadine,Antihistamine,15,0.45,0.43,0.43,14,13,Medium,Raw Material Shortage
+2740,2025-01-31,Fexofenadine,Antihistamine,91,0.5,0.43,0.43,1,8,Low,Shipping Delay
+2741,2025-01-31,Metformin,Diabetes,61,0.9,0.81,0.81,5,6,High,None
+2742,2025-01-31,Glimepiride,Diabetes,84,1.1,1.1,1.1,7,7,High,Raw Material Shortage
+2743,2025-01-31,Sitagliptin,Diabetes,96,1.6,1.38,1.38,7,12,Medium,Shipping Delay
+2744,2025-01-31,Pioglitazone,Diabetes,70,1.2,1.15,1.15,1,6,Medium,None
+2745,2025-01-31,Omeprazole,Acid Reflux,55,0.7,0.69,0.69,2,11,Low,Shipping Delay
+2746,2025-01-31,Losartan,Blood Pressure,87,1,0.88,0.88,8,9,Medium,Raw Material Shortage
+2747,2025-01-31,Levothyroxine,Thyroid,66,0.8,0.8,0.8,13,11,High,None
+2748,2025-02-01,Paracetamol,Painkiller,78,0.55,0.51,0.51,13,12,Medium,Raw Material Shortage
+2749,2025-02-01,Ibuprofen,Painkiller,12,0.75,0.68,0.68,15,5,Low,Raw Material Shortage
+2750,2025-02-01,Aspirin,Painkiller,25,0.6,0.51,0.51,10,7,Low,Shipping Delay
+2751,2025-02-01,Naproxen,Painkiller,32,0.85,0.73,0.73,4,12,Low,Shipping Delay
+2752,2025-02-01,Diclofenac,Painkiller,41,0.9,0.78,0.78,1,10,Low,Raw Material Shortage
+2753,2025-02-01,Amoxicillin,Antibiotic,71,1.3,1.18,1.18,5,15,Medium,None
+2754,2025-02-01,Azithromycin,Antibiotic,33,1.5,1.37,1.37,13,6,Medium,None
+2755,2025-02-01,Ciprofloxacin,Antibiotic,75,1.4,1.23,1.23,12,11,Low,None
+2756,2025-02-01,Doxycycline,Antibiotic,82,1.2,1.19,1.19,5,9,Medium,Shipping Delay
+2757,2025-02-01,Cetrizine,Antihistamine,25,0.4,0.38,0.38,2,15,Medium,Shipping Delay
+2758,2025-02-01,Loratadine,Antihistamine,99,0.45,0.44,0.44,8,9,Medium,Raw Material Shortage
+2759,2025-02-01,Fexofenadine,Antihistamine,17,0.5,0.46,0.46,15,12,High,Raw Material Shortage
+2760,2025-02-01,Metformin,Diabetes,59,0.9,0.77,0.77,3,13,Medium,None
+2761,2025-02-01,Glimepiride,Diabetes,49,1.1,0.94,0.94,7,11,High,Shipping Delay
+2762,2025-02-01,Sitagliptin,Diabetes,14,1.6,1.37,1.37,4,10,Medium,Shipping Delay
+2763,2025-02-01,Pioglitazone,Diabetes,45,1.2,1.12,1.12,8,12,High,Raw Material Shortage
+2764,2025-02-01,Omeprazole,Acid Reflux,21,0.7,0.63,0.63,3,6,Low,None
+2765,2025-02-01,Losartan,Blood Pressure,63,1,0.87,0.87,9,9,High,None
+2766,2025-02-01,Levothyroxine,Thyroid,13,0.8,0.76,0.76,10,10,High,Shipping Delay
+2767,2025-02-02,Paracetamol,Painkiller,13,0.55,0.47,0.47,14,15,Medium,Raw Material Shortage
+2768,2025-02-02,Ibuprofen,Painkiller,39,0.75,0.74,0.74,3,14,High,None
+2769,2025-02-02,Aspirin,Painkiller,49,0.6,0.53,0.53,11,11,High,Raw Material Shortage
+2770,2025-02-02,Naproxen,Painkiller,30,0.85,0.76,0.76,2,7,High,Shipping Delay
+2771,2025-02-02,Diclofenac,Painkiller,82,0.9,0.82,0.82,15,11,Low,Raw Material Shortage
+2772,2025-02-02,Amoxicillin,Antibiotic,25,1.3,1.14,1.14,12,7,High,Shipping Delay
+2773,2025-02-02,Azithromycin,Antibiotic,98,1.5,1.28,1.28,8,11,High,Shipping Delay
+2774,2025-02-02,Ciprofloxacin,Antibiotic,68,1.4,1.35,1.35,3,11,High,Shipping Delay
+2775,2025-02-02,Doxycycline,Antibiotic,100,1.2,1.06,1.06,13,11,Medium,None
+2776,2025-02-02,Cetrizine,Antihistamine,30,0.4,0.35,0.35,7,13,High,Raw Material Shortage
+2777,2025-02-02,Loratadine,Antihistamine,66,0.45,0.4,0.4,1,15,Medium,None
+2778,2025-02-02,Fexofenadine,Antihistamine,68,0.5,0.47,0.47,7,10,Medium,None
+2779,2025-02-02,Metformin,Diabetes,28,0.9,0.88,0.88,4,7,High,None
+2780,2025-02-02,Glimepiride,Diabetes,51,1.1,1.07,1.07,1,14,Medium,Shipping Delay
+2781,2025-02-02,Sitagliptin,Diabetes,85,1.6,1.48,1.48,4,12,Low,Shipping Delay
+2782,2025-02-02,Pioglitazone,Diabetes,72,1.2,1.15,1.15,14,14,Low,Shipping Delay
+2783,2025-02-02,Omeprazole,Acid Reflux,77,0.7,0.68,0.68,10,15,Low,Raw Material Shortage
+2784,2025-02-02,Losartan,Blood Pressure,36,1,0.98,0.98,4,10,High,None
+2785,2025-02-02,Levothyroxine,Thyroid,93,0.8,0.73,0.73,15,10,Medium,Raw Material Shortage
+2786,2025-02-03,Paracetamol,Painkiller,95,0.55,0.5,0.5,1,12,High,Shipping Delay
+2787,2025-02-03,Ibuprofen,Painkiller,82,0.75,0.75,0.75,13,9,Low,None
+2788,2025-02-03,Aspirin,Painkiller,79,0.6,0.57,0.57,5,14,Medium,Shipping Delay
+2789,2025-02-03,Naproxen,Painkiller,93,0.85,0.77,0.77,1,5,Medium,None
+2790,2025-02-03,Diclofenac,Painkiller,42,0.9,0.82,0.82,6,7,Low,Shipping Delay
+2791,2025-02-03,Amoxicillin,Antibiotic,53,1.3,1.22,1.22,5,7,Low,None
+2792,2025-02-03,Azithromycin,Antibiotic,43,1.5,1.29,1.29,0,6,High,None
+2793,2025-02-03,Ciprofloxacin,Antibiotic,14,1.4,1.36,1.36,3,14,Low,None
+2794,2025-02-03,Doxycycline,Antibiotic,68,1.2,1.17,1.17,3,9,Low,Shipping Delay
+2795,2025-02-03,Cetrizine,Antihistamine,25,0.4,0.36,0.36,11,8,Low,Shipping Delay
+2796,2025-02-03,Loratadine,Antihistamine,77,0.45,0.4,0.4,0,12,High,None
+2797,2025-02-03,Fexofenadine,Antihistamine,97,0.5,0.43,0.43,0,10,Low,Shipping Delay
+2798,2025-02-03,Metformin,Diabetes,80,0.9,0.89,0.89,15,8,Low,None
+2799,2025-02-03,Glimepiride,Diabetes,96,1.1,1.08,1.08,9,14,High,Raw Material Shortage
+2800,2025-02-03,Sitagliptin,Diabetes,53,1.6,1.47,1.47,11,5,Medium,Shipping Delay
+2801,2025-02-03,Pioglitazone,Diabetes,17,1.2,1.1,1.1,12,6,High,Shipping Delay
+2802,2025-02-03,Omeprazole,Acid Reflux,17,0.7,0.69,0.69,1,7,Medium,Shipping Delay
+2803,2025-02-03,Losartan,Blood Pressure,76,1,0.91,0.91,8,8,Low,Shipping Delay
+2804,2025-02-03,Levothyroxine,Thyroid,52,0.8,0.72,0.72,5,9,Low,Raw Material Shortage
+2805,2025-02-04,Paracetamol,Painkiller,98,0.55,0.55,0.55,9,5,Low,Shipping Delay
+2806,2025-02-04,Ibuprofen,Painkiller,58,0.75,0.71,0.71,2,12,High,Raw Material Shortage
+2807,2025-02-04,Aspirin,Painkiller,23,0.6,0.59,0.59,11,10,Medium,Raw Material Shortage
+2808,2025-02-04,Naproxen,Painkiller,16,0.85,0.74,0.74,12,9,High,Raw Material Shortage
+2809,2025-02-04,Diclofenac,Painkiller,100,0.9,0.89,0.89,5,11,Medium,Shipping Delay
+2810,2025-02-04,Amoxicillin,Antibiotic,91,1.3,1.16,1.16,8,8,High,Raw Material Shortage
+2811,2025-02-04,Azithromycin,Antibiotic,36,1.5,1.46,1.46,10,15,Low,Shipping Delay
+2812,2025-02-04,Ciprofloxacin,Antibiotic,11,1.4,1.2,1.2,7,8,Low,None
+2813,2025-02-04,Doxycycline,Antibiotic,28,1.2,1.1,1.1,10,11,Low,None
+2814,2025-02-04,Cetrizine,Antihistamine,58,0.4,0.38,0.38,13,6,High,Shipping Delay
+2815,2025-02-04,Loratadine,Antihistamine,87,0.45,0.44,0.44,4,9,Medium,None
+2816,2025-02-04,Fexofenadine,Antihistamine,29,0.5,0.47,0.47,15,9,High,Shipping Delay
+2817,2025-02-04,Metformin,Diabetes,37,0.9,0.83,0.83,12,10,Medium,Shipping Delay
+2818,2025-02-04,Glimepiride,Diabetes,80,1.1,1.02,1.02,14,6,Medium,Raw Material Shortage
+2819,2025-02-04,Sitagliptin,Diabetes,37,1.6,1.48,1.48,8,11,Low,None
+2820,2025-02-04,Pioglitazone,Diabetes,97,1.2,1.05,1.05,12,12,Medium,None
+2821,2025-02-04,Omeprazole,Acid Reflux,16,0.7,0.64,0.64,13,14,Medium,None
+2822,2025-02-04,Losartan,Blood Pressure,18,1,0.97,0.97,9,7,Medium,Shipping Delay
+2823,2025-02-04,Levothyroxine,Thyroid,73,0.8,0.73,0.73,11,6,Low,Raw Material Shortage
+2824,2025-02-05,Paracetamol,Painkiller,53,0.55,0.54,0.54,5,14,Medium,None
+2825,2025-02-05,Ibuprofen,Painkiller,83,0.75,0.66,0.66,9,15,Medium,Shipping Delay
+2826,2025-02-05,Aspirin,Painkiller,25,0.6,0.55,0.55,14,8,Medium,Raw Material Shortage
+2827,2025-02-05,Naproxen,Painkiller,75,0.85,0.77,0.77,1,8,Medium,None
+2828,2025-02-05,Diclofenac,Painkiller,77,0.9,0.86,0.86,14,5,Low,None
+2829,2025-02-05,Amoxicillin,Antibiotic,81,1.3,1.22,1.22,4,6,Low,None
+2830,2025-02-05,Azithromycin,Antibiotic,70,1.5,1.29,1.29,13,11,Low,Raw Material Shortage
+2831,2025-02-05,Ciprofloxacin,Antibiotic,77,1.4,1.38,1.38,3,11,Low,None
+2832,2025-02-05,Doxycycline,Antibiotic,71,1.2,1.09,1.09,0,13,Medium,Shipping Delay
+2833,2025-02-05,Cetrizine,Antihistamine,78,0.4,0.36,0.36,12,10,Medium,Shipping Delay
+2834,2025-02-05,Loratadine,Antihistamine,81,0.45,0.43,0.43,12,11,Low,Shipping Delay
+2835,2025-02-05,Fexofenadine,Antihistamine,80,0.5,0.49,0.49,12,15,Low,Shipping Delay
+2836,2025-02-05,Metformin,Diabetes,76,0.9,0.88,0.88,3,9,High,Raw Material Shortage
+2837,2025-02-05,Glimepiride,Diabetes,42,1.1,0.99,0.99,12,11,Low,None
+2838,2025-02-05,Sitagliptin,Diabetes,52,1.6,1.53,1.53,5,12,High,Shipping Delay
+2839,2025-02-05,Pioglitazone,Diabetes,77,1.2,1.12,1.12,15,11,High,Shipping Delay
+2840,2025-02-05,Omeprazole,Acid Reflux,41,0.7,0.6,0.6,13,13,Medium,Shipping Delay
+2841,2025-02-05,Losartan,Blood Pressure,59,1,0.96,0.96,9,9,Medium,Shipping Delay
+2842,2025-02-05,Levothyroxine,Thyroid,44,0.8,0.69,0.69,5,9,Medium,Shipping Delay
+2843,2025-02-06,Paracetamol,Painkiller,41,0.55,0.51,0.51,3,7,Low,Shipping Delay
+2844,2025-02-06,Ibuprofen,Painkiller,68,0.75,0.65,0.65,3,9,High,Shipping Delay
+2845,2025-02-06,Aspirin,Painkiller,72,0.6,0.54,0.54,11,10,High,None
+2846,2025-02-06,Naproxen,Painkiller,56,0.85,0.8,0.8,12,8,Medium,Shipping Delay
+2847,2025-02-06,Diclofenac,Painkiller,41,0.9,0.79,0.79,4,12,Low,Shipping Delay
+2848,2025-02-06,Amoxicillin,Antibiotic,31,1.3,1.16,1.16,0,9,Low,Shipping Delay
+2849,2025-02-06,Azithromycin,Antibiotic,74,1.5,1.31,1.31,10,8,Medium,None
+2850,2025-02-06,Ciprofloxacin,Antibiotic,82,1.4,1.2,1.2,10,7,Medium,Raw Material Shortage
+2851,2025-02-06,Doxycycline,Antibiotic,52,1.2,1.13,1.13,2,5,Low,Raw Material Shortage
+2852,2025-02-06,Cetrizine,Antihistamine,65,0.4,0.38,0.38,8,5,Medium,Shipping Delay
+2853,2025-02-06,Loratadine,Antihistamine,93,0.45,0.43,0.43,15,11,High,Raw Material Shortage
+2854,2025-02-06,Fexofenadine,Antihistamine,32,0.5,0.5,0.5,15,12,Low,None
+2855,2025-02-06,Metformin,Diabetes,83,0.9,0.89,0.89,10,6,High,Raw Material Shortage
+2856,2025-02-06,Glimepiride,Diabetes,14,1.1,0.99,0.99,15,12,High,None
+2857,2025-02-06,Sitagliptin,Diabetes,47,1.6,1.54,1.54,1,12,Medium,Raw Material Shortage
+2858,2025-02-06,Pioglitazone,Diabetes,81,1.2,1.04,1.04,8,11,Medium,None
+2859,2025-02-06,Omeprazole,Acid Reflux,40,0.7,0.6,0.6,13,10,Low,Shipping Delay
+2860,2025-02-06,Losartan,Blood Pressure,59,1,0.98,0.98,0,12,Low,None
+2861,2025-02-06,Levothyroxine,Thyroid,77,0.8,0.7,0.7,5,10,Medium,Shipping Delay
+2862,2025-02-07,Paracetamol,Painkiller,49,0.55,0.51,0.51,3,15,Medium,None
+2863,2025-02-07,Ibuprofen,Painkiller,100,0.75,0.75,0.75,3,15,Medium,Shipping Delay
+2864,2025-02-07,Aspirin,Painkiller,83,0.6,0.58,0.58,5,6,Medium,Raw Material Shortage
+2865,2025-02-07,Naproxen,Painkiller,36,0.85,0.84,0.84,7,12,Low,Shipping Delay
+2866,2025-02-07,Diclofenac,Painkiller,28,0.9,0.79,0.79,9,15,Medium,None
+2867,2025-02-07,Amoxicillin,Antibiotic,89,1.3,1.15,1.15,8,10,High,None
+2868,2025-02-07,Azithromycin,Antibiotic,60,1.5,1.38,1.38,15,8,Medium,Shipping Delay
+2869,2025-02-07,Ciprofloxacin,Antibiotic,87,1.4,1.2,1.2,7,7,Low,None
+2870,2025-02-07,Doxycycline,Antibiotic,39,1.2,1.05,1.05,9,11,Low,Raw Material Shortage
+2871,2025-02-07,Cetrizine,Antihistamine,57,0.4,0.36,0.36,12,8,High,None
+2872,2025-02-07,Loratadine,Antihistamine,10,0.45,0.39,0.39,8,10,Low,Raw Material Shortage
+2873,2025-02-07,Fexofenadine,Antihistamine,74,0.5,0.48,0.48,1,14,Medium,Raw Material Shortage
+2874,2025-02-07,Metformin,Diabetes,61,0.9,0.88,0.88,8,13,Medium,Raw Material Shortage
+2875,2025-02-07,Glimepiride,Diabetes,70,1.1,1,1,15,15,Medium,None
+2876,2025-02-07,Sitagliptin,Diabetes,64,1.6,1.46,1.46,12,11,Low,None
+2877,2025-02-07,Pioglitazone,Diabetes,79,1.2,1.08,1.08,0,10,High,None
+2878,2025-02-07,Omeprazole,Acid Reflux,90,0.7,0.66,0.66,1,14,Low,None
+2879,2025-02-07,Losartan,Blood Pressure,78,1,0.88,0.88,4,11,High,Shipping Delay
+2880,2025-02-07,Levothyroxine,Thyroid,17,0.8,0.69,0.69,1,13,Low,Raw Material Shortage
+2881,2025-02-08,Paracetamol,Painkiller,76,0.55,0.51,0.51,13,9,Medium,Shipping Delay
+2882,2025-02-08,Ibuprofen,Painkiller,33,0.75,0.69,0.69,6,13,Low,None
+2883,2025-02-08,Aspirin,Painkiller,12,0.6,0.53,0.53,9,13,Low,None
+2884,2025-02-08,Naproxen,Painkiller,23,0.85,0.76,0.76,4,12,Medium,Raw Material Shortage
+2885,2025-02-08,Diclofenac,Painkiller,47,0.9,0.81,0.81,11,15,Medium,Raw Material Shortage
+2886,2025-02-08,Amoxicillin,Antibiotic,95,1.3,1.26,1.26,3,5,Medium,None
+2887,2025-02-08,Azithromycin,Antibiotic,62,1.5,1.28,1.28,14,15,High,Raw Material Shortage
+2888,2025-02-08,Ciprofloxacin,Antibiotic,96,1.4,1.34,1.34,9,10,Medium,Shipping Delay
+2889,2025-02-08,Doxycycline,Antibiotic,13,1.2,1.09,1.09,3,7,Low,Raw Material Shortage
+2890,2025-02-08,Cetrizine,Antihistamine,97,0.4,0.34,0.34,8,15,Low,Raw Material Shortage
+2891,2025-02-08,Loratadine,Antihistamine,25,0.45,0.41,0.41,15,15,High,Shipping Delay
+2892,2025-02-08,Fexofenadine,Antihistamine,94,0.5,0.47,0.47,12,9,Low,Shipping Delay
+2893,2025-02-08,Metformin,Diabetes,98,0.9,0.88,0.88,1,7,Low,None
+2894,2025-02-08,Glimepiride,Diabetes,69,1.1,1.02,1.02,9,7,Medium,None
+2895,2025-02-08,Sitagliptin,Diabetes,51,1.6,1.56,1.56,7,15,High,None
+2896,2025-02-08,Pioglitazone,Diabetes,27,1.2,1.06,1.06,9,11,Low,Shipping Delay
+2897,2025-02-08,Omeprazole,Acid Reflux,38,0.7,0.6,0.6,5,15,Medium,Raw Material Shortage
+2898,2025-02-08,Losartan,Blood Pressure,46,1,0.85,0.85,12,14,High,Shipping Delay
+2899,2025-02-08,Levothyroxine,Thyroid,88,0.8,0.69,0.69,8,11,Medium,Shipping Delay
