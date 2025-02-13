@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/Navbar.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon/favicon.ico') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='favicon/site.webmanifest') }}">
+
     <style>
         body {
-
             margin: 0;
             padding: 0;
             background: url("{{ url_for('static', filename='images/bgimage.avif') }}") no-repeat center center/cover;
@@ -28,42 +34,78 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            margin-top: 20px;
+            gap: 30px; /* Space between profiles */
+            
         }
+        .team > div {
+            text-align: center;
+            width: 200px;
+        }       
+        
         .image-container {
             width: 150px;
-            height: 150px;
-            border-radius: 50%;
+            height: 200px; /* Adjust height as needed */
+            border-radius: 10px; /* Small rounded corners */
             overflow: hidden;
             margin: 10px auto;
+            transition: transform 0.5s, filter 0.5s;
         }
+        
         .image-container img {
             width: 100%;
             height: 100%;
-            border-radius: 50%;
             object-fit: cover;
+            transition: transform 0.5s, filter 0.5s;
         }
+        
+        /* First two images - rotate clockwise */
+        .team div:nth-child(1) .image-container,
+        .team div:nth-child(2) .image-container {
+            transform-origin: center;
+        }
+        
+        .team div:nth-child(1) .image-container:hover,
+        .team div:nth-child(2) .image-container:hover {
+            filter: brightness(1.2);
+            transform: perspective(500px) translateZ(50px) rotateY(10deg); /* Rotate right */
+        }
+        
+        /* Last two images - rotate anticlockwise */
+        .team div:nth-child(3) .image-container,
+        .team div:nth-child(4) .image-container {
+            transform-origin: center;
+        }
+        
+        .team div:nth-child(3) .image-container:hover,
+        .team div:nth-child(4) .image-container:hover {
+            filter: brightness(1.2);
+            transform: perspective(500px) translateZ(50px) rotateY(-10deg); /* Rotate left */
+        }
+        
         h3 {
             margin: 10px 0 5px 0;
-            color: #555;
+            color: black; /* Changed to black */
             font-size: 1.2em;
             font-weight: bold;
         }
         .social-links {
-            margin-top: 5px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
         }
         .social-links a {
-            display: inline-block;
-            margin: 5px;
+            color: #fff;
+            font-size: 20px;
             text-decoration: none;
-            font-weight: bold;
+            transition: transform 0.3s ease-in-out;
         }
-        .social-links .linkedin {
-            color: #0077b5;
+        .social-links a:hover {
+            transform: scale(1.2);
         }
-        .social-links .instagram {
-            color: #E4405F;
-        }
+        .linkedin { color: #0077b5; }
+        .instagram { color: #E4405F; }
+        .github { color: #ffffff; }
         .project-info {
             margin-top: 30px;
             padding: 20px;
@@ -75,57 +117,66 @@
             color: #333;
         }
         .project-info p {
-            color: #555;
+            color: #fff;
         }
     </style>
 </head>
 <body>
-    <!-- Include the Navbar -->
     {% include 'navbar.html' %}
 
-    <!-- Main Content -->
     <div class="container">
         <h1>About Us</h1>
         <p>Welcome to our team! We are passionate about technology and innovation.</p>
         <div class="team">
-            <div>
-                <div class="image-container">
-                    <img src="{{ url_for('static', filename='images/Dvadastman.jpg') }}" alt="Dvadastman">
-                </div>
-                <h3>Dvadastman</h3>
-                <div class="social-links">
-                    <a href="#" class="linkedin">LinkedIn</a>
-                    <a href="#" class="instagram">Instagram</a>
-                </div>
-            </div>
-            <div>
-                <div class="image-container">
-                    <img src="{{ url_for('static', filename='images/Shashvat.jpg') }}" alt="Shashvat">
-                </div>
-                <h3>Shashvat</h3>
-                <div class="social-links">
-                    <a href="#" class="linkedin">LinkedIn</a>
-                    <a href="#" class="instagram">Instagram</a>
-                </div>
-            </div>
-            <div>
-                <div class="image-container">
-                    <img src="{{ url_for('static', filename='images/Prajjwal.jpg') }}" alt="Prajjwal">
-                </div>
-                <h3>Prajjwal</h3>
-                <div class="social-links">
-                    <a href="#" class="linkedin">LinkedIn</a>
-                    <a href="#" class="instagram">Instagram</a>
-                </div>
-            </div>
+            <!-- Mushir -->
             <div>
                 <div class="image-container">
                     <img src="{{ url_for('static', filename='images/Mushir.jpg') }}" alt="Mushir">
                 </div>
                 <h3>Mushir</h3>
                 <div class="social-links">
-                    <a href="#" class="linkedin">LinkedIn</a>
-                    <a href="#" class="instagram">Instagram</a>
+                    <a href="https://www.linkedin.com/in/md-mushir-alam-32a765295/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/alammushir7100/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/mushir2004" class="github"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Shashvat -->
+            <div>
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='images/Shashvat.jpg') }}" alt="Shashvat">
+                </div>
+                <h3>Shashvat</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/shashvat-rajora-315903288/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/shashvat_90/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/ShashvatRajora" class="github"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Prajjwal -->
+            <div>
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='images/Prajjwal.jpg') }}" alt="Prajjwal">
+                </div>
+                <h3>Prajjwal</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/prajjwal-rawat-48084534b/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/prajjwal_17_/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/prajjwal-17" class="github"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Dvadastman -->
+            <div>
+                <div class="image-container">
+                    <img src="{{ url_for('static', filename='images/Dvadastman.jpg') }}" alt="Dvadastman">
+                </div>
+                <h3>Dvadastman</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/dvadastman-mehta-194863297/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/dvadastman_mehta/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/DVADASTMAN" class="github"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
         </div>
