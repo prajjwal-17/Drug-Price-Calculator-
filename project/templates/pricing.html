@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon/favicon.ico') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='favicon/site.webmanifest') }}">
+
+    <style>
+        /* Scrollable box for the table */
+        .table-container {
+            width: 100%;
+            max-height: 300px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        /* Drag-and-drop styling */
+        .drag-container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: space-evenly;
+        }
+
+        /* Draggable Buttons with Tooltip */
+        .draggable {
+            padding: 12px 24px;
+            background-color: #007bff00;
+            color: white;
+            border-radius: 8px;
+            cursor: grab;
+            font-weight: bold;
+            font-size: 16px;
+            transition: transform 0.3s ease-in-out, background 0.3s;
+            position: relative;
+        }
+
+        /* Hover Effect */
+        .draggable:hover {
+            transform: scale(1.1);
+            background-color: #0056b3;
+        }
+
+        /* Tooltip Styling */
+        .draggable::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.85);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s, transform 0.2s;
+            bottom: 140%;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+            z-index: 100;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Show Tooltip on Hover */
+        .draggable:hover::after {
+            visibility: visible;
+            opacity: 1;
+            transform: translateX(-50%) translateY(-5px);
+        }
+
+        /* Dropzone */
+        .dropzone {
+            width: 100%;
+            height: 50px;
+            border: 2px dashed #007bff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #007bff;
+            font-size: 16px;
+        }
+
+        /* Reset Button */
+        #reset-button {
+            padding: 12px 28px;
+            font-size: 16px;
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s, background 0.3s;
+        }
+
+        /* Reset Button Hover Effect */
+        #reset-button:hover {
+            background-color: #cc0000;
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <h1>Pricing Table</h1>
+
+    <!-- Scrollable Box for the Original Dataset -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Medicine Name</th>
+                    <th>Quantity Sold</th>
+                    <th>Government Ceiling Price</th>
+                    <th>Industry Selling Price</th>
+                    <th>Price per Unit</th>
+                    <th>Discount</th>
+                    <th>Taxes</th>
+                    <th>Demand Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in dataset %}
+                <tr>
+                    <td>{{ row['Medicine Name'] }}</td>
+                    <td>{{ row['Quantity Sold'] }}</td>
+                    <td>{{ row['Government Ceiling Price'] }}</td>
+                    <td>{{ row['Industry Selling Price'] }}</td>
+                    <td>{{ row['Price per Unit'] }}</td>
+                    <td>{{ row['Discount'] }}</td>
+                    <td>{{ row['Taxes'] }}</td>
+                    <td>{{ row['Demand Level'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Drag-and-Drop Query Section -->
+    <div class="drag-container">
+        <div class="draggable" draggable="true" id="query1" data-tooltip="BasePrice: Calculates the base price of medicines">BasePrice</div>
+        <div class="draggable" draggable="true" id="query2" data-tooltip="Demand: Analyzes demand levels based on sales">Demand</div>
+        <div class="draggable" draggable="true" id="query3" data-tooltip="Quantity: Shows sales quantity variations">Quantity</div>
+        <div class="draggable" draggable="true" id="query4" data-tooltip="Discounts(DESC): Lists medicines with highest discounts first">Discounts(DESC)</div>
+        <div class="draggable" draggable="true" id="query5" data-tooltip="Discounts(ASC): Lists medicines with lowest discounts first">Discounts(ASC)</div>
+        <div class="draggable" draggable="true" id="query6" data-tooltip="PPU: Displays price per unit of medicines">PPU</div>
+    
+        <button id="reset-button">Reset</button>
+    </div>
+
+    <div class="dropzone" id="dropzone">Drop queries here to apply</div>
+
+    <!-- Altered Dataset -->
+    <div id="altered-table-container"></div>
+
+    <script>
+        // Drag-and-Drop Logic
+        const dropzone = document.getElementById('dropzone');
+        const alteredTableContainer = document.getElementById('altered-table-container');
+        const queries = [];
+
+        document.querySelectorAll('.draggable').forEach(item => {
+            item.addEventListener('dragstart', event => {
+                event.dataTransfer.setData('text', event.target.id);
+            });
+        });
+
+        dropzone.addEventListener('dragover', event => {
+            event.preventDefault();
+        });
+
+        dropzone.addEventListener('drop', event => {
+            event.preventDefault();
+            const queryId = event.dataTransfer.getData('text');
+            queries.push(queryId);
+
+            // Send selected queries to the server
+            fetch('/pricing', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ queries })
+            })
+            .then(response => response.json())
+            .then(data => {
+                let tableHTML = `
+                    <h2>Altered Dataset</h2>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Medicine Name</th>
+                                    <th>Quantity Sold</th>
+                                    <th>Government Ceiling Price</th>
+                                    <th>Industry Selling Price</th>
+                                    <th>Price per Unit</th>
+                                    <th>Discount</th>
+                                    <th>Taxes</th>
+                                    <th>Demand Level</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                `;
+
+                data.forEach(row => {
+                    tableHTML += `
+                        <tr>
+                            <td>${row['Medicine Name']}</td>
+                            <td>${row['Quantity Sold']}</td>
+                            <td>${row['Government Ceiling Price']}</td>
+                            <td>${row['Industry Selling Price']}</td>
+                            <td>${row['Price per Unit']}</td>
+                            <td>${row['Discount']}</td>
+                            <td>${row['Taxes']}</td>
+                            <td>${row['Demand Level']}</td>
+                        </tr>
+                    `;
+                });
+
+                alteredTableContainer.innerHTML = tableHTML + "</tbody></table></div>";
+            });
+        });
+
+        document.getElementById('reset-button').addEventListener('click', () => {
+            window.location.href = '/pricing';
+        });
+    </script>
+</body>
+</html>
