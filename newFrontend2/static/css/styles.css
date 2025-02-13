@@ -1,3 +1,4 @@
+/* General layout remains unchanged */
 .news-reports-container {
     display: flex;
     justify-content: space-between;
@@ -6,37 +7,95 @@
   
   .news-section, .reports-section {
     width: 48%;
-    background-color: #f9f9f9;
+    background-color: #0eb42626;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
   }
   
   .news-section h3, .reports-section h3 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #333;
+    text-align: center;
   }
   
-  .news-section ul, .reports-section ul {
-    list-style: none;
-    padding: 0;
+  /* Carousel container */
+  .carousel-container {
+    height: 60vh; /* Fixed height */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
   }
   
-  .news-section li, .reports-section li {
-    margin-bottom: 10px;
+  /* Carousel animation */
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: scroll 100s linear infinite;
+    position: absolute;
   }
   
-  .news-section li a, .reports-section li a {
+  .carousel-item {
+    background-color: #2ddc7340;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-item a {
     color: #007bff;
     text-decoration: none;
+    font-weight: bold;
   }
   
-  .news-section li a:hover, .reports-section li a:hover {
+  .carousel-item a:hover {
     text-decoration: underline;
   }
   
-  .news-section small, .reports-section small {
-    display: block;
+  .carousel-item p {
+    font-size: 14px;
     color: #555;
-    margin-top: 5px;
   }
+  
+  .carousel-item small {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  /* Keyframes for smooth scrolling */
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  /* Pause animation on hover */
+  .news-section:hover .carousel,
+  .reports-section:hover .carousel {
+    animation-play-state: paused;
+  }
+
+  body {
+    background: url("/static/images/bgimage.avif");
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust to "contain" if needed */
+    background-position: center;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #0eb42700; /* Match your theme */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+  
