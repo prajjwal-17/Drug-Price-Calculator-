@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="">
-    <img src="WhatsApp Image 2025-02-10 at 10.33.24_e8120f59.jpg" alt="Logo" width="150" height="150">
+    <img src="android-chrome-192x192.png" alt="Logo" width="150" height="150">
   </a>
 
   <p align="center">
