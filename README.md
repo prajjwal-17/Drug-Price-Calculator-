@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="">
-    <img src="https://drive.google.com/file/d/1ewRfUbRrTfo5adXuw9gpe5tYADUviKfJ/view?usp=sharing" alt="Logo" width="150" height="150">
+    <img src="C:\Users\alamm\OneDrive\Desktop\Readme\Pharma.png" alt="Logo" width="150" height="150">
   </a>
 
   <p align="center">
