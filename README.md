@@ -6,7 +6,7 @@
   </a>
 
   <p align="center">
-   Tyre Aging Project
+   Pharma Pulse
     <br />
     <a href=""><strong>Explore the docs »</strong></a>
     <br />
